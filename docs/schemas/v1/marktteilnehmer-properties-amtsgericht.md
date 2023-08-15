@@ -1,0 +1,3 @@
+## amtsgericht Type
+
+`string`

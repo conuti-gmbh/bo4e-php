@@ -1,0 +1,3 @@
+## zaehlzeitDefinition Type
+
+`string`

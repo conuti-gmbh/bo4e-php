@@ -1,0 +1,3 @@
+## referenzDar Type
+
+`string`

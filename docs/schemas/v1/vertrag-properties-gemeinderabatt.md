@@ -1,0 +1,3 @@
+## gemeinderabatt Type
+
+`integer`

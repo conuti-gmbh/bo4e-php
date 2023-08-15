@@ -1,0 +1,3 @@
+## obiskennzahl Type
+
+`string`

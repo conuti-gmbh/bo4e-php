@@ -1,0 +1,3 @@
+## abrechnungUeberNna Type
+
+`boolean`

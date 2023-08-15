@@ -1,0 +1,3 @@
+## einspeisung Type
+
+`boolean`

@@ -1,0 +1,41 @@
+{
+    "name": "conuti/bo4e",
+    "description": "BO4E PHP classes and JSON schema",
+    "authors": [
+        {
+            "name": "Martin Weise",
+            "email": "martin.weise@conuti.de"
+        },
+        {
+            "name": "Kevin Meier",
+            "email": "kevin.meier@conuti.de"
+        }
+    ],
+    "type": "library",
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9",
+        "phpstan/phpstan": "^1.9",
+        "phpmd/phpmd": "^2.13",
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+        "friendsofphp/php-cs-fixer": "^3.16",
+        "escapestudios/symfony2-coding-standard": "^3.13",
+        "webservco/coding-standards": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "Conuti\\BO4E\\": "src/"
+        }
+    },
+    "autoload-dev": {
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}

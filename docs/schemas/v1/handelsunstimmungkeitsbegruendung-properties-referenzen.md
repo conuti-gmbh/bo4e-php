@@ -1,0 +1,3 @@
+## referenzen Type
+
+`string[]`

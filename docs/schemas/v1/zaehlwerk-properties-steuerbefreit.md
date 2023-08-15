@@ -1,0 +1,3 @@
+## steuerbefreit Type
+
+`boolean`

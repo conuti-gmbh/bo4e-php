@@ -1,0 +1,3 @@
+## faxnummer Type
+
+`string`

@@ -1,0 +1,3 @@
+## eMailAdresse Type
+
+`string`

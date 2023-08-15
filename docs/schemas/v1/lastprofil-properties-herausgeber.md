@@ -1,0 +1,3 @@
+## herausgeber Type
+
+`string`

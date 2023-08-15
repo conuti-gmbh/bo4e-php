@@ -1,0 +1,3 @@
+## A Type
+
+`number`

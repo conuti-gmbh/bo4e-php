@@ -1,0 +1,3 @@
+## referenzMarktlokationsId Type
+
+`string`

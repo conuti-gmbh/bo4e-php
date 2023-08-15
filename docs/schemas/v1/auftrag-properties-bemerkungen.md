@@ -1,0 +1,3 @@
+## bemerkungen Type
+
+`string[]`

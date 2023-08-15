@@ -1,0 +1,3 @@
+## verwendungBis Type
+
+`string`

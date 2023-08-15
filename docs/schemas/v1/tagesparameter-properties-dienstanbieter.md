@@ -1,0 +1,3 @@
+## dienstanbieter Type
+
+`string`

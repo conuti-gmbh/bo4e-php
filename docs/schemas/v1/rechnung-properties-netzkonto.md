@@ -1,0 +1,3 @@
+## netzkonto Type
+
+`string`

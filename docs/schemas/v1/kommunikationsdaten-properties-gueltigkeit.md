@@ -1,0 +1,3 @@
+## gueltigkeit Type
+
+`string`

@@ -1,0 +1,3 @@
+## geraetereferenz Type
+
+`string`

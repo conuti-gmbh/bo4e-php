@@ -1,0 +1,3 @@
+## abrechnungsZeitraum Type
+
+`string`

@@ -1,0 +1,3 @@
+## zaehlwerkId Type
+
+`string`

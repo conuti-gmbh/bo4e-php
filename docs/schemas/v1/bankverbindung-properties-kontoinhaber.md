@@ -1,0 +1,3 @@
+## kontoinhaber Type
+
+`string`

@@ -1,0 +1,3 @@
+## postleitzahl Type
+
+`string`

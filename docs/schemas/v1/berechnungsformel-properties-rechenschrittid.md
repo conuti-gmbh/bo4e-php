@@ -1,0 +1,3 @@
+## rechenschrittId Type
+
+`integer`

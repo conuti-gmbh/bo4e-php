@@ -1,0 +1,3 @@
+## anzahl Type
+
+`integer`

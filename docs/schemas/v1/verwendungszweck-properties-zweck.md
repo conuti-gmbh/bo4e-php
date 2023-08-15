@@ -1,0 +1,3 @@
+## zweck Type
+
+`string[]`

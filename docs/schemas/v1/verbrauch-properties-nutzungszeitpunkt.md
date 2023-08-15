@@ -1,0 +1,3 @@
+## nutzungszeitpunkt Type
+
+`string`

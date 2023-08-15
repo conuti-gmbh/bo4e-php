@@ -1,0 +1,3 @@
+## kontaktweg Type
+
+`string[]`

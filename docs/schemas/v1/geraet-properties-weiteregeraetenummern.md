@@ -1,0 +1,3 @@
+## weitereGeraetenummern Type
+
+`string[]`

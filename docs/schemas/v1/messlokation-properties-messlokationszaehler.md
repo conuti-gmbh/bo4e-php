@@ -1,0 +1,3 @@
+## messlokationszaehler Type
+
+`string[]`

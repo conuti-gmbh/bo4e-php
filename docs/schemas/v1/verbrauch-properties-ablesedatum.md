@@ -1,0 +1,3 @@
+## ablesedatum Type
+
+`string`

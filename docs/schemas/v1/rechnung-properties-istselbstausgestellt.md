@@ -1,0 +1,3 @@
+## istSelbstausgestellt Type
+
+`boolean`

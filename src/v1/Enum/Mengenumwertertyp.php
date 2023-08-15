@@ -1,0 +1,12 @@
+<?php
+
+declare(strict_types=1);
+
+namespace Conuti\BO4E\v1\Enum;
+
+enum Mengenumwertertyp: string
+{
+    case DICHTEMENGENUMWERTER = 'DICHTEMENGENUMWERTER';
+    case TEMPERATURMENGENUMWERTER = 'TEMPERATURMENGENUMWERTER';
+    case ZUSTANDSMENGENUMWERTER = 'ZUSTANDSMENGENUMWERTER';
+}

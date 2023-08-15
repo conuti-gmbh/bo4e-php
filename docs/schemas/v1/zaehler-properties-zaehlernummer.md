@@ -1,0 +1,3 @@
+## zaehlernummer Type
+
+`string`

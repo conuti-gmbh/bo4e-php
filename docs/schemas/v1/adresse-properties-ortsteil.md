@@ -1,0 +1,3 @@
+## ortsteil Type
+
+`string`

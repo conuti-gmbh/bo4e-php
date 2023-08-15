@@ -1,0 +1,3 @@
+## kreditinstitut Type
+
+`string`

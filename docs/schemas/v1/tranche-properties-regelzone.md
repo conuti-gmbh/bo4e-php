@@ -1,0 +1,3 @@
+## regelzone Type
+
+`string`

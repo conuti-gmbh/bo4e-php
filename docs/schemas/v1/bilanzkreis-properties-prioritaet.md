@@ -1,0 +1,3 @@
+## prioritaet Type
+
+`integer`

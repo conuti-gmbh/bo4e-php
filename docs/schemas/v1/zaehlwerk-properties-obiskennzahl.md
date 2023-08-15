@@ -1,0 +1,3 @@
+## obisKennzahl Type
+
+`string`

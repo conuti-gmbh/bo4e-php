@@ -1,0 +1,3 @@
+## baujahr Type
+
+`string`

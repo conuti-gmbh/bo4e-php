@@ -1,0 +1,3 @@
+## externeKundenummerLieferant Type
+
+`string`

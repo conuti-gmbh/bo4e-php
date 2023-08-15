@@ -1,0 +1,3 @@
+## weiterverpflichtet Type
+
+`boolean`

@@ -1,0 +1,3 @@
+## abrechnungsintervall Type
+
+`integer`

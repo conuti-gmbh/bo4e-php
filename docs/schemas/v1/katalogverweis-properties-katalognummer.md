@@ -1,0 +1,3 @@
+## katalognummer Type
+
+`string`

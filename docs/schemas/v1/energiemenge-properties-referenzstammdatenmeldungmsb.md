@@ -1,0 +1,3 @@
+## referenzStammdatenmeldungMsb Type
+
+`string`

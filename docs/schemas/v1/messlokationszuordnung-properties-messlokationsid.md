@@ -1,0 +1,3 @@
+## messlokationsId Type
+
+`string`

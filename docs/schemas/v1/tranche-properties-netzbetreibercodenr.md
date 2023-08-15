@@ -1,0 +1,3 @@
+## netzbetreiberCodeNr Type
+
+`string`

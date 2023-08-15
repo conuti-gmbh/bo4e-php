@@ -1,0 +1,3 @@
+## artikelId Type
+
+`string`

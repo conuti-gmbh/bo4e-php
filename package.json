@@ -1,0 +1,22 @@
+{
+  "name": "bo4e",
+  "version": "1.0.0",
+  "description": "## Structure",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "jsonschema2md -d /var/www/bo4e/schemas/v1 -o /var/www/bo4e/docs/schemas/v1 -h false"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.conuti.de:cu-powercloud/bo4e.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@adobe/jsonschema2md": "^7.1.5"
+  }
+}

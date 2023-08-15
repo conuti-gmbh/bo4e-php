@@ -1,0 +1,3 @@
+## marktgebiet Type
+
+`string`

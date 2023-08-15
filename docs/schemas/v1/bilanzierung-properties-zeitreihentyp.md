@@ -1,0 +1,3 @@
+## zeitreihentyp Type
+
+`string`

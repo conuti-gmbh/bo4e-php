@@ -1,0 +1,3 @@
+## marktlokationsId Type
+
+`string`

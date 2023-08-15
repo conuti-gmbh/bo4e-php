@@ -1,0 +1,3 @@
+## leistungsbezeichnung Type
+
+`string`

@@ -1,0 +1,3 @@
+## vertragsnummer Type
+
+`string`

@@ -1,0 +1,3 @@
+## steuernummer Type
+
+`string`

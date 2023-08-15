@@ -1,0 +1,3 @@
+## grundzustaendigerMSBCodeNr Type
+
+`string`

@@ -1,0 +1,3 @@
+## herstellungsdatum Type
+
+`string`

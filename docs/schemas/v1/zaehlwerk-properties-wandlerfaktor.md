@@ -1,0 +1,3 @@
+## wandlerfaktor Type
+
+`number`

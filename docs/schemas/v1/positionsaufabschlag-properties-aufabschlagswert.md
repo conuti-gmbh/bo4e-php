@@ -1,0 +1,3 @@
+## aufAbschlagswert Type
+
+`number`

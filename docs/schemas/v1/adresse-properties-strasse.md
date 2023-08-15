@@ -1,0 +1,3 @@
+## strasse Type
+
+`string`

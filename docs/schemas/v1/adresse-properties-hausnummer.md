@@ -1,0 +1,3 @@
+## hausnummer Type
+
+`string`

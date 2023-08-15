@@ -1,0 +1,3 @@
+## verlustfaktorLeitung Type
+
+`number`

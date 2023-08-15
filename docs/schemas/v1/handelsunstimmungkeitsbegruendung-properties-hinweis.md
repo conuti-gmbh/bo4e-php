@@ -1,0 +1,3 @@
+## hinweis Type
+
+`string`

@@ -1,0 +1,3 @@
+## unterbrechbar Type
+
+`string`

@@ -1,0 +1,3 @@
+## downloadlinkZertifikat Type
+
+`string`

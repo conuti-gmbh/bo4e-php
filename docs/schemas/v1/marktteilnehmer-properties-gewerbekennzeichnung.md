@@ -1,0 +1,3 @@
+## gewerbekennzeichnung Type
+
+`boolean`

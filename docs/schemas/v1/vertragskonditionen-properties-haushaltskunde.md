@@ -1,0 +1,3 @@
+## haushaltskunde Type
+
+`boolean`

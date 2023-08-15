@@ -1,0 +1,3 @@
+## versionStruktur Type
+
+`string`

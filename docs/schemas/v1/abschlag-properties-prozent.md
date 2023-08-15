@@ -1,0 +1,3 @@
+## prozent Type
+
+`number`

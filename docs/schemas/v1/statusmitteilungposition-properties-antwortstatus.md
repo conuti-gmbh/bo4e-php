@@ -1,0 +1,3 @@
+## antwortstatus Type
+
+`string`

@@ -1,0 +1,3 @@
+## boTyp Type
+
+`string`

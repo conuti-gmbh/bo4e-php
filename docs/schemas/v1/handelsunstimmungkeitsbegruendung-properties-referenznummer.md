@@ -1,0 +1,3 @@
+## referenznummer Type
+
+`string`

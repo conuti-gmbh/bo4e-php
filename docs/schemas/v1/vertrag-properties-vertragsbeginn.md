@@ -1,0 +1,3 @@
+## vertragsbeginn Type
+
+`string`

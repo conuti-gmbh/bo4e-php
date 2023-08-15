@@ -1,0 +1,3 @@
+## ausfuehrungsdatum Type
+
+`string`

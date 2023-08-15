@@ -1,0 +1,3 @@
+## leistungsperiode Type
+
+`string`

@@ -1,0 +1,3 @@
+## positionsnummer Type
+
+`integer`

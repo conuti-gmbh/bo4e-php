@@ -1,0 +1,3 @@
+## detailsPrognosegrundlage Type
+
+`string[]`

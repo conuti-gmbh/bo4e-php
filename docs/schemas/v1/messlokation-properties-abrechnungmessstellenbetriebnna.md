@@ -1,0 +1,3 @@
+## abrechnungmessstellenbetriebnna Type
+
+`boolean`

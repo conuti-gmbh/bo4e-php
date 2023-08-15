@@ -1,0 +1,3 @@
+## berechnungspreis Type
+
+`number`

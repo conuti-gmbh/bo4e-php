@@ -1,0 +1,3 @@
+## kategorie Type
+
+`string`

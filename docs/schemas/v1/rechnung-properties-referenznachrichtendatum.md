@@ -1,0 +1,3 @@
+## referenzNachrichtendatum Type
+
+`string`

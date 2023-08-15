@@ -1,0 +1,3 @@
+## bearbeitungsdatum Type
+
+`string`

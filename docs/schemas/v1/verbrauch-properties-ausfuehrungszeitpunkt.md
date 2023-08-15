@@ -1,0 +1,3 @@
+## ausfuehrungszeitpunkt Type
+
+`string`

@@ -1,0 +1,3 @@
+## messgebietNr Type
+
+`string`

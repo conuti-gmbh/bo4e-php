@@ -1,0 +1,3 @@
+## ableseZeitraum Type
+
+`string`

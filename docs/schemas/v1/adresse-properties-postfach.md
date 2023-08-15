@@ -1,0 +1,3 @@
+## postfach Type
+
+`string`

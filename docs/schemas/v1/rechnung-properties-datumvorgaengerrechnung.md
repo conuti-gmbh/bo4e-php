@@ -1,0 +1,3 @@
+## datumVorgaengerrechnung Type
+
+`string`

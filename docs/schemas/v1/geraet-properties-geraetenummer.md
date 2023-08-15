@@ -1,0 +1,3 @@
+## geraetenummer Type
+
+`string`

@@ -1,0 +1,3 @@
+## rollencodetyp Type
+
+`string`

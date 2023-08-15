@@ -1,0 +1,3 @@
+## geschaeftspartnerrolle Type
+
+`string[]`

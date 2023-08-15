@@ -1,0 +1,3 @@
+## referenzDokumentennummer Type
+
+`string`

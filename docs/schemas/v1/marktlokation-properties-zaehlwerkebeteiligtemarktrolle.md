@@ -1,0 +1,3 @@
+## zaehlwerkeBeteiligteMarktrolle Type
+
+`string[]`

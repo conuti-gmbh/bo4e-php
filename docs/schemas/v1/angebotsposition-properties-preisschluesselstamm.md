@@ -1,0 +1,3 @@
+## preisschluesselstamm Type
+
+`string`

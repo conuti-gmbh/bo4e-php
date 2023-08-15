@@ -1,0 +1,3 @@
+## enddatum Type
+
+`string`

@@ -1,0 +1,3 @@
+## vorkommastelle Type
+
+`integer`

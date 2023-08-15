@@ -1,0 +1,3 @@
+## rechnungsdatum Type
+
+`string`

@@ -1,0 +1,3 @@
+## naechstenetznutzungsabrechnung Type
+
+`string`

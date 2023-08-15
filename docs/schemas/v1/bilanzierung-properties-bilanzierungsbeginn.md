@@ -1,0 +1,3 @@
+## bilanzierungsbeginn Type
+
+`string`

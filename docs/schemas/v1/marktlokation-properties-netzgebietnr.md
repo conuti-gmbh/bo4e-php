@@ -1,0 +1,3 @@
+## netzgebietNr Type
+
+`string`

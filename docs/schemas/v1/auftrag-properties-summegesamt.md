@@ -1,0 +1,3 @@
+## summeGesamt Type
+
+`number`

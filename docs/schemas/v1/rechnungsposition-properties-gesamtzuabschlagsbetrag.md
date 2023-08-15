@@ -1,0 +1,3 @@
+## gesamtZuAbschlagsbetrag Type
+
+`number`

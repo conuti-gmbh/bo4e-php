@@ -1,0 +1,3 @@
+## rufnummer Type
+
+`string`

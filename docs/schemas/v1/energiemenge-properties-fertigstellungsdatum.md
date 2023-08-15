@@ -1,0 +1,3 @@
+## fertigstellungsdatum Type
+
+`string`

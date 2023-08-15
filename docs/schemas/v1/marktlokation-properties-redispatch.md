@@ -1,0 +1,3 @@
+## redispatch Type
+
+`boolean`

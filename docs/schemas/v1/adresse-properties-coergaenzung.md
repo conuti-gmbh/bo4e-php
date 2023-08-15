@@ -1,0 +1,3 @@
+## coErgaenzung Type
+
+`string`

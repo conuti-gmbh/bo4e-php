@@ -1,0 +1,3 @@
+## waehrung Type
+
+`string`

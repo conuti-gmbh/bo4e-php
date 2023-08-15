@@ -1,0 +1,3 @@
+## versionsnummer Type
+
+`string`

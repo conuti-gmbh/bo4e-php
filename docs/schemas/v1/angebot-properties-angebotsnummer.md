@@ -1,0 +1,3 @@
+## angebotsnummer Type
+
+`string`

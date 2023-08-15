@@ -1,0 +1,3 @@
+## basiswertVorausbezahlt Type
+
+`number`

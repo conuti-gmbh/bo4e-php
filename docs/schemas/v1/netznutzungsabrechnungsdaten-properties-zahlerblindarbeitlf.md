@@ -1,0 +1,3 @@
+## zahlerBlindarbeitLf Type
+
+`boolean`

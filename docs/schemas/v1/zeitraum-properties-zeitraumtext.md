@@ -1,0 +1,3 @@
+## zeitraumText Type
+
+`string`

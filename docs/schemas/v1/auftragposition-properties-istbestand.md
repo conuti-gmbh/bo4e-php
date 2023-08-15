@@ -1,0 +1,3 @@
+## istBestand Type
+
+`string`

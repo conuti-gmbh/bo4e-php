@@ -1,0 +1,3 @@
+## abrechnungsrelevant Type
+
+`boolean`

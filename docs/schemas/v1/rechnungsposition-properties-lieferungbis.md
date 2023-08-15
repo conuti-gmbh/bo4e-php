@@ -1,0 +1,3 @@
+## lieferungBis Type
+
+`string`

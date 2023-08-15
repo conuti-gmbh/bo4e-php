@@ -1,0 +1,3 @@
+## allgemeineInformationen Type
+
+`string`

@@ -1,0 +1,3 @@
+## bic Type
+
+`string`

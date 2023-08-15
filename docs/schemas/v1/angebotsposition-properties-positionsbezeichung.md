@@ -1,0 +1,3 @@
+## positionsbezeichung Type
+
+`string`

@@ -1,0 +1,3 @@
+## staffelgrenzeVon Type
+
+`number`

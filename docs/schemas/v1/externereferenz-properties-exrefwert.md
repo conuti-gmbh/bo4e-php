@@ -1,0 +1,3 @@
+## exRefWert Type
+
+`string`

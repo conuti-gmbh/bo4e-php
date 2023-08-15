@@ -1,0 +1,3 @@
+## temperaturmessstelle Type
+
+`string`

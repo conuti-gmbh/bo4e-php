@@ -1,0 +1,18 @@
+<?php
+
+declare(strict_types=1);
+
+namespace Conuti\BO4E\v1\Enum;
+
+enum Geschaeftspartnerrolle: string
+{
+    case KUNDE = 'KUNDE';
+    case LIEFERANT = 'LIEFERANT';
+    case DIENSTLEISTER = 'DIENSTLEISTER';
+    case INTERESSENT = 'INTERESSENT';
+    case MARKTPARTNER = 'MARKTPARTNER';
+    case EIGENTUEMER = 'EIGENTUEMER';
+    case HAUSVERWALTER = 'HAUSVERWALTER';
+    case KORRESPONDENZEMPFAENGER = 'KORRESPONDENZEMPFAENGER';
+    case ABLESEKARTENEMPFAENGER = 'ABLESEKARTENEMPFAENGER';
+}

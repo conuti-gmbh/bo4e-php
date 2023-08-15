@@ -1,0 +1,3 @@
+## startdatum Type
+
+`string`

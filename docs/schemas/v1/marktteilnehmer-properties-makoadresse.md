@@ -1,0 +1,3 @@
+## makoadresse Type
+
+`string`

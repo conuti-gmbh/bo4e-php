@@ -1,0 +1,3 @@
+## lokationsId Type
+
+`string`

@@ -1,0 +1,3 @@
+## serialnummer Type
+
+`string`

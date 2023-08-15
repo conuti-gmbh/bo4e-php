@@ -1,0 +1,3 @@
+## umsatzsteuerId Type
+
+`string`

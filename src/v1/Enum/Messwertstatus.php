@@ -1,0 +1,18 @@
+<?php
+
+declare(strict_types=1);
+
+namespace Conuti\BO4E\v1\Enum;
+
+enum Messwertstatus: string
+{
+    case ABGELESEN = 'ABGELESEN';
+    case ERSATZWERT = 'ERSATZWERT';
+    case VORSCHLAGSWERT = 'VORSCHLAGSWERT';
+    case NICHT_VERWENDBAR = 'NICHT_VERWENDBAR';
+    case PROGNOSEWERT = 'PROGNOSEWERT';
+    case ENERGIEMENGESUMMIERT = 'ENERGIEMENGESUMMIERT';
+    case VOLAEUFIGERWERT = 'VOLAEUFIGERWERT';
+    case FEHLT = 'FEHLT';
+    case ANGABE_FUER_LIEFERSCHEIN = 'ANGABE_FUER_LIEFERSCHEIN';
+}

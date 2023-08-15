@@ -1,0 +1,3 @@
+## bilanzierungsdatum Type
+
+`string`

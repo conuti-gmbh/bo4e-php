@@ -1,0 +1,3 @@
+## vertragsart Type
+
+`string`

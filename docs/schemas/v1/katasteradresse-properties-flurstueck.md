@@ -1,0 +1,3 @@
+## flurstueck Type
+
+`string`

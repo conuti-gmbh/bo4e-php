@@ -1,0 +1,3 @@
+## kuendigungstermin Type
+
+`string`

@@ -1,0 +1,3 @@
+## eichungBis Type
+
+`string`

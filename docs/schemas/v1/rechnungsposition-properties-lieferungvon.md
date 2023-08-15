@@ -1,0 +1,3 @@
+## lieferungVon Type
+
+`string`

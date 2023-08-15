@@ -1,0 +1,3 @@
+## bestaetigungDar Type
+
+`string`

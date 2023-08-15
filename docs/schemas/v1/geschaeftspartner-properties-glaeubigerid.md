@@ -1,0 +1,3 @@
+## glaeubigerId Type
+
+`string`

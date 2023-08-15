@@ -1,0 +1,3 @@
+## originalRechnungsnummer Type
+
+`string`

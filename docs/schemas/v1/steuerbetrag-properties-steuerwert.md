@@ -1,0 +1,3 @@
+## steuerwert Type
+
+`number`
