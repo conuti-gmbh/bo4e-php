@@ -1,0 +1,3 @@
+## nachricht Type
+
+`string`

@@ -1,0 +1,3 @@
+## pruefgegenstand Type
+
+`string`

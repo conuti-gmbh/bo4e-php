@@ -2,6 +2,12 @@
 
 ## Top-level Schemas
 
+*   [Untitled array in undefined](./berichtstatus.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Fehler.schema.json`
+
+*   [Untitled array in undefined](./fehlercode.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/FehlerCode.schema.json`
+
+*   [Untitled array in undefined](./fehlertyp.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/FehlerTyp.schema.json`
+
 *   [Untitled object in undefined](./abschlag.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Abschlag.schema.json`
 
 *   [Untitled object in undefined](./adresse.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Adresse.schema.json`
@@ -22,6 +28,8 @@
 
 *   [Untitled object in undefined](./begruendung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Begruendung.schema.json`
 
+*   [Untitled object in undefined](./beschreibung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Beschreibung.schema.json`
+
 *   [Untitled object in undefined](./betrag.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Betrag.schema.json`
 
 *   [Untitled object in undefined](./dienstleistung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Dienstleistung.schema.json`
@@ -32,6 +40,12 @@
 
 *   [Untitled object in undefined](./externereferenz.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/ExterneReferenz.schema.json`
 
+*   [Untitled object in undefined](./fehler.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Fehler.schema.json`
+
+*   [Untitled object in undefined](./fehlerdetail.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/FehlerDetail.schema.json`
+
+*   [Untitled object in undefined](./fehlerursache.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/FehlerUrsache.schema.json`
+
 *   [Untitled object in undefined](./fehlerbeschreibung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Fehlerbeschreibung.schema.json`
 
 *   [Untitled object in undefined](./freitext.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Freitext.schema.json`
@@ -41,6 +55,8 @@
 *   [Untitled object in undefined](./geraet.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Geraet.schema.json`
 
 *   [Untitled object in undefined](./geraeteeigenschaften.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Geraeteeigenschaften.schema.json`
+
+*   [Untitled object in undefined](./gruppe.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Gruppe.schema.json`
 
 *   [Untitled object in undefined](./handelsunstimmungkeitsbegruendung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json`
 
@@ -131,6 +147,8 @@
 *   [Untitled object in undefined](./rechnung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Rechnung.schema.json`
 
 *   [Untitled object in undefined](./sperrauftrag.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Sperraufrag.schema.json`
+
+*   [Untitled object in undefined](./statusbericht.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Statusbericht.schema.json`
 
 *   [Untitled object in undefined](./statusmitteilung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Statusmitteilung.schema.json`
 
@@ -387,6 +405,8 @@
 *   [Untitled array in undefined](./angebotsteil-properties-positionen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Angebotsteil.schema.json#/properties/positionen`
 
 *   [Untitled array in undefined](./angebotsvariante-properties-teile.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Angebotsvariante.schema.json#/properties/teile`
+
+*   [Untitled array in undefined](./fehler-properties-fehlerdetails.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Fehler.schema.json#/properties/fehlerDetails`
 
 *   [Untitled array in undefined](./geraet-properties-weiteregeraetenummern.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Geraet.schema.json#/properties/weitereGeraetenummern`
 

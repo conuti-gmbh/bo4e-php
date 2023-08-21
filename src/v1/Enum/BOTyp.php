@@ -38,4 +38,5 @@ enum BOTyp: string
     case SPERRAUFTRAG = 'SPERRAUFTRAG';
     case ANGEBOT = 'ANGEBOT';
     case TRANCHE = 'TRANCHE';
+    case STATUSBERICHT = 'STATUSBERICHT';
 }
