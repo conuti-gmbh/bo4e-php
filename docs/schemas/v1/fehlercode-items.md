@@ -32,3 +32,6 @@
 | `"SEGMENTWIEDERHOLUNG_UEBERSCHRITTEN"` |             |
 | `"ANZAHLCODES_UEBERSCHRITTEN"`         |             |
 | `"ZEITANGABE_UNPLAUSIBEL"`             |             |
+| `"CODE_NICHT_ERLAUBT"`                 |             |
+| `"OBJEKT_NICHT_GEFUNDEN"`              |             |
+| `"OBJEKT_NICHT_EINDEUTIG"`             |             |
