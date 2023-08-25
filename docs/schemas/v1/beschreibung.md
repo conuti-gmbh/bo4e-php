@@ -4,10 +4,10 @@
 
 # Untitled object in undefined Properties
 
-| Property                        | Type     | Required | Nullable       | Defined by                                                                                                                                                                             |
-| :------------------------------ | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [beschreibung1](#beschreibung1) | `string` | Optional | cannot be null | [Untitled schema](beschreibung-properties-beschreibung1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Beschreibung.schema.json#/properties/beschreibung1") |
-| [beschreibung2](#beschreibung2) | `string` | Optional | cannot be null | [Untitled schema](beschreibung-properties-beschreibung2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Beschreibung.schema.json#/properties/beschreibung2") |
+| Property                        | Type     | Required | Nullable       | Defined by                                                                                                                                                                              |
+| :------------------------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [beschreibung1](#beschreibung1) | `string` | Optional | cannot be null | [Untitled schema](beschreibung-properties-beschreibung1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Beschreibung.schema.json#/properties/beschreibung1") |
+| [beschreibung2](#beschreibung2) | `string` | Optional | cannot be null | [Untitled schema](beschreibung-properties-beschreibung2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Beschreibung.schema.json#/properties/beschreibung2") |
 
 ## beschreibung1
 
@@ -21,7 +21,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](beschreibung-properties-beschreibung1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Beschreibung.schema.json#/properties/beschreibung1")
+*   defined in: [Untitled schema](beschreibung-properties-beschreibung1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Beschreibung.schema.json#/properties/beschreibung1")
 
 ### beschreibung1 Type
 
@@ -39,7 +39,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](beschreibung-properties-beschreibung2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Beschreibung.schema.json#/properties/beschreibung2")
+*   defined in: [Untitled schema](beschreibung-properties-beschreibung2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Beschreibung.schema.json#/properties/beschreibung2")
 
 ### beschreibung2 Type
 

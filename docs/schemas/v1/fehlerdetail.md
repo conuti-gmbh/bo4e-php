@@ -4,11 +4,11 @@
 
 # Untitled object in undefined Properties
 
-| Property                      | Type     | Required | Nullable       | Defined by                                                                                                                                                   |
-| :---------------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [code](#code)                 | `array`  | Optional | cannot be null | [Untitled schema](fehlercode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/FehlerCode.schema.json#/properties/code")           |
-| [ursache](#ursache)           | `object` | Optional | cannot be null | [Untitled schema](fehlerursache.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/FehlerUrsache.schema.json#/properties/ursache")    |
-| [beschreibung](#beschreibung) | `object` | Optional | cannot be null | [Untitled schema](beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Beschreibung.schema.json#/properties/beschreibung") |
+| Property                      | Type     | Required | Nullable       | Defined by                                                                                                                                                    |
+| :---------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [code](#code)                 | `array`  | Optional | cannot be null | [Untitled schema](fehlercode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/FehlerCode.schema.json#/properties/code")            |
+| [ursache](#ursache)           | `object` | Optional | cannot be null | [Untitled schema](fehlerursache.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/FehlerUrsache.schema.json#/properties/ursache")    |
+| [beschreibung](#beschreibung) | `object` | Optional | cannot be null | [Untitled schema](beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Beschreibung.schema.json#/properties/beschreibung") |
 
 ## code
 
@@ -40,7 +40,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](fehlerursache.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/FehlerUrsache.schema.json#/properties/ursache")
+*   defined in: [Untitled schema](fehlerursache.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/FehlerUrsache.schema.json#/properties/ursache")
 
 ### ursache Type
 
@@ -58,7 +58,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Beschreibung.schema.json#/properties/beschreibung")
+*   defined in: [Untitled schema](beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Beschreibung.schema.json#/properties/beschreibung")
 
 ### beschreibung Type
 

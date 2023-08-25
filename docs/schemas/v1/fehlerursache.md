@@ -4,14 +4,14 @@
 
 # Untitled object in undefined Properties
 
-| Property                      | Type     | Required | Nullable       | Defined by                                                                                                                                                                           |
-| :---------------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [dokument](#dokument)         | `string` | Optional | cannot be null | [Untitled schema](fehlerursache-properties-dokument.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/FehlerUrsache.schema.json#/properties/dokument")       |
-| [nachricht](#nachricht)       | `string` | Optional | cannot be null | [Untitled schema](fehlerursache-properties-nachricht.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/FehlerUrsache.schema.json#/properties/nachricht")     |
-| [transaktion](#transaktion)   | `string` | Optional | cannot be null | [Untitled schema](fehlerursache-properties-transaktion.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/FehlerUrsache.schema.json#/properties/transaktion") |
-| [gruppe](#gruppe)             | `object` | Optional | cannot be null | [Untitled schema](gruppe.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Gruppe.schema.json#/properties/gruppe")                                           |
-| [segment](#segment)           | `string` | Optional | cannot be null | [Untitled schema](fehlerursache-properties-segment.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/FehlerUrsache.schema.json#/properties/segment")         |
-| [beschreibung](#beschreibung) | `object` | Optional | cannot be null | [Untitled schema](beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Beschreibung.schema.json#/properties/beschreibung")                         |
+| Property                      | Type     | Required | Nullable       | Defined by                                                                                                                                                                            |
+| :---------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [dokument](#dokument)         | `string` | Optional | cannot be null | [Untitled schema](fehlerursache-properties-dokument.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/FehlerUrsache.schema.json#/properties/dokument")       |
+| [nachricht](#nachricht)       | `string` | Optional | cannot be null | [Untitled schema](fehlerursache-properties-nachricht.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/FehlerUrsache.schema.json#/properties/nachricht")     |
+| [transaktion](#transaktion)   | `string` | Optional | cannot be null | [Untitled schema](fehlerursache-properties-transaktion.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/FehlerUrsache.schema.json#/properties/transaktion") |
+| [gruppe](#gruppe)             | `object` | Optional | cannot be null | [Untitled schema](gruppe.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Gruppe.schema.json#/properties/gruppe")                                           |
+| [segment](#segment)           | `string` | Optional | cannot be null | [Untitled schema](fehlerursache-properties-segment.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/FehlerUrsache.schema.json#/properties/segment")         |
+| [beschreibung](#beschreibung) | `object` | Optional | cannot be null | [Untitled schema](beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Beschreibung.schema.json#/properties/beschreibung")                         |
 
 ## dokument
 
@@ -25,7 +25,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](fehlerursache-properties-dokument.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/FehlerUrsache.schema.json#/properties/dokument")
+*   defined in: [Untitled schema](fehlerursache-properties-dokument.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/FehlerUrsache.schema.json#/properties/dokument")
 
 ### dokument Type
 
@@ -43,7 +43,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](fehlerursache-properties-nachricht.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/FehlerUrsache.schema.json#/properties/nachricht")
+*   defined in: [Untitled schema](fehlerursache-properties-nachricht.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/FehlerUrsache.schema.json#/properties/nachricht")
 
 ### nachricht Type
 
@@ -61,7 +61,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](fehlerursache-properties-transaktion.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/FehlerUrsache.schema.json#/properties/transaktion")
+*   defined in: [Untitled schema](fehlerursache-properties-transaktion.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/FehlerUrsache.schema.json#/properties/transaktion")
 
 ### transaktion Type
 
@@ -79,7 +79,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](gruppe.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Gruppe.schema.json#/properties/gruppe")
+*   defined in: [Untitled schema](gruppe.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Gruppe.schema.json#/properties/gruppe")
 
 ### gruppe Type
 
@@ -97,7 +97,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](fehlerursache-properties-segment.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/FehlerUrsache.schema.json#/properties/segment")
+*   defined in: [Untitled schema](fehlerursache-properties-segment.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/FehlerUrsache.schema.json#/properties/segment")
 
 ### segment Type
 
@@ -115,7 +115,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Beschreibung.schema.json#/properties/beschreibung")
+*   defined in: [Untitled schema](beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Beschreibung.schema.json#/properties/beschreibung")
 
 ### beschreibung Type
 

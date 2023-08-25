@@ -4,10 +4,10 @@
 
 # Untitled object in undefined Properties
 
-| Property                        | Type    | Required | Nullable       | Defined by                                                                                                                                                                 |
-| :------------------------------ | :------ | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [typ](#typ)                     | `array` | Optional | cannot be null | [Untitled schema](fehlertyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/FehlerTyp.schema.json#/properties/typ")                            |
-| [fehlerDetails](#fehlerdetails) | `array` | Optional | cannot be null | [Untitled schema](fehler-properties-fehlerdetails.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Fehler.schema.json#/properties/fehlerDetails") |
+| Property                        | Type    | Required | Nullable       | Defined by                                                                                                                                                                  |
+| :------------------------------ | :------ | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [typ](#typ)                     | `array` | Optional | cannot be null | [Untitled schema](fehlertyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/FehlerTyp.schema.json#/properties/typ")                             |
+| [fehlerDetails](#fehlerdetails) | `array` | Optional | cannot be null | [Untitled schema](fehler-properties-fehlerdetails.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Fehler.schema.json#/properties/fehlerDetails") |
 
 ## typ
 
@@ -39,7 +39,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](fehler-properties-fehlerdetails.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Fehler.schema.json#/properties/fehlerDetails")
+*   defined in: [Untitled schema](fehler-properties-fehlerdetails.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Fehler.schema.json#/properties/fehlerDetails")
 
 ### fehlerDetails Type
 
