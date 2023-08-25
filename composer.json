@@ -21,5 +21,6 @@
         "psr-4": {
             "Conuti\\BO4E\\": "src/"
         }
-    }
+    },
+    "license": "MIT"
 }
