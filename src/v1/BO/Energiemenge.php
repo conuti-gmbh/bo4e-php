@@ -21,6 +21,7 @@ class Energiemenge
         readonly ?string $bilanzierungsdatum,
         readonly ?string $beginndatum,
         readonly ?string $referenzStammdatenmeldungMsb,
+        readonly ?string $konfiguration,
         /** @var Verbrauch[] */
         readonly array $energieverbrauch = []
     ) {

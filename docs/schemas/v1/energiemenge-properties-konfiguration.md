@@ -1,0 +1,3 @@
+## konfiguration Type
+
+`string`

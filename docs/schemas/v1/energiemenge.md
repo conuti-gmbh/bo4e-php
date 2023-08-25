@@ -16,6 +16,7 @@
 | [bilanzierungsdatum](#bilanzierungsdatum)                     | `string` | Optional | cannot be null | [Untitled schema](energiemenge-properties-bilanzierungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Energiemenge.schema.json#/properties/bilanzierungsdatum")                     |
 | [beginndatum](#beginndatum)                                   | `string` | Optional | cannot be null | [Untitled schema](energiemenge-properties-beginndatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Energiemenge.schema.json#/properties/beginndatum")                                   |
 | [referenzStammdatenmeldungMsb](#referenzstammdatenmeldungmsb) | `string` | Optional | cannot be null | [Untitled schema](energiemenge-properties-referenzstammdatenmeldungmsb.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Energiemenge.schema.json#/properties/referenzStammdatenmeldungMsb") |
+| [konfiguration](#konfiguration)                               | `string` | Optional | cannot be null | [Untitled schema](energiemenge-properties-konfiguration.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Energiemenge.schema.json#/properties/konfiguration")                               |
 | [energieverbrauch](#energieverbrauch)                         | `array`  | Optional | cannot be null | [Untitled schema](energiemenge-properties-energieverbrauch.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Energiemenge.schema.json#/properties/energieverbrauch")                         |
 
 ## boTyp
@@ -243,6 +244,24 @@
 *   defined in: [Untitled schema](energiemenge-properties-referenzstammdatenmeldungmsb.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Energiemenge.schema.json#/properties/referenzStammdatenmeldungMsb")
 
 ### referenzStammdatenmeldungMsb Type
+
+`string`
+
+## konfiguration
+
+
+
+`konfiguration`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](energiemenge-properties-konfiguration.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Energiemenge.schema.json#/properties/konfiguration")
+
+### konfiguration Type
 
 `string`
 
