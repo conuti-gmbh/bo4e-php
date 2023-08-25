@@ -1,3 +1,0 @@
-## hinweis Type
-
-`string`

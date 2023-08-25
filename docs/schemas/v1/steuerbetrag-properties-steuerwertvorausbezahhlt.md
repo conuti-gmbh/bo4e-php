@@ -1,3 +1,0 @@
-## steuerwertVorausbezahhlt Type
-
-`number`

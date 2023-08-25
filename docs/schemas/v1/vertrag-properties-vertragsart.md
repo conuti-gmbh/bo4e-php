@@ -1,3 +1,0 @@
-## vertragsart Type
-
-`string`

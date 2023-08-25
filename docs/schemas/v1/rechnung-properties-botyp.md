@@ -1,3 +1,0 @@
-## boTyp Type
-
-`string`

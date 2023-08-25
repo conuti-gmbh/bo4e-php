@@ -1,3 +1,0 @@
-## exRefName Type
-
-`string`

@@ -1,3 +1,0 @@
-## zaehlwerkeBeteiligteMarktrolle Type
-
-`string[]`

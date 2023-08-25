@@ -1,3 +1,0 @@
-## geraetereferenz Type
-
-`string`

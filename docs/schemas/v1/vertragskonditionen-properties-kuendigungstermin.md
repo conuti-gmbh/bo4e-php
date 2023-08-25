@@ -1,3 +1,0 @@
-## kuendigungstermin Type
-
-`string`

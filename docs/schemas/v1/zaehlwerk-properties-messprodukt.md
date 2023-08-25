@@ -1,3 +1,0 @@
-## messprodukt Type
-
-`string`

@@ -1,3 +1,0 @@
-## ablesedatum Type
-
-`string`

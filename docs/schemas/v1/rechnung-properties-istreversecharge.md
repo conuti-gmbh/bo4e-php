@@ -1,3 +1,0 @@
-## istReverseCharge Type
-
-`boolean`

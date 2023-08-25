@@ -1,3 +1,0 @@
-## zaehlernummer Type
-
-`string`

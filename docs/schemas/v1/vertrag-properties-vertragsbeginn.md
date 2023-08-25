@@ -1,3 +1,0 @@
-## vertragsbeginn Type
-
-`string`

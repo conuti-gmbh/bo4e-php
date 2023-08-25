@@ -1,3 +1,0 @@
-## nummer Type
-
-`string`

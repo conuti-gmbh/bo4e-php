@@ -1,3 +1,0 @@
-## vertragsende Type
-
-`string`

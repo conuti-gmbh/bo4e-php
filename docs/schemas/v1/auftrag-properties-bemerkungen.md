@@ -1,3 +1,0 @@
-## bemerkungen Type
-
-`string[]`

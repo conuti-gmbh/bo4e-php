@@ -1,3 +1,0 @@
-## versionStruktur Type
-
-`string`

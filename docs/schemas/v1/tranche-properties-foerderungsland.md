@@ -1,3 +1,0 @@
-## foerderungsLand Type
-
-`string`

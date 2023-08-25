@@ -1,3 +1,0 @@
-## herstellungsdatum Type
-
-`string`

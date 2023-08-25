@@ -1,3 +1,0 @@
-## antwortstatus Type
-
-`string`

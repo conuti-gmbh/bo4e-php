@@ -1,3 +1,0 @@
-## referenzen Type
-
-`string[]`

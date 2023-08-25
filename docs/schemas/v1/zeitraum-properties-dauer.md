@@ -1,3 +1,0 @@
-## dauer Type
-
-`number`

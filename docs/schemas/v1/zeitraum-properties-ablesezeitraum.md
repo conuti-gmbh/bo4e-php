@@ -1,3 +1,0 @@
-## ableseZeitraum Type
-
-`string`

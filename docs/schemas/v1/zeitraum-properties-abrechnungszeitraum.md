@@ -1,3 +1,0 @@
-## abrechnungsZeitraum Type
-
-`string`

@@ -1,3 +1,0 @@
-## referenzDar Type
-
-`string`

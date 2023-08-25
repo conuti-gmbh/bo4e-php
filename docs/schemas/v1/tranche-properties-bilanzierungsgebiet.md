@@ -1,3 +1,0 @@
-## bilanzierungsgebiet Type
-
-`string`

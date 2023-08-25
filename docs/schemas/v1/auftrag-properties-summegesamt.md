@@ -1,3 +1,0 @@
-## summeGesamt Type
-
-`number`

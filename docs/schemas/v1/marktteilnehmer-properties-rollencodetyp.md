@@ -1,3 +1,0 @@
-## rollencodetyp Type
-
-`string`

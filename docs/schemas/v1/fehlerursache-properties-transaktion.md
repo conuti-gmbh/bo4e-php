@@ -1,3 +1,0 @@
-## transaktion Type
-
-`string`

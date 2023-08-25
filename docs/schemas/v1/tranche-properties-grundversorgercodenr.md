@@ -1,3 +1,0 @@
-## grundversorgerCodeNr Type
-
-`string`

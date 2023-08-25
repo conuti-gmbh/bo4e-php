@@ -1,3 +1,0 @@
-## ausfuehrungsdatum Type
-
-`string`

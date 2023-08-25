@@ -1,3 +1,0 @@
-## messlokationsId Type
-
-`string`

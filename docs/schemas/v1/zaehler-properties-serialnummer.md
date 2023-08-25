@@ -1,3 +1,0 @@
-## serialnummer Type
-
-`string`

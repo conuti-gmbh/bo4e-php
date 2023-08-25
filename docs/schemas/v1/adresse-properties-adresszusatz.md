@@ -1,3 +1,0 @@
-## adresszusatz Type
-
-`string`

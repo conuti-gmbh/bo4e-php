@@ -1,3 +1,0 @@
-## angebotsnummer Type
-
-`string`

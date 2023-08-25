@@ -1,3 +1,0 @@
-## katalognummer Type
-
-`string`

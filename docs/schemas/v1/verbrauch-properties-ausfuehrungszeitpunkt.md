@@ -1,3 +1,0 @@
-## ausfuehrungszeitpunkt Type
-
-`string`

@@ -1,3 +1,0 @@
-## zaehlwerkId Type
-
-`string`

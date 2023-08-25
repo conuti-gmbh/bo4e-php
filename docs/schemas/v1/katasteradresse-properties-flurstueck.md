@@ -1,3 +1,0 @@
-## flurstueck Type
-
-`string`

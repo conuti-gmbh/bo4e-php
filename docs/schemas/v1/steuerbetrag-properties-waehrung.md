@@ -1,3 +1,0 @@
-## waehrung Type
-
-`string`

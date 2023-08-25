@@ -1,3 +1,0 @@
-## steuerbefreit Type
-
-`boolean`

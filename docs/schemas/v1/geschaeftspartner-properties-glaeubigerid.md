@@ -1,3 +1,0 @@
-## glaeubigerId Type
-
-`string`

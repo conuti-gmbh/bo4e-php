@@ -1,3 +1,0 @@
-## beginndatum Type
-
-`string`

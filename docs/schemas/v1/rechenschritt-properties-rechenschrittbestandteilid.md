@@ -1,3 +1,0 @@
-## rechenschrittBestandteilId Type
-
-`integer`

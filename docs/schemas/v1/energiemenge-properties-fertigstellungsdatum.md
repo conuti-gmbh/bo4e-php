@@ -1,3 +1,0 @@
-## fertigstellungsdatum Type
-
-`string`

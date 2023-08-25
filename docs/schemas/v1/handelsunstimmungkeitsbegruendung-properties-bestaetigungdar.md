@@ -1,3 +1,0 @@
-## bestaetigungDar Type
-
-`string`

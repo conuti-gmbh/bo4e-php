@@ -1,3 +1,0 @@
-## istBestand Type
-
-`string`

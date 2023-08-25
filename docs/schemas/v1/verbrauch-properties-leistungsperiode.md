@@ -1,3 +1,0 @@
-## leistungsperiode Type
-
-`string`

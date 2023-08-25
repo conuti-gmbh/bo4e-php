@@ -1,3 +1,0 @@
-## obiskennzahl Type
-
-`string`

@@ -1,3 +1,0 @@
-## zweck Type
-
-`string[]`

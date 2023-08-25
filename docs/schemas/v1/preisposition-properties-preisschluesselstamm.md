@@ -1,3 +1,0 @@
-## preisschluesselstamm Type
-
-`string`

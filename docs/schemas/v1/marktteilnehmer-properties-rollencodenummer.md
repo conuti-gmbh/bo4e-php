@@ -1,3 +1,0 @@
-## rollencodenummer Type
-
-`string`

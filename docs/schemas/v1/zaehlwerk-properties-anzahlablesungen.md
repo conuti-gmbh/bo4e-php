@@ -1,3 +1,0 @@
-## anzahlAblesungen Type
-
-`boolean`

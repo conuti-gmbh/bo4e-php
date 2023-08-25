@@ -1,3 +1,0 @@
-## regelzone Type
-
-`string`

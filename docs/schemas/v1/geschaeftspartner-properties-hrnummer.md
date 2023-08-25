@@ -1,3 +1,0 @@
-## hrnummer Type
-
-`string`

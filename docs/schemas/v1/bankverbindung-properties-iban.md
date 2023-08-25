@@ -1,3 +1,0 @@
-## iban Type
-
-`string`

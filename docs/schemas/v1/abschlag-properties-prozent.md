@@ -1,3 +1,0 @@
-## prozent Type
-
-`number`

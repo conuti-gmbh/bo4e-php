@@ -1,3 +1,0 @@
-## bilanzkreis Type
-
-`string`

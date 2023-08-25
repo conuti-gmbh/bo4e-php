@@ -1,3 +1,0 @@
-## nachname Type
-
-`string`

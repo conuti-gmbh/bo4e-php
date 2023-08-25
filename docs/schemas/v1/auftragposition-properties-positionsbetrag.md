@@ -1,3 +1,0 @@
-## positionsbetrag Type
-
-`string`

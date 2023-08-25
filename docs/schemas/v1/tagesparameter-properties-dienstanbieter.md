@@ -1,3 +1,0 @@
-## dienstanbieter Type
-
-`string`

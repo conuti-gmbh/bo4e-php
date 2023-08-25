@@ -1,3 +1,0 @@
-## leistungsbezeichnung Type
-
-`string`

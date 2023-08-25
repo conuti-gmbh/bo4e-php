@@ -1,3 +1,0 @@
-## geraetenummer Type
-
-`string`

@@ -1,3 +1,0 @@
-## tranchenId Type
-
-`string`

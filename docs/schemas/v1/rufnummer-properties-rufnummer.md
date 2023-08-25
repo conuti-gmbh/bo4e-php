@@ -1,3 +1,0 @@
-## rufnummer Type
-
-`string`

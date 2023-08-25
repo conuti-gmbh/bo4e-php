@@ -1,3 +1,0 @@
-## baujahr Type
-
-`string`

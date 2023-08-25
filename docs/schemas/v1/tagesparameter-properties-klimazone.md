@@ -1,3 +1,0 @@
-## klimazone Type
-
-`string`

@@ -1,3 +1,0 @@
-## bic Type
-
-`string`

@@ -1,3 +1,0 @@
-## ort Type
-
-`string`

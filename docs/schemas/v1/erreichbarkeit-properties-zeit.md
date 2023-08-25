@@ -1,3 +1,0 @@
-## zeit Type
-
-`string`

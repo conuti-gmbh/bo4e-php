@@ -1,3 +1,0 @@
-## positionsbezeichung Type
-
-`string`

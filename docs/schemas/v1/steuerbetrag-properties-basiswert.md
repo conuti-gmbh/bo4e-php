@@ -1,3 +1,0 @@
-## basiswert Type
-
-`number`

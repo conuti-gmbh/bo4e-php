@@ -1,3 +1,0 @@
-## startAbrechnungsjahr Type
-
-`string`

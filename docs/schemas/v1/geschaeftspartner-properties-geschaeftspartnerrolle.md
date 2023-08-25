@@ -1,3 +1,0 @@
-## geschaeftspartnerrolle Type
-
-`string[]`

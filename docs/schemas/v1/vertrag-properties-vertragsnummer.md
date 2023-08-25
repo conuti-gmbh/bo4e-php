@@ -1,3 +1,0 @@
-## vertragsnummer Type
-
-`string`

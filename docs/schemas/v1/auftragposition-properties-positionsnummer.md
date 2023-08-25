@@ -1,3 +1,0 @@
-## positionsnummer Type
-
-`integer`

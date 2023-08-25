@@ -1,3 +1,0 @@
-## beschreibung Type
-
-`string`

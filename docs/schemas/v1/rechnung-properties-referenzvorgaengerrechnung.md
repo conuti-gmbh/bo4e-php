@@ -1,3 +1,0 @@
-## referenzVorgaengerrechnung Type
-
-`string`

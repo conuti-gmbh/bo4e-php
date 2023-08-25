@@ -1,3 +1,0 @@
-## weiterverpflichtet Type
-
-`boolean`

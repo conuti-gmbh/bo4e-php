@@ -1,3 +1,0 @@
-## lieferungVon Type
-
-`string`

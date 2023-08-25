@@ -1,3 +1,0 @@
-## referenzNachrichtendatum Type
-
-`string`

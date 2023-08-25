@@ -1,3 +1,0 @@
-## rechnungsdatum Type
-
-`string`

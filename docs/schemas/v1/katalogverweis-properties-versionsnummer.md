@@ -1,3 +1,0 @@
-## versionsnummer Type
-
-`string`

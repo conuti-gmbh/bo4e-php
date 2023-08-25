@@ -1,3 +1,0 @@
-## referenzTranche Type
-
-`string`

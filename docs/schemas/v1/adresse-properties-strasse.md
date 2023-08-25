@@ -1,3 +1,0 @@
-## strasse Type
-
-`string`

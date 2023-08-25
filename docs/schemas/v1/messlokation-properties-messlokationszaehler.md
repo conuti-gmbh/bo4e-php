@@ -1,3 +1,0 @@
-## messlokationszaehler Type
-
-`string[]`

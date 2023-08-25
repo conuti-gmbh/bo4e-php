@@ -1,3 +1,0 @@
-## anfrageSubreferenz Type
-
-`string`

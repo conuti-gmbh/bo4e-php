@@ -1,3 +1,0 @@
-## netzkonto Type
-
-`string`

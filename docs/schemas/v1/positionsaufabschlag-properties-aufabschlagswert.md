@@ -1,3 +1,0 @@
-## aufAbschlagswert Type
-
-`number`

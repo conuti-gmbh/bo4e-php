@@ -1,3 +1,0 @@
-## sparte Type
-
-`string`

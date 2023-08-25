@@ -1,3 +1,0 @@
-## anzahl Type
-
-`integer`

@@ -1,3 +1,0 @@
-## istSelbstausgestellt Type
-
-`boolean`

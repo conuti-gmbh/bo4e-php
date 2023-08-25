@@ -1,3 +1,0 @@
-## kategorie Type
-
-`string`

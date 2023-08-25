@@ -1,3 +1,0 @@
-## bemessungsgrundlage Type
-
-`number`

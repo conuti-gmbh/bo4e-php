@@ -1,3 +1,0 @@
-## einspeisung Type
-
-`boolean`

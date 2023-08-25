@@ -1,3 +1,0 @@
-## weitereGeraetenummern Type
-
-`string[]`

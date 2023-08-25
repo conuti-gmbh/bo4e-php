@@ -1,3 +1,0 @@
-## nachricht Type
-
-`string`

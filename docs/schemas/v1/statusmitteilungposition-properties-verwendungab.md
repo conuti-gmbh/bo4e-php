@@ -1,3 +1,0 @@
-## verwendungAb Type
-
-`string`

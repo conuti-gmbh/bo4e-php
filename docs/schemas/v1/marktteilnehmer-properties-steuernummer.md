@@ -1,3 +1,0 @@
-## steuernummer Type
-
-`string`

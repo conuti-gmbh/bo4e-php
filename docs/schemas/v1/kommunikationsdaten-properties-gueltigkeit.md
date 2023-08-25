@@ -1,3 +1,0 @@
-## gueltigkeit Type
-
-`string`

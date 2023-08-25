@@ -1,3 +1,0 @@
-## haushaltskunde Type
-
-`boolean`

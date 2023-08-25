@@ -1,3 +1,0 @@
-## referenzStammdatenmeldungMsb Type
-
-`string`

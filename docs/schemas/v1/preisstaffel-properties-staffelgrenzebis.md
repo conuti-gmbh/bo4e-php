@@ -1,3 +1,0 @@
-## staffelgrenzeBis Type
-
-`number`

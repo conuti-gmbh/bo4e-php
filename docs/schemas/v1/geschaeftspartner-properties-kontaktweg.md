@@ -1,3 +1,0 @@
-## kontaktweg Type
-
-`string[]`

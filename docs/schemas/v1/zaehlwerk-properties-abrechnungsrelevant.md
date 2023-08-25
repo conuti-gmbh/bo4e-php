@@ -1,3 +1,0 @@
-## abrechnungsrelevant Type
-
-`boolean`

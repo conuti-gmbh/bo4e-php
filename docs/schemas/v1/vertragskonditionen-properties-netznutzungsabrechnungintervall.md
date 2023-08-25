@@ -1,3 +1,0 @@
-## netznutzungsabrechnungIntervall Type
-
-`integer`

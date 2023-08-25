@@ -1,10 +1,15 @@
-# Bo4e
+# BO4E PHP library by CONUTI GmbH 
 
 ## Structure
 
-### /schemas
+### /src/{v}
+Versions of the PHP DTO and enums are separated by version folders. 
 
-BO4E Geschäftsobjekte im [JSON Schema](https://json-schema.org/) format 
+### /src/{v}/BO
+Main BO PHP DTO 
 
-## Generate Markdown
-`make schema-docs`
+### /src/{v}/COM
+COM BO PHP DTO 
+
+### /src/{v}/Enum
+BO4E PHP enums

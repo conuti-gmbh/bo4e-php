@@ -1,3 +1,0 @@
-## basiswertVorausbezahlt Type
-
-`number`

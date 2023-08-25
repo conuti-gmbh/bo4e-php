@@ -1,3 +1,0 @@
-## einheit Type
-
-`string`

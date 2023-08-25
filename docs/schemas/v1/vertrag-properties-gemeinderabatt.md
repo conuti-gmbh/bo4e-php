@@ -1,3 +1,0 @@
-## gemeinderabatt Type
-
-`integer`

@@ -1,3 +1,0 @@
-## beinhaltetSingulaerGenutzteBetriebsmittel Type
-
-`boolean`

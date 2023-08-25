@@ -1,3 +1,0 @@
-## bilanzierungsdatum Type
-
-`string`

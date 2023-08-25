@@ -1,3 +1,0 @@
-## obisKennzahl Type
-
-`string`

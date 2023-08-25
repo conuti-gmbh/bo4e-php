@@ -1,3 +1,0 @@
-## verlustfaktorTrafo Type
-
-`number`

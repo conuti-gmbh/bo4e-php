@@ -1,3 +1,0 @@
-## eichungBis Type
-
-`string`

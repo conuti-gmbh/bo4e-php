@@ -1,3 +1,0 @@
-## gewerbekennzeichnung Type
-
-`boolean`

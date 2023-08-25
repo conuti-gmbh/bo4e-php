@@ -1,3 +1,0 @@
-## referenznummer Type
-
-`string`

@@ -1,3 +1,0 @@
-## datumVorgaengerrechnung Type
-
-`string`

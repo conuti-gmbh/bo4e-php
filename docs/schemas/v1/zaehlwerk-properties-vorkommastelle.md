@@ -1,3 +1,0 @@
-## vorkommastelle Type
-
-`integer`

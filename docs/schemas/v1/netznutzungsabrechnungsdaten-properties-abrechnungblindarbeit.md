@@ -1,3 +1,0 @@
-## abrechnungblindarbeit Type
-
-`boolean`

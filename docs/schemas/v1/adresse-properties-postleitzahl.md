@@ -1,3 +1,0 @@
-## postleitzahl Type
-
-`string`

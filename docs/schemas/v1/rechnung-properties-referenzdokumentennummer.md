@@ -1,3 +1,0 @@
-## referenzDokumentennummer Type
-
-`string`

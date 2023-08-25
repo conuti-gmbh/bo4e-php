@@ -1,3 +1,0 @@
-## website Type
-
-`string`

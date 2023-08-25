@@ -1,3 +1,0 @@
-## pruefgegenstand Type
-
-`string`

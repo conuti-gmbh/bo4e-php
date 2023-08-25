@@ -1,3 +1,0 @@
-## faxnummer Type
-
-`string`

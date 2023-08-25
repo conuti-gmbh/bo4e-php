@@ -1,3 +1,0 @@
-## einheitspreis Type
-
-`number`

@@ -1,3 +1,0 @@
-## bearbeitungsdatum Type
-
-`string`

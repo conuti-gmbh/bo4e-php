@@ -1,3 +1,0 @@
-## kontoinhaber Type
-
-`string`

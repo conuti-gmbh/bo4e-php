@@ -1,3 +1,0 @@
-## netzbetreiberCodeNr Type
-
-`string`

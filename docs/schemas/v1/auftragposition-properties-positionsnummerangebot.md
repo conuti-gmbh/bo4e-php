@@ -1,3 +1,0 @@
-## positionsnummerAngebot Type
-
-`string`

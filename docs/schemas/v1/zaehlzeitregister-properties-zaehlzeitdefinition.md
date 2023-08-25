@@ -1,3 +1,0 @@
-## zaehlzeitDefinition Type
-
-`string`

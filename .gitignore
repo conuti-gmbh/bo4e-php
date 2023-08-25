@@ -1,5 +1,2 @@
 .idea
-node_modules
-out
 vendor
-.phpcs-cache

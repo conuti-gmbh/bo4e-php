@@ -1,3 +1,0 @@
-## zeilennummer Type
-
-`string`

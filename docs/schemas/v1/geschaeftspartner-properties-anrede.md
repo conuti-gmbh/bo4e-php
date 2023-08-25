@@ -1,3 +1,0 @@
-## anrede Type
-
-`string`

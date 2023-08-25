@@ -1,3 +1,0 @@
-## makoadresse Type
-
-`string`

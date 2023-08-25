@@ -1,3 +1,0 @@
-## amtsgericht Type
-
-`string`

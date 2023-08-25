@@ -1,3 +1,0 @@
-## unterbrechbar Type
-
-`string`

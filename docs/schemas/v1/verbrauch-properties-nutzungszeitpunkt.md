@@ -1,3 +1,0 @@
-## nutzungszeitpunkt Type
-
-`string`

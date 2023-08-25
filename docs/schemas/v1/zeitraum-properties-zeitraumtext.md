@@ -1,3 +1,0 @@
-## zeitraumText Type
-
-`string`

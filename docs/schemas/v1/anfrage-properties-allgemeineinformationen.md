@@ -1,3 +1,0 @@
-## allgemeineInformationen Type
-
-`string`

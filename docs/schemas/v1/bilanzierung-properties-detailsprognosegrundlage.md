@@ -1,3 +1,0 @@
-## detailsPrognosegrundlage Type
-
-`string[]`

@@ -1,3 +1,0 @@
-## temperaturmessstelle Type
-
-`string`

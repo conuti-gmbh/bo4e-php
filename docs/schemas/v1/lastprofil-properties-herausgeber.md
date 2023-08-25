@@ -1,3 +1,0 @@
-## herausgeber Type
-
-`string`
