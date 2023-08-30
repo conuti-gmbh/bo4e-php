@@ -6,43 +6,31 @@ namespace Conuti\BO4E\v1\BO;
 
 use Conuti\BO4E\v1\COM\Geraet;
 use Conuti\BO4E\v1\COM\Zaehlwerk;
-use Conuti\BO4E\v1\Enum\Befestigungsart;
-use Conuti\BO4E\v1\Enum\BOTyp;
-use Conuti\BO4E\v1\Enum\Fernschaltung;
-use Conuti\BO4E\v1\Enum\Geraetemerkmal;
-use Conuti\BO4E\v1\Enum\Geraetetyp;
-use Conuti\BO4E\v1\Enum\Mengenumwertertyp;
-use Conuti\BO4E\v1\Enum\Messwerterfassung;
-use Conuti\BO4E\v1\Enum\Sparte;
-use Conuti\BO4E\v1\Enum\Tarifart;
-use Conuti\BO4E\v1\Enum\Volumenerfassung;
-use Conuti\BO4E\v1\Enum\Zaehlerauspraegung;
-use Conuti\BO4E\v1\Enum\Zaehlertyp;
-use Conuti\BO4E\v1\Enum\ZaehlertypSpezifikation;
+use Conuti\BO4E\v1\Interface\Geraetetyp;
 
 class Zaehler
 {
     public function __construct(
-        public BOTyp $boTyp,
+        public string $boTyp,
         public ?string $versionStruktur,
         public ?string $zaehlernummer,
-        public ?Sparte $sparte,
-        public ?Zaehlerauspraegung $zaehlerauspraegung,
-        public ?Zaehlertyp $zaehlertyp,
-        public ?Tarifart $tarifart,
+        public ?string $sparte,
+        public ?string $zaehlerauspraegung,
+        public ?string $zaehlertyp,
+        public ?string $tarifart,
         public ?float $zaehlerkonstante,
         public ?string $eichungBis,
         public ?Geschaeftspartner $zaehlerhersteller,
         public ?string $gateway,
-        public ?Fernschaltung $fernschaltung,
-        public ?Messwerterfassung $messwerterfassung,
-        public ?ZaehlertypSpezifikation $zaehlertypspezifikation,
-        public ?Befestigungsart $befestigungsart,
-        public ?Geraetemerkmal $zaehlergroesse,
-        public ?Mengenumwertertyp $mengenumwertertyp,
-        public ?Volumenerfassung $volumenerfassung,
+        public ?string $fernschaltung,
+        public ?string $messwerterfassung,
+        public ?string $zaehlertypspezifikation,
+        public ?string $befestigungsart,
+        public ?string $zaehlergroesse,
+        public ?string $mengenumwertertyp,
+        public ?string $volumenerfassung,
         public ?string $serialnummer,
-        public ?Geraetemerkmal $geraetemerkmal,
+        public ?string $geraetemerkmal,
         public ?string $herstellungsdatum,
         public ?string $baujahr,
         public ?string $messlokationsId,
@@ -57,12 +45,12 @@ class Zaehler
     /**
      * @return Geraet[]
      */
-    public function getGeraete(Geraetetyp $geraetetyp): array
+    public function getGeraete(string $geraetetyp): array
     {
         return $this->getMultipleGeraete([$geraetetyp]);
     }
 
-    public function getGeraet(Geraetetyp $geraetetyp): ?Geraet
+    public function getGeraet(string $geraetetyp): ?Geraet
     {
         $geraete = $this->getMultipleGeraete([$geraetetyp]);
 
@@ -72,7 +60,7 @@ class Zaehler
     /**
      *  Gibt die Liste aller Geräte dieses Zählers zurück, die mindestens einem der übergebenen Gerätetypen entsprechen
      *
-     * @param Geraetetyp[] $geraetetypen
+     * @param string[] $geraetetypen
      *
      * @return Geraet[]
      */

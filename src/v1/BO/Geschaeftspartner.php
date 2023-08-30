@@ -6,14 +6,11 @@ namespace Conuti\BO4E\v1\BO;
 
 use Conuti\BO4E\v1\COM\Adresse;
 use Conuti\BO4E\v1\COM\ExterneReferenz;
-use Conuti\BO4E\v1\Enum\BOTyp;
-use Conuti\BO4E\v1\Enum\Geschaeftspartnerrolle;
-use Conuti\BO4E\v1\Enum\Kontaktart;
 
 class Geschaeftspartner
 {
     public function __construct(
-        public BOTyp $boTyp,
+        public string $boTyp,
         public ?string $versionStruktur,
         public ?string $anrede,
         public ?string $name1,
@@ -31,14 +28,14 @@ class Geschaeftspartner
         public ?string $externeKundenummerLieferant,
         /** @var ExterneReferenz[] $externeReferenzen */
         public array $externeReferenzen = [],
-        /** @var Geschaeftspartnerrolle[] */
+        /** @var string[] */
         public array $geschaeftspartnerrolle = [],
-        /** @var Kontaktart[] */
+        /** @var string[] */
         public array $kontaktweg = [],
     ) {
     }
 
-    public function hasRolle(Geschaeftspartnerrolle $rolle): bool
+    public function hasRolle(string $rolle): bool
     {
         return in_array($rolle, $this->geschaeftspartnerrolle, true);
     }

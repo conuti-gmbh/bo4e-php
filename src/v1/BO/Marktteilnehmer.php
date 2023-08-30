@@ -7,10 +7,6 @@ namespace Conuti\BO4E\v1\BO;
 use Conuti\BO4E\v1\COM\Adresse;
 use Conuti\BO4E\v1\COM\Bankverbindung;
 use Conuti\BO4E\v1\COM\Erreichbarkeit;
-use Conuti\BO4E\v1\Enum\BOTyp;
-use Conuti\BO4E\v1\Enum\Geschaeftspartnerrolle;
-use Conuti\BO4E\v1\Enum\Kommunikationsrolle;
-use Conuti\BO4E\v1\Enum\Marktrolle;
 
 class Marktteilnehmer
 {
@@ -26,9 +22,9 @@ class Marktteilnehmer
      * looks that way
      */
     public function __construct(
-        public BOTyp $boTyp,
+        public string $boTyp,
         public ?string $versionStruktur,
-        public ?Geschaeftspartnerrolle $geschaeftspartnerrolle,
+        public ?string $geschaeftspartnerrolle,
         public ?string $anrede,
         public ?string $name1,
         public ?string $name2,
@@ -37,7 +33,7 @@ class Marktteilnehmer
         public ?Adresse $partneradresse,
         public ?bool $gewerbekennzeichnung,
         public ?string $externeKundenummerLieferant,
-        public ?Marktrolle $marktrolle,
+        public ?string $marktrolle,
         public ?string $rollencodenummer,
         public ?string $rollencodetyp,
         public ?string $umsatzsteuerId,
@@ -49,7 +45,7 @@ class Marktteilnehmer
         public ?string $hrnummer,
         public ?string $website,
         public ?string $faxnummer,
-        public ?Kommunikationsrolle $kommunikationsrolle,
+        public ?string $kommunikationsrolle,
         public ?bool $weiterverpflichtet,
         /** @var Bankverbindung[] */
         public array $bankverbindung = [],

@@ -7,7 +7,6 @@ namespace Conuti\BO4E\v1\BO;
 use Conuti\BO4E\v1\COM\AusgerollteZaehlzeit;
 use Conuti\BO4E\v1\COM\Zaehlzeit;
 use Conuti\BO4E\v1\COM\Zaehlzeitregister;
-use Conuti\BO4E\v1\Enum\DefinitionenNotwendigkeit;
 use DateTime;
 
 class Zaehlzeitdefinition
@@ -18,7 +17,7 @@ class Zaehlzeitdefinition
         public ?DateTime $beginndatum,
         public ?DateTime $endedatum,
         public ?DateTime $version,
-        public ?DefinitionenNotwendigkeit $notwendigkeit,
+        public ?string $notwendigkeit,
         /** @var Zaehlzeit[] */
         public array $zaehlzeit = [],
         /** @var Zaehlzeitregister[] */

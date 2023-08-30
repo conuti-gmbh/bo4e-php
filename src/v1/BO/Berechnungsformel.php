@@ -6,8 +6,6 @@ namespace Conuti\BO4E\v1\BO;
 
 use Conuti\BO4E\v1\COM\Rechenschritt;
 use Conuti\BO4E\v1\COM\Verwendungszweck;
-use Conuti\BO4E\v1\Enum\BerechnungsformelNotwendigkeit;
-use Conuti\BO4E\v1\Enum\Energierichtung;
 
 class Berechnungsformel
 {
@@ -15,8 +13,8 @@ class Berechnungsformel
         public string $boTyp,
         public string $versionStruktur,
         public ?string $beginndatum,
-        public ?BerechnungsformelNotwendigkeit $notwendigkeit,
-        public ?Energierichtung $lieferrichtung,
+        public ?string $notwendigkeit,
+        public ?string $lieferrichtung,
         public ?int $rechenschrittId,
         public ?Rechenschritt $rechenschritt,
         /** @var Rechenschritt[] */

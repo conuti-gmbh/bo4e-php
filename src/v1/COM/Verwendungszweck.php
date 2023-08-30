@@ -4,14 +4,12 @@ declare(strict_types=1);
 
 namespace Conuti\BO4E\v1\COM;
 
-use Conuti\BO4E\v1\Enum\Marktrolle;
-use Conuti\BO4E\v1\Enum\VerwendungszweckValue;
 
 class Verwendungszweck
 {
     public function __construct(
-        public ?Marktrolle $marktrolle,
-        /** @var VerwendungszweckValue[] */
+        public ?string $marktrolle,
+        /** @var string[] */
         public array $zweck = [],
     ) {
     }

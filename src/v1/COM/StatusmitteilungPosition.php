@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace Conuti\BO4E\v1\COM;
 
-use Conuti\BO4E\v1\Enum\Auftragsstatus;
-use Conuti\BO4E\v1\Enum\Statusanlass;
 
 class StatusmitteilungPosition
 {
@@ -15,8 +13,8 @@ class StatusmitteilungPosition
         public ?string $verwendungAb,
         public ?string $verwendungBis,
         public ?string $enddatum,
-        public ?Auftragsstatus $auftragsstatus,
-        public ?Statusanlass $statusanlass,
+        public ?string $auftragsstatus,
+        public ?string $statusanlass,
         public ?string $antwortstatus,
         public ?Fehlerbeschreibung $fehlerbeschreibung,
         public ?Begruendung $begruendung,

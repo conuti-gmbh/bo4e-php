@@ -5,10 +5,6 @@ declare(strict_types=1);
 namespace Conuti\BO4E\v1\BO;
 
 use Conuti\BO4E\v1\COM\Vertragskonditionen;
-use Conuti\BO4E\v1\Enum\Geschaeftspartnerrolle;
-use Conuti\BO4E\v1\Enum\Lokationstyp;
-use Conuti\BO4E\v1\Enum\Sparte;
-use Conuti\BO4E\v1\Enum\Vertragstatus;
 use DateTime;
 
 class Vertrag
@@ -16,13 +12,13 @@ class Vertrag
     public function __construct(
         public string $boTyp,
         public ?string $versionStruktur,
-        public ?Sparte $sparte,
+        public ?string $sparte,
         public ?string $vertragsart,
         public ?string $vertragsnummer,
         public ?string $beschreibung,
         public ?string $lokationsId,
-        public ?Lokationstyp $lokationsTyp,
-        public ?Vertragstatus $vertragsstatus,
+        public ?string $lokationsTyp,
+        public ?string $vertragsstatus,
         public ?DateTime $vertragsbeginn,
         public ?string $vertragsende,
         public ?int $gemeinderabatt,
@@ -36,7 +32,7 @@ class Vertrag
     ) {
     }
 
-    public function getPartner2ByRolle(Geschaeftspartnerrolle $rolle): ?Geschaeftspartner
+    public function getPartner2ByRolle(string $rolle): ?Geschaeftspartner
     {
         foreach ($this->vertragspartner2 as $partner) {
             if ($partner->hasRolle($rolle)) {

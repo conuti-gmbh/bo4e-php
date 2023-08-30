@@ -4,14 +4,12 @@ declare(strict_types=1);
 
 namespace Conuti\BO4E\v1\COM;
 
-use Conuti\BO4E\v1\Enum\ArtikelIdTyp;
-use Conuti\BO4E\v1\Enum\ZahlerBlindarbeit;
 
 class Netznutzungsabrechnungsdaten
 {
     public function __construct(
         public ?string $artikelId,
-        public ?ArtikelIdTyp $artikelIdTyp,
+        public ?string $artikelIdTyp,
         public ?int $anzahl,
         public ?float $gemeinderabatt,
         public ?float $zuschlag,
@@ -19,7 +17,7 @@ class Netznutzungsabrechnungsdaten
         public ?Menge $singulaereBetriebsmittel,
         public ?Preis $preisSingulaereBetriebsmittel,
         public ?bool $abrechnungblindarbeit,
-        public ?ZahlerBlindarbeit $zahlerderblindarbeit,
+        public ?string $zahlerderblindarbeit,
         public ?bool $zahlerBlindarbeitLf
     ) {
     }

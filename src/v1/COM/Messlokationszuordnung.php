@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Conuti\BO4E\v1\COM;
 
-use Conuti\BO4E\v1\Enum\ArithmetischeOperation;
 use DateTime;
 
 /**
@@ -16,7 +15,7 @@ class Messlokationszuordnung
 {
     public function __construct(
         public string $messlokationsId,
-        public ?ArithmetischeOperation $arithmetik,
+        public ?string $arithmetik,
         public ?DateTime $gueltigSeit,
         public ?DateTime $gueltigBis,
     ) {

@@ -6,7 +6,6 @@ namespace Conuti\BO4E\v1\BO;
 
 use Conuti\BO4E\v1\COM\Avisposition;
 use Conuti\BO4E\v1\COM\Betrag;
-use Conuti\BO4E\v1\Enum\AvisTyp;
 
 class Avis
 {
@@ -14,7 +13,7 @@ class Avis
         public string $boTyp,
         public string $versionStruktur,
         public ?string $avisNummer,
-        public ?AvisTyp $avisTyp,
+        public ?string $avisTyp,
         public ?Betrag $zuZahlen,
         /** @var Avisposition[] */
         public array $positionen = []

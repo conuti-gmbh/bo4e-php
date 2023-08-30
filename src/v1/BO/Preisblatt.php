@@ -6,9 +6,6 @@ namespace Conuti\BO4E\v1\BO;
 
 use Conuti\BO4E\v1\COM\Preisposition;
 use Conuti\BO4E\v1\COM\Zeitraum;
-use Conuti\BO4E\v1\Enum\Leistungstyp;
-use Conuti\BO4E\v1\Enum\Preisstatus;
-use Conuti\BO4E\v1\Enum\Sparte;
 
 class Preisblatt
 {
@@ -17,11 +14,11 @@ class Preisblatt
         public string $versionStruktur,
         public ?string $bezeichnung,
         public ?Zeitraum $gueltigkeit,
-        public ?Preisstatus $preisstatus,
-        public ?Sparte $sparte,
+        public ?string $preisstatus,
+        public ?string $sparte,
         public ?string $bilanzierungsdatum,
         public ?string $regelzone,
-        public ?Leistungstyp $leistungstyp,
+        public ?string $leistungstyp,
         /** @var Preisposition[] */
         public array $preispositionen = []
     ) {

@@ -9,9 +9,6 @@ use Conuti\BO4E\v1\COM\Gemeinderabatt;
 use Conuti\BO4E\v1\COM\Rechnungsposition;
 use Conuti\BO4E\v1\COM\Steuerbetrag;
 use Conuti\BO4E\v1\COM\Zeitraum;
-use Conuti\BO4E\v1\Enum\Rechnungsstatus;
-use Conuti\BO4E\v1\Enum\Rechnungstyp;
-use Conuti\BO4E\v1\Enum\SonderrechnungsArt;
 
 class Rechnung
 {
@@ -21,10 +18,10 @@ class Rechnung
         public ?bool $istSelbstausgestellt,
         public ?string $bearbeitungsdatum,
         public ?string $rechnungsdatum,
-        public ?Rechnungsstatus $rechnungsstatus,
+        public ?string $rechnungsstatus,
         public ?Zeitraum $vorlaeufigerAbrechnungszeitraum,
         public ?Zeitraum $rechnungsperiode,
-        public ?Rechnungstyp $rechnungstyp,
+        public ?string $rechnungstyp,
         public ?bool $istReverseCharge,
         public ?string $faelligkeitsdatum,
         public ?Betrag $gesamtbrutto,
@@ -38,7 +35,7 @@ class Rechnung
         public ?Betrag $vorausgezahlt,
         public ?Gemeinderabatt $gemeinderabatt,
         public ?string $ausfuehrungsdatum,
-        public ?SonderrechnungsArt $sonderrechnungsart,
+        public ?string $sonderrechnungsart,
         /** @var Steuerbetrag[] */
         public array $steuerbetraege = [],
         /** @var Rechnungsposition[] */

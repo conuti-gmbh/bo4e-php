@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Conuti\BO4E\v1\BO;
 
-use Conuti\BO4E\v1\Enum\Kommunikationsrolle;
 
 class Kommunikationsdaten
 {
@@ -18,7 +17,7 @@ class Kommunikationsdaten
     ) {
     }
 
-    public function getMarktteilnehmerForRolle(Kommunikationsrolle $rolle): ?Marktteilnehmer
+    public function getMarktteilnehmerForRolle(string $rolle): ?Marktteilnehmer
     {
         $fittingMarktteilnehmer = array_filter(
             $this->kommunikationsangaben,

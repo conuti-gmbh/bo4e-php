@@ -4,25 +4,20 @@ declare(strict_types=1);
 
 namespace Conuti\BO4E\v1\COM;
 
-use Conuti\BO4E\v1\Enum\Mengeneinheit;
-use Conuti\BO4E\v1\Enum\Messwertstatus;
-use Conuti\BO4E\v1\Enum\StatusArt;
-use Conuti\BO4E\v1\Enum\Tarifstufe;
-use Conuti\BO4E\v1\Enum\Verbrauchsmengetyp;
-use Conuti\BO4E\v1\Enum\Wertermittlungsverfahren;
+use Conuti\BO4E\v1\Interface\StatusArt;
 
 class Verbrauch
 {
     public function __construct(
         public ?string $startdatum,
         public ?string $enddatum,
-        public ?Wertermittlungsverfahren $wertermittlungsverfahren,
-        public ?Messwertstatus $messwertstatus,
+        public ?string $wertermittlungsverfahren,
+        public ?string $messwertstatus,
         public ?string $obiskennzahl,
         public int|float|null $wert,
-        public ?Mengeneinheit $einheit,
-        public ?Verbrauchsmengetyp $type,
-        public ?Tarifstufe $tarifstufe,
+        public ?string $einheit,
+        public ?string $type,
+        public ?string $tarifstufe,
         public ?string $nutzungszeitpunkt,
         public ?string $ausfuehrungszeitpunkt,
         public ?int $position,
@@ -34,7 +29,7 @@ class Verbrauch
     }
 
     /** @return StatusZusatzInformation[] */
-    public function getStatuszusatzinformationenWithArt(StatusArt $art): array
+    public function getStatuszusatzinformationenWithArt(string $art): array
     {
         return array_filter($this->statuszusatzinformationen, static function ($item) use ($art) {
             return $item->art === $art;
