@@ -7,8 +7,8 @@ namespace Conuti\BO4E\v1\COM;
 class Gruppe
 {
     public function __construct(
-        readonly ?string $gruppe1,
-        readonly ?string $gruppe2,
+        public ?string $gruppe1,
+        public ?string $gruppe2,
     ) {
     }
 }

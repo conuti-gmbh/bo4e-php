@@ -11,19 +11,19 @@ use DateTime;
 class Angebot
 {
     public function __construct(
-        readonly string $boTyp,
-        readonly string $versionStruktur,
-        readonly ?string $angebotsnummer,
-        readonly ?string $anfragereferenz,
-        readonly ?DateTime $angebotsdatum,
-        readonly ?Sparte $sparte,
-        readonly ?DateTime $bindefrist,
-        readonly ?Geschaeftspartner $angebotgeber,
-        readonly ?Geschaeftspartner $angebotnehmer,
-        readonly ?Ansprechpartner $unterzeichnerAngebotsnehmer,
-        readonly ?Ansprechpartner $unterzeichnerAngebotsgeber,
+        public string $boTyp,
+        public string $versionStruktur,
+        public ?string $angebotsnummer,
+        public ?string $anfragereferenz,
+        public ?DateTime $angebotsdatum,
+        public ?Sparte $sparte,
+        public ?DateTime $bindefrist,
+        public ?Geschaeftspartner $angebotgeber,
+        public ?Geschaeftspartner $angebotnehmer,
+        public ?Ansprechpartner $unterzeichnerAngebotsnehmer,
+        public ?Ansprechpartner $unterzeichnerAngebotsgeber,
         /** @var array<Angebotsvariante> $varianten */
-        readonly array $varianten = []
+        public array $varianten = []
     ) {
     }
 }

@@ -9,8 +9,8 @@ use DateTime;
 class AusgerollteZaehlzeit
 {
     public function __construct(
-        readonly ?DateTime $aenderungeszeitpunkt,
-        readonly ?string $register
+        public ?DateTime $aenderungeszeitpunkt,
+        public ?string $register
     ) {
     }
 }

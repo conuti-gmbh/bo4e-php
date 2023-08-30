@@ -9,8 +9,8 @@ use Conuti\BO4E\v1\Enum\Rufnummernart;
 class Rufnummer
 {
     public function __construct(
-        readonly ?Rufnummernart $nummerntyp,
-        readonly ?string $rufnummer
+        public ?Rufnummernart $nummerntyp,
+        public ?string $rufnummer
     ) {
     }
 }

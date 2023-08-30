@@ -9,16 +9,16 @@ use Conuti\BO4E\v1\Enum\Landescode;
 class Adresse
 {
     public function __construct(
-        readonly ?string $postleitzahl,
-        readonly ?string $ort,
-        readonly ?string $strasse,
-        readonly ?string $hausnummer,
-        readonly ?string $postfach,
-        readonly ?string $adresszusatz,
-        readonly ?string $coErgaenzung,
-        readonly ?Landescode $landescode,
-        readonly ?string $ortsteil,
-        readonly ?AdresszusatzInformation $zusatzInformation
+        public ?string $postleitzahl,
+        public ?string $ort,
+        public ?string $strasse,
+        public ?string $hausnummer,
+        public ?string $postfach,
+        public ?string $adresszusatz,
+        public ?string $coErgaenzung,
+        public ?Landescode $landescode,
+        public ?string $ortsteil,
+        public ?AdresszusatzInformation $zusatzInformation
     ) {
     }
 }

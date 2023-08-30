@@ -9,10 +9,10 @@ use Conuti\BO4E\v1\Enum\Herausgeber;
 class Tagesparameter
 {
     public function __construct(
-        readonly ?string $klimazone,
-        readonly ?string $temperaturmessstelle,
-        readonly ?string $dienstanbieter,
-        readonly ?Herausgeber $herausgeber,
+        public ?string $klimazone,
+        public ?string $temperaturmessstelle,
+        public ?string $dienstanbieter,
+        public ?Herausgeber $herausgeber,
     ) {
     }
 }

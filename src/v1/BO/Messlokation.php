@@ -20,33 +20,33 @@ use Conuti\BO4E\v1\Enum\Verwendungsumfang;
 class Messlokation
 {
     public function __construct(
-        readonly string $boTyp,
-        readonly string $versionStruktur,
-        readonly ?string $messlokationsId,
-        readonly ?Sparte $sparte,
-        readonly ?Energierichtung $energierichtung,
-        readonly ?Netzebene $netzebenemessung,
-        readonly ?string $messgebietNr,
-        readonly ?string $grundzustaendigerMSBCodeNr,
-        readonly ?Adresse $messadresse,
-        readonly ?Bilanzierungsmethode $bilanzierungsmethode,
-        readonly ?bool $abrechnungmessstellenbetriebnna,
-        readonly ?Gasqualitaet $gasqualitaet,
-        readonly ?float $verlustfaktor,
-        readonly ?Betriebszustand $betriebszustand,
-        readonly ?Geschaeftspartner $ablesekartenempfaenger,
-        readonly ?string $referenzMarktlokationsId,
-        readonly ?Verwendungsumfang $verwendungsumfang,
+        public string $boTyp,
+        public string $versionStruktur,
+        public ?string $messlokationsId,
+        public ?Sparte $sparte,
+        public ?Energierichtung $energierichtung,
+        public ?Netzebene $netzebenemessung,
+        public ?string $messgebietNr,
+        public ?string $grundzustaendigerMSBCodeNr,
+        public ?Adresse $messadresse,
+        public ?Bilanzierungsmethode $bilanzierungsmethode,
+        public ?bool $abrechnungmessstellenbetriebnna,
+        public ?Gasqualitaet $gasqualitaet,
+        public ?float $verlustfaktor,
+        public ?Betriebszustand $betriebszustand,
+        public ?Geschaeftspartner $ablesekartenempfaenger,
+        public ?string $referenzMarktlokationsId,
+        public ?Verwendungsumfang $verwendungsumfang,
         /** @var Geraet[] */
-        readonly array $geraete = [],
+        public array $geraete = [],
         /** @var Dienstleistung[] */
-        readonly array $messdienstleistung = [],
+        public array $messdienstleistung = [],
         /** @var string[] */
-        readonly array $messlokationszaehler = [],
+        public array $messlokationszaehler = [],
         /** @var Zaehlwerk[] */
-        readonly array $zaehlwerke = [],
+        public array $zaehlwerke = [],
         /** @var Marktteilnehmer[] */
-        readonly array $marktrollen = []
+        public array $marktrollen = []
     ) {
     }
 

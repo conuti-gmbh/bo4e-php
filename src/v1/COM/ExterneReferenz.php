@@ -7,8 +7,8 @@ namespace Conuti\BO4E\v1\COM;
 class ExterneReferenz
 {
     public function __construct(
-        readonly ?string $exRefName,
-        readonly ?string $exRefWert,
+        public ?string $exRefName,
+        public ?string $exRefWert,
     ) {
     }
 }

@@ -7,11 +7,11 @@ namespace Conuti\BO4E\v1\COM;
 class InfoAbweichung
 {
     public function __construct(
-        readonly ?string $abweichung1,
-        readonly ?string $abweichung2,
-        readonly ?string $abweichung3,
-        readonly ?string $abweichung4,
-        readonly ?string $abweichung5
+        public ?string $abweichung1,
+        public ?string $abweichung2,
+        public ?string $abweichung3,
+        public ?string $abweichung4,
+        public ?string $abweichung5
     ) {
     }
 }

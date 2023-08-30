@@ -7,8 +7,8 @@ namespace Conuti\BO4E\v1\COM;
 class Beschreibung
 {
     public function __construct(
-        readonly ?string $beschreibung1,
-        readonly ?string $beschreibung2,
+        public ?string $beschreibung1,
+        public ?string $beschreibung2,
     ) {
     }
 }

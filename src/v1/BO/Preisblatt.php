@@ -13,17 +13,17 @@ use Conuti\BO4E\v1\Enum\Sparte;
 class Preisblatt
 {
     public function __construct(
-        readonly string $boTyp,
-        readonly string $versionStruktur,
-        readonly ?string $bezeichnung,
-        readonly ?Zeitraum $gueltigkeit,
-        readonly ?Preisstatus $preisstatus,
-        readonly ?Sparte $sparte,
-        readonly ?string $bilanzierungsdatum,
-        readonly ?string $regelzone,
-        readonly ?Leistungstyp $leistungstyp,
+        public string $boTyp,
+        public string $versionStruktur,
+        public ?string $bezeichnung,
+        public ?Zeitraum $gueltigkeit,
+        public ?Preisstatus $preisstatus,
+        public ?Sparte $sparte,
+        public ?string $bilanzierungsdatum,
+        public ?string $regelzone,
+        public ?Leistungstyp $leistungstyp,
         /** @var Preisposition[] */
-        readonly array $preispositionen = []
+        public array $preispositionen = []
     ) {
     }
 }

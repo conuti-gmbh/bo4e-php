@@ -9,9 +9,9 @@ use Conuti\BO4E\v1\Enum\FehlerCode;
 class FehlerDetail
 {
     public function __construct(
-        readonly ?FehlerCode $code,
-        readonly ?FehlerUrsache $ursache,
-        readonly ?Beschreibung $beschreibung,
+        public ?FehlerCode $code,
+        public ?FehlerUrsache $ursache,
+        public ?Beschreibung $beschreibung,
     ) {
     }
 }

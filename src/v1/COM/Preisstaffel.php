@@ -7,10 +7,10 @@ namespace Conuti\BO4E\v1\COM;
 class Preisstaffel
 {
     public function __construct(
-        readonly ?float $einheitspreis,
-        readonly ?float $staffelgrenzeVon,
-        readonly ?float $staffelgrenzeBis,
-        readonly ?Sigmoidparameter $sigmoidparameter
+        public ?float $einheitspreis,
+        public ?float $staffelgrenzeVon,
+        public ?float $staffelgrenzeBis,
+        public ?Sigmoidparameter $sigmoidparameter
     ) {
     }
 }

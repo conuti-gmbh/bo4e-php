@@ -11,14 +11,14 @@ use Conuti\BO4E\v1\Enum\Reklamationsgrund;
 class Reklamation
 {
     public function __construct(
-        readonly string $boTyp,
-        readonly string $versionStruktur,
-        readonly ?string $lokationsId,
-        readonly ?Lokationstyp $lokationsTyp,
-        readonly ?string $obiskennzahl,
-        readonly ?Zeitraum $zeitraumMesswertanfrage,
-        readonly ?Reklamationsgrund $reklamationsgrund,
-        readonly ?string $reklamationsgrundBemerkung,
+        public string $boTyp,
+        public string $versionStruktur,
+        public ?string $lokationsId,
+        public ?Lokationstyp $lokationsTyp,
+        public ?string $obiskennzahl,
+        public ?Zeitraum $zeitraumMesswertanfrage,
+        public ?Reklamationsgrund $reklamationsgrund,
+        public ?string $reklamationsgrundBemerkung,
     ) {
     }
 }

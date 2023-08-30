@@ -9,9 +9,9 @@ use Conuti\BO4E\v1\Enum\AbgabeArt;
 class Konzessionsabgabe
 {
     public function __construct(
-        readonly ?AbgabeArt $satz,
-        readonly ?float $kosten,
-        readonly ?string $kategorie
+        public ?AbgabeArt $satz,
+        public ?float $kosten,
+        public ?string $kategorie
     ) {
     }
 }

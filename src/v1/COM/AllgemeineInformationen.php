@@ -7,11 +7,11 @@ namespace Conuti\BO4E\v1\COM;
 class AllgemeineInformationen
 {
     public function __construct(
-        readonly ?string $info1,
-        readonly ?string $info2,
-        readonly ?string $info3,
-        readonly ?string $info4,
-        readonly ?string $info5
+        public ?string $info1,
+        public ?string $info2,
+        public ?string $info3,
+        public ?string $info4,
+        public ?string $info5
     ) {
     }
 }

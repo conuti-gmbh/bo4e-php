@@ -13,18 +13,18 @@ use DateTime;
 class Zaehlzeitdefinition
 {
     public function __construct(
-        readonly string $boTyp,
-        readonly string $versionStruktur,
-        readonly ?DateTime $beginndatum,
-        readonly ?DateTime $endedatum,
-        readonly ?DateTime $version,
-        readonly ?DefinitionenNotwendigkeit $notwendigkeit,
+        public string $boTyp,
+        public string $versionStruktur,
+        public ?DateTime $beginndatum,
+        public ?DateTime $endedatum,
+        public ?DateTime $version,
+        public ?DefinitionenNotwendigkeit $notwendigkeit,
         /** @var Zaehlzeit[] */
-        readonly array $zaehlzeit = [],
+        public array $zaehlzeit = [],
         /** @var Zaehlzeitregister[] */
-        readonly array $zaehlzeitregister = [],
+        public array $zaehlzeitregister = [],
         /** @var AusgerollteZaehlzeit[] */
-        readonly array $ausgerollteZaehlzeiten = []
+        public array $ausgerollteZaehlzeiten = []
     ) {
     }
 }

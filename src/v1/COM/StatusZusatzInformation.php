@@ -10,8 +10,8 @@ use Conuti\BO4E\v1\Enum\StatusArt;
 class StatusZusatzInformation
 {
     public function __construct(
-        readonly ?StatusArt $art,
-        readonly ?Status $status
+        public ?StatusArt $art,
+        public ?Status $status
     ) {
     }
 }

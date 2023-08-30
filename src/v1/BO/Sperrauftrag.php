@@ -13,15 +13,15 @@ use Conuti\BO4E\v1\Enum\Sperrauftragsverhinderungsgrund;
 class Sperrauftrag
 {
     public function __construct(
-        readonly string $boTyp,
-        readonly string $versionStruktur,
-        readonly ?Adresse $treffpunkt,
-        readonly ?Sperrauftragsart $sperrauftragsart,
-        readonly ?Auftragsstatus $sperrauftragsstatus,
-        readonly ?Sperrauftragsablehngrund $sperrauftragsablehngrund,
-        readonly ?Sperrauftragsverhinderungsgrund $sperrauftragsverhinderungsgrund,
-        readonly ?string $zaehlernummer,
-        readonly ?bool $istVomGerichtsvollzieherAngeordnet
+        public string $boTyp,
+        public string $versionStruktur,
+        public ?Adresse $treffpunkt,
+        public ?Sperrauftragsart $sperrauftragsart,
+        public ?Auftragsstatus $sperrauftragsstatus,
+        public ?Sperrauftragsablehngrund $sperrauftragsablehngrund,
+        public ?Sperrauftragsverhinderungsgrund $sperrauftragsverhinderungsgrund,
+        public ?string $zaehlernummer,
+        public ?bool $istVomGerichtsvollzieherAngeordnet
     ) {
     }
 }

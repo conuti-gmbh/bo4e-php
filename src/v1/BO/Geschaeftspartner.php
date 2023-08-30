@@ -13,28 +13,28 @@ use Conuti\BO4E\v1\Enum\Kontaktart;
 class Geschaeftspartner
 {
     public function __construct(
-        readonly BOTyp $boTyp,
-        readonly ?string $versionStruktur,
-        readonly ?string $anrede,
-        readonly ?string $name1,
-        readonly ?string $name2,
-        readonly ?string $name3,
-        readonly ?string $name4,
-        readonly ?string $umsatzsteuerId,
-        readonly ?string $glaeubigerId,
-        readonly ?string $emailAdresse,
-        readonly ?string $website,
-        readonly ?bool $gewerbekennzeichnung,
-        readonly ?string $hrnummer,
-        readonly ?string $amtsgericht,
-        readonly ?Adresse $partneradresse,
-        readonly ?string $externeKundenummerLieferant,
+        public BOTyp $boTyp,
+        public ?string $versionStruktur,
+        public ?string $anrede,
+        public ?string $name1,
+        public ?string $name2,
+        public ?string $name3,
+        public ?string $name4,
+        public ?string $umsatzsteuerId,
+        public ?string $glaeubigerId,
+        public ?string $emailAdresse,
+        public ?string $website,
+        public ?bool $gewerbekennzeichnung,
+        public ?string $hrnummer,
+        public ?string $amtsgericht,
+        public ?Adresse $partneradresse,
+        public ?string $externeKundenummerLieferant,
         /** @var ExterneReferenz[] $externeReferenzen */
-        readonly array $externeReferenzen = [],
+        public array $externeReferenzen = [],
         /** @var Geschaeftspartnerrolle[] */
-        readonly array $geschaeftspartnerrolle = [],
+        public array $geschaeftspartnerrolle = [],
         /** @var Kontaktart[] */
-        readonly array $kontaktweg = [],
+        public array $kontaktweg = [],
     ) {
     }
 

@@ -10,13 +10,13 @@ use Conuti\BO4E\v1\Enum\Anfragetyp;
 class Anfrage
 {
     public function __construct(
-        readonly string $boTyp,
-        readonly string $versionStruktur,
-        readonly ?string $lokationsId,
-        readonly ?Anfragetyp $anfragetyp,
-        readonly ?string $anfragereferenz,
-        readonly ?string $allgemeineInformationen,
-        readonly ?Anfragekategorie $anfragekategorie
+        public string $boTyp,
+        public string $versionStruktur,
+        public ?string $lokationsId,
+        public ?Anfragetyp $anfragetyp,
+        public ?string $anfragereferenz,
+        public ?string $allgemeineInformationen,
+        public ?Anfragekategorie $anfragekategorie
     ) {
     }
 }

@@ -15,25 +15,25 @@ use DateTime;
 class Auftrag
 {
     public function __construct(
-        readonly BOTyp $boTyp,
-        readonly string $versionStruktur,
-        readonly ?DateTime $ausfuehrungsdatum,
-        readonly ?DateTime $fertigstellungsdatum,
-        readonly ?DateTime $startdatum,
-        readonly ?Sparte $sparte,
-        readonly ?Adresse $lieferanschrift,
-        readonly ?string $marktlokationsId,
-        readonly ?Preis $mindestpreis,
-        readonly ?Preis $hoechstpreis,
-        readonly ?Energierichtung $energierichtung,
-        readonly int|float|null $berechnungspreis,
-        readonly int|float|null $summeGesamt,
-        readonly ?DateTime $verschobenerAbmeldetermin,
-        readonly ?Geschaeftspartner $lieferadresseAltgeraete,
+        public BOTyp $boTyp,
+        public string $versionStruktur,
+        public ?DateTime $ausfuehrungsdatum,
+        public ?DateTime $fertigstellungsdatum,
+        public ?DateTime $startdatum,
+        public ?Sparte $sparte,
+        public ?Adresse $lieferanschrift,
+        public ?string $marktlokationsId,
+        public ?Preis $mindestpreis,
+        public ?Preis $hoechstpreis,
+        public ?Energierichtung $energierichtung,
+        public int|float|null $berechnungspreis,
+        public int|float|null $summeGesamt,
+        public ?DateTime $verschobenerAbmeldetermin,
+        public ?Geschaeftspartner $lieferadresseAltgeraete,
         /** @var AuftragPosition[] */
-        readonly array $positionsdaten = [],
+        public array $positionsdaten = [],
         /** @var string[] */
-        readonly array $bemerkungen = []
+        public array $bemerkungen = []
     ) {
     }
 }

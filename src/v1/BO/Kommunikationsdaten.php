@@ -9,12 +9,12 @@ use Conuti\BO4E\v1\Enum\Kommunikationsrolle;
 class Kommunikationsdaten
 {
     public function __construct(
-        readonly string $boTyp,
-        readonly string $versionStruktur,
-        readonly ?string $gueltigkeit,
-        readonly ?Marktteilnehmer $marktteilnehmer,
+        public string $boTyp,
+        public string $versionStruktur,
+        public ?string $gueltigkeit,
+        public ?Marktteilnehmer $marktteilnehmer,
         /** @var Marktteilnehmer[] */
-        readonly array $kommunikationsangaben = []
+        public array $kommunikationsangaben = []
     ) {
     }
 

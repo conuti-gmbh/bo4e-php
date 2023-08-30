@@ -11,12 +11,12 @@ use Conuti\BO4E\v1\Enum\Handelsunstimmigkeitstyp;
 class Handelsunstimmigkeit
 {
     public function __construct(
-        readonly string $boTyp,
-        readonly string $versionStruktur,
-        readonly ?string $nummer,
-        readonly ?Handelsunstimmigkeitstyp $typ,
-        readonly ?Handelsunstimmigkeitsbegruendung $begruendung,
-        readonly ?Betrag $zuZahlen
+        public string $boTyp,
+        public string $versionStruktur,
+        public ?string $nummer,
+        public ?Handelsunstimmigkeitstyp $typ,
+        public ?Handelsunstimmigkeitsbegruendung $begruendung,
+        public ?Betrag $zuZahlen
     ) {
     }
 }

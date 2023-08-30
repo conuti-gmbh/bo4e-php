@@ -9,8 +9,8 @@ use Conuti\BO4E\v1\Enum\Erzeugungsart;
 class Energieherkunft
 {
     public function __construct(
-        readonly ?Erzeugungsart $erzeugungsart,
-        readonly ?float $anteilProzent,
+        public ?Erzeugungsart $erzeugungsart,
+        public ?float $anteilProzent,
     ) {
     }
 }

@@ -10,14 +10,14 @@ use DateTime;
 class Angebotsvariante
 {
     public function __construct(
-        readonly ?Angebotsstatus $angebotsstatus,
-        readonly ?string $beschreibung,
-        readonly ?DateTime $erstelldatum,
-        readonly ?DateTime $bindefrist,
-        readonly ?Menge $gesamtmenge,
-        readonly ?Betrag $gesamtkosten,
+        public ?Angebotsstatus $angebotsstatus,
+        public ?string $beschreibung,
+        public ?DateTime $erstelldatum,
+        public ?DateTime $bindefrist,
+        public ?Menge $gesamtmenge,
+        public ?Betrag $gesamtkosten,
         /** @var array<Angebotsteil> $teile */
-        readonly array $teile
+        public array $teile
     ) {
     }
 }

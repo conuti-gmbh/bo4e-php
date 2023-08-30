@@ -11,19 +11,19 @@ use Conuti\BO4E\v1\Enum\Lokationstyp;
 class Energiemenge
 {
     public function __construct(
-        readonly BOTyp $boTyp,
-        readonly string $versionStruktur,
-        readonly ?string $lokationsId,
-        readonly ?Lokationstyp $lokationsTyp,
-        readonly ?string $fertigstellungsdatum,
-        readonly ?string $startdatum,
-        readonly ?string $enddatum,
-        readonly ?string $bilanzierungsdatum,
-        readonly ?string $beginndatum,
-        readonly ?string $referenzStammdatenmeldungMsb,
-        readonly ?string $konfiguration,
+        public BOTyp $boTyp,
+        public string $versionStruktur,
+        public ?string $lokationsId,
+        public ?Lokationstyp $lokationsTyp,
+        public ?string $fertigstellungsdatum,
+        public ?string $startdatum,
+        public ?string $enddatum,
+        public ?string $bilanzierungsdatum,
+        public ?string $beginndatum,
+        public ?string $referenzStammdatenmeldungMsb,
+        public ?string $konfiguration,
         /** @var Verbrauch[] */
-        readonly array $energieverbrauch = []
+        public array $energieverbrauch = []
     ) {
     }
 }

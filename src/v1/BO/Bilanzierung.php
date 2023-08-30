@@ -16,25 +16,25 @@ use Conuti\BO4E\v1\Enum\WahlrechtPrognosegrundlage;
 class Bilanzierung
 {
     public function __construct(
-        readonly string $boTyp,
-        readonly ?string $marktlokationsId,
-        readonly ?Aggregationsverantwortung $aggregationsverantwortung,
-        readonly ?string $zeitreihentyp,
-        readonly ?Prognosegrundlage $prognosegrundlage,
-        readonly ?string $bilanzierungsbeginn,
-        readonly ?string $bilanzierungsende,
-        readonly ?string $bilanzkreis,
-        readonly ?Fallgruppenzuordnung $fallgruppenzuordnung,
-        readonly ?Menge $temperaturarbeit,
-        readonly ?Menge $jahresverbrauchsprognose,
-        readonly ?Menge $kundenwert,
-        readonly ?Menge $verbrauchsaufteilung,
-        readonly ?WahlrechtPrognosegrundlage $wahlrechtPrognosegrundlage,
-        readonly ?WahlrechtPrognosegrundlage $grundWahlrechtPrognosegrundlage,
+        public string $boTyp,
+        public ?string $marktlokationsId,
+        public ?Aggregationsverantwortung $aggregationsverantwortung,
+        public ?string $zeitreihentyp,
+        public ?Prognosegrundlage $prognosegrundlage,
+        public ?string $bilanzierungsbeginn,
+        public ?string $bilanzierungsende,
+        public ?string $bilanzkreis,
+        public ?Fallgruppenzuordnung $fallgruppenzuordnung,
+        public ?Menge $temperaturarbeit,
+        public ?Menge $jahresverbrauchsprognose,
+        public ?Menge $kundenwert,
+        public ?Menge $verbrauchsaufteilung,
+        public ?WahlrechtPrognosegrundlage $wahlrechtPrognosegrundlage,
+        public ?WahlrechtPrognosegrundlage $grundWahlrechtPrognosegrundlage,
         /** @var Lastprofil[] */
-        readonly array $lastprofile = [],
+        public array $lastprofile = [],
         /** @var Profiltyp[] */
-        readonly array $detailsPrognosegrundlage = [],
+        public array $detailsPrognosegrundlage = [],
     ) {
     }
 

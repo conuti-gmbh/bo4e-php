@@ -10,8 +10,8 @@ namespace Conuti\BO4E\v1\COM;
 class Katasteradresse
 {
     public function __construct(
-        readonly ?string $gemarkung_flur,
-        readonly ?string $flurstueck,
+        public ?string $gemarkung_flur,
+        public ?string $flurstueck,
     ) {
     }
 }

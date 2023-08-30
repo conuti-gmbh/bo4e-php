@@ -9,12 +9,12 @@ use Conuti\BO4E\v1\Enum\BDEWArtikelnummer;
 class Angebotsposition
 {
     public function __construct(
-        readonly ?string $positionsbezeichung,
-        readonly ?Menge $positionsmenge,
-        readonly ?Preis $positionspreis,
-        readonly ?Betrag $positionsbetrag,
-        readonly ?string $preisschluesselstamm,
-        readonly ?BDEWArtikelnummer $bdewArtikelnummer
+        public ?string $positionsbezeichung,
+        public ?Menge $positionsmenge,
+        public ?Preis $positionspreis,
+        public ?Betrag $positionsbetrag,
+        public ?string $preisschluesselstamm,
+        public ?BDEWArtikelnummer $bdewArtikelnummer
     ) {
     }
 }

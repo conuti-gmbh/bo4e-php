@@ -9,17 +9,17 @@ use DateTime;
 class Avisposition
 {
     public function __construct(
-        readonly ?string $rechnungsNummer,
-        readonly ?DateTime $rechnungsDatum,
-        readonly ?bool $istStorno,
-        readonly ?bool $istSelbsausgestellt,
-        readonly ?Betrag $gesamtBrutto,
-        readonly ?Betrag $zuZahlen,
-        readonly ?string $referenz,
+        public ?string $rechnungsNummer,
+        public ?DateTime $rechnungsDatum,
+        public ?bool $istStorno,
+        public ?bool $istSelbsausgestellt,
+        public ?Betrag $gesamtBrutto,
+        public ?Betrag $zuZahlen,
+        public ?string $referenz,
         /** @var Abweichung[] */
-        readonly array $abweichungen = [],
+        public array $abweichungen = [],
         /** @var Rueckmeldungsposition[] */
-        readonly array $positionen = []
+        public array $positionen = []
     ) {
     }
 }

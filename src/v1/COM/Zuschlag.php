@@ -9,8 +9,8 @@ use Conuti\BO4E\v1\Enum\ZuschlagTyp;
 class Zuschlag
 {
     public function __construct(
-        readonly ZuschlagTyp $typ,
-        readonly int|float $prozent
+        public ZuschlagTyp $typ,
+        public int|float $prozent
     ) {
     }
 }

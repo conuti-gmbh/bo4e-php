@@ -7,8 +7,8 @@ namespace Conuti\BO4E\v1\BO;
 class Bilanzkreis
 {
     public function __construct(
-        readonly ?string $bezeichnung,
-        readonly ?int $prioritaet
+        public ?string $bezeichnung,
+        public ?int $prioritaet
     ) {
     }
 }

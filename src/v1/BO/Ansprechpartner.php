@@ -9,12 +9,12 @@ use Conuti\BO4E\v1\COM\Rufnummer;
 class Ansprechpartner
 {
     public function __construct(
-        readonly string $boTyp,
-        readonly string $versionStruktur,
-        readonly ?string $nachname,
-        readonly ?string $eMailAdresse,
+        public string $boTyp,
+        public string $versionStruktur,
+        public ?string $nachname,
+        public ?string $eMailAdresse,
         /** @var Rufnummer[] */
-        readonly array $rufnummern = []
+        public array $rufnummern = []
     ) {
     }
 }

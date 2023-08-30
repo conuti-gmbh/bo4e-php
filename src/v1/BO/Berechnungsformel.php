@@ -12,17 +12,17 @@ use Conuti\BO4E\v1\Enum\Energierichtung;
 class Berechnungsformel
 {
     public function __construct(
-        readonly string $boTyp,
-        readonly string $versionStruktur,
-        readonly ?string $beginndatum,
-        readonly ?BerechnungsformelNotwendigkeit $notwendigkeit,
-        readonly ?Energierichtung $lieferrichtung,
-        readonly ?int $rechenschrittId,
-        readonly ?Rechenschritt $rechenschritt,
+        public string $boTyp,
+        public string $versionStruktur,
+        public ?string $beginndatum,
+        public ?BerechnungsformelNotwendigkeit $notwendigkeit,
+        public ?Energierichtung $lieferrichtung,
+        public ?int $rechenschrittId,
+        public ?Rechenschritt $rechenschritt,
         /** @var Rechenschritt[] */
-        readonly array $rechenschritte = [],
+        public array $rechenschritte = [],
         /** @var Verwendungszweck[] */
-        readonly array $verwendungszweck = []
+        public array $verwendungszweck = []
     ) {
     }
 

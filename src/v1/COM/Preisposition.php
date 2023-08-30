@@ -17,25 +17,25 @@ use Conuti\BO4E\v1\Enum\Zeiteinheit;
 class Preisposition
 {
     public function __construct(
-        readonly ?Kalkulationsmethode $berechnungsmethode,
-        readonly ?Leistungstyp $leistungstyp,
-        readonly ?string $leistungsbezeichnung,
-        readonly ?Waehrungseinheit $preiseinheit,
-        readonly ?Mengeneinheit $bezugsgroesse,
-        readonly ?Zeiteinheit $zeitbasis,
-        readonly ?Tarifzeit $tarifzeit,
-        readonly ?BDEWArtikelnummer $bdewArtikelnummer,
-        readonly ?Bemessungsgroesse $zonungsgroesse,
-        readonly ?string $preisschluesselstamm,
-        readonly ?int $positionsnummer,
-        readonly ?Netzebene $messebene,
-        readonly ?string $beschreibung,
-        readonly ?Zeitraum $verarbeitungszeitraum,
-        readonly ?string $artikelId,
+        public ?Kalkulationsmethode $berechnungsmethode,
+        public ?Leistungstyp $leistungstyp,
+        public ?string $leistungsbezeichnung,
+        public ?Waehrungseinheit $preiseinheit,
+        public ?Mengeneinheit $bezugsgroesse,
+        public ?Zeiteinheit $zeitbasis,
+        public ?Tarifzeit $tarifzeit,
+        public ?BDEWArtikelnummer $bdewArtikelnummer,
+        public ?Bemessungsgroesse $zonungsgroesse,
+        public ?string $preisschluesselstamm,
+        public ?int $positionsnummer,
+        public ?Netzebene $messebene,
+        public ?string $beschreibung,
+        public ?Zeitraum $verarbeitungszeitraum,
+        public ?string $artikelId,
         /** @var PositionsAufAbschlag[] */
-        readonly array $zu_abschlaege = [],
+        public array $zu_abschlaege = [],
         /** @var Preisstaffel[] */
-        readonly array $preisstaffeln = []
+        public array $preisstaffeln = []
     ) {
     }
 }

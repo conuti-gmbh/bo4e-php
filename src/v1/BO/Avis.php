@@ -11,13 +11,13 @@ use Conuti\BO4E\v1\Enum\AvisTyp;
 class Avis
 {
     public function __construct(
-        readonly string $boTyp,
-        readonly string $versionStruktur,
-        readonly ?string $avisNummer,
-        readonly ?AvisTyp $avisTyp,
-        readonly ?Betrag $zuZahlen,
+        public string $boTyp,
+        public string $versionStruktur,
+        public ?string $avisNummer,
+        public ?AvisTyp $avisTyp,
+        public ?Betrag $zuZahlen,
         /** @var Avisposition[] */
-        readonly array $positionen = []
+        public array $positionen = []
     ) {
     }
 }

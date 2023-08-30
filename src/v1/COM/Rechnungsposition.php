@@ -7,19 +7,19 @@ namespace Conuti\BO4E\v1\COM;
 class Rechnungsposition
 {
     public function __construct(
-        readonly ?Preis $einzelpreis,
-        readonly ?string $lieferungBis,
-        readonly ?string $lieferungVon,
-        readonly ?Menge $positionsMenge,
-        readonly ?int $positionsnummer,
-        readonly ?string $artikelnummer,
-        readonly ?Betrag $teilsummeNetto,
-        readonly ?Steuerbetrag $teilsummeSteuer,
-        readonly ?Menge $zeitbezogeneMenge,
-        readonly ?Abschlag $abschlag,
-        readonly ?Zuschlag $zuschlag,
-        readonly ?Gemeinderabatt $gemeinderabatt,
-        readonly int|float|null $gesamtZuAbschlagsbetrag
+        public ?Preis $einzelpreis,
+        public ?string $lieferungBis,
+        public ?string $lieferungVon,
+        public ?Menge $positionsMenge,
+        public ?int $positionsnummer,
+        public ?string $artikelnummer,
+        public ?Betrag $teilsummeNetto,
+        public ?Steuerbetrag $teilsummeSteuer,
+        public ?Menge $zeitbezogeneMenge,
+        public ?Abschlag $abschlag,
+        public ?Zuschlag $zuschlag,
+        public ?Gemeinderabatt $gemeinderabatt,
+        public int|float|null $gesamtZuAbschlagsbetrag
     ) {
     }
 

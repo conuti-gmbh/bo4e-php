@@ -9,15 +9,15 @@ use Conuti\BO4E\v1\BO\Marktlokation;
 class Angebotsteil
 {
     public function __construct(
-        readonly ?string $anfrageSubreferenz,
-        readonly ?Menge $gesamtmengeangebotsteil,
-        readonly ?Betrag $gesamtkostenangebotsteil,
-        readonly ?Zeitraum $lieferzeitraum,
-        readonly ?Katalogverweis $verweisKatalognummer,
+        public ?string $anfrageSubreferenz,
+        public ?Menge $gesamtmengeangebotsteil,
+        public ?Betrag $gesamtkostenangebotsteil,
+        public ?Zeitraum $lieferzeitraum,
+        public ?Katalogverweis $verweisKatalognummer,
         /** @var array<Marktlokation> $lieferstellenangebotsteil*/
-        readonly array $lieferstellenangebotsteil = [],
+        public array $lieferstellenangebotsteil = [],
         /** @var array<Angebotsposition> $positionen*/
-        readonly array $positionen = [],
+        public array $positionen = [],
     ) {
     }
 }

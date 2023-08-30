@@ -10,19 +10,19 @@ use Conuti\BO4E\v1\Enum\Statusanlass;
 class StatusmitteilungPosition
 {
     public function __construct(
-        readonly ?int $positionsnummer,
-        readonly ?string $bearbeitungsdatum,
-        readonly ?string $verwendungAb,
-        readonly ?string $verwendungBis,
-        readonly ?string $enddatum,
-        readonly ?Auftragsstatus $auftragsstatus,
-        readonly ?Statusanlass $statusanlass,
-        readonly ?string $antwortstatus,
-        readonly ?Fehlerbeschreibung $fehlerbeschreibung,
-        readonly ?Begruendung $begruendung,
-        readonly ?string $lokationsId,
-        readonly ?string $referenzMelo,
-        readonly ?AllgemeineInformationen $allgemeineInformationen
+        public ?int $positionsnummer,
+        public ?string $bearbeitungsdatum,
+        public ?string $verwendungAb,
+        public ?string $verwendungBis,
+        public ?string $enddatum,
+        public ?Auftragsstatus $auftragsstatus,
+        public ?Statusanlass $statusanlass,
+        public ?string $antwortstatus,
+        public ?Fehlerbeschreibung $fehlerbeschreibung,
+        public ?Begruendung $begruendung,
+        public ?string $lokationsId,
+        public ?string $referenzMelo,
+        public ?AllgemeineInformationen $allgemeineInformationen
     ) {
     }
 }

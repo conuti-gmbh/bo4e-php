@@ -10,13 +10,13 @@ use Conuti\BO4E\v1\Enum\Profilverfahren;
 class Lastprofil
 {
     public function __construct(
-        readonly ?string $bezeichnung,
-        readonly ?Profilverfahren $verfahren,
-        readonly ?Profilart $profilart,
-        readonly ?string $profilschar,
-        readonly ?bool $einspeisung,
-        readonly ?string $herausgeber,
-        readonly ?Tagesparameter $tagesparameter
+        public ?string $bezeichnung,
+        public ?Profilverfahren $verfahren,
+        public ?Profilart $profilart,
+        public ?string $profilschar,
+        public ?bool $einspeisung,
+        public ?string $herausgeber,
+        public ?Tagesparameter $tagesparameter
     ) {
     }
 

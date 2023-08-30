@@ -10,9 +10,9 @@ use Conuti\BO4E\v1\Enum\VerwendungszweckValue;
 class Verwendungszweck
 {
     public function __construct(
-        readonly ?Marktrolle $marktrolle,
+        public ?Marktrolle $marktrolle,
         /** @var VerwendungszweckValue[] */
-        readonly array $zweck = [],
+        public array $zweck = [],
     ) {
     }
 }

@@ -12,12 +12,12 @@ use DateTime;
 class Statusbericht
 {
     public function __construct(
-        readonly BOTyp $boTyp,
-        readonly string $versionStruktur,
-        readonly ?BerichtStatus $status,
-        readonly ?string $pruefgegenstand,
-        readonly ?DateTime $datumPruefung,
-        readonly ?Fehler $fehler,
+        public BOTyp $boTyp,
+        public string $versionStruktur,
+        public ?BerichtStatus $status,
+        public ?string $pruefgegenstand,
+        public ?DateTime $datumPruefung,
+        public ?Fehler $fehler,
     ) {
     }
 }

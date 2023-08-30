@@ -13,13 +13,13 @@ use Conuti\BO4E\v1\Enum\Statusobjekt;
 class Statusmitteilung
 {
     public function __construct(
-        readonly BOTyp $boTyp,
-        readonly string $versionStruktur,
-        readonly ?Statusobjekt $statusObjekt,
-        readonly ?Status $statusanlass,
-        readonly ?Auftragsstatus $auftragsstatus,
+        public BOTyp $boTyp,
+        public string $versionStruktur,
+        public ?Statusobjekt $statusObjekt,
+        public ?Status $statusanlass,
+        public ?Auftragsstatus $auftragsstatus,
         /** @var StatusmitteilungPosition[] $positionsdaten */
-        readonly array $positionsdaten = [],
+        public array $positionsdaten = [],
     ) {
     }
 }

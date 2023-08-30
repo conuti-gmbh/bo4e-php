@@ -14,25 +14,25 @@ use DateTime;
 class Vertrag
 {
     public function __construct(
-        readonly string $boTyp,
-        readonly ?string $versionStruktur,
-        readonly ?Sparte $sparte,
-        readonly ?string $vertragsart,
-        readonly ?string $vertragsnummer,
-        readonly ?string $beschreibung,
-        readonly ?string $lokationsId,
-        readonly ?Lokationstyp $lokationsTyp,
-        readonly ?Vertragstatus $vertragsstatus,
-        readonly ?DateTime $vertragsbeginn,
-        readonly ?string $vertragsende,
-        readonly ?int $gemeinderabatt,
-        readonly ?Vertragskonditionen $vertragskonditionen,
-        readonly ?Geschaeftspartner $korrespondenzpartner,
-        readonly ?bool $abrechnungUeberNna,
+        public string $boTyp,
+        public ?string $versionStruktur,
+        public ?Sparte $sparte,
+        public ?string $vertragsart,
+        public ?string $vertragsnummer,
+        public ?string $beschreibung,
+        public ?string $lokationsId,
+        public ?Lokationstyp $lokationsTyp,
+        public ?Vertragstatus $vertragsstatus,
+        public ?DateTime $vertragsbeginn,
+        public ?string $vertragsende,
+        public ?int $gemeinderabatt,
+        public ?Vertragskonditionen $vertragskonditionen,
+        public ?Geschaeftspartner $korrespondenzpartner,
+        public ?bool $abrechnungUeberNna,
         /** @var Marktteilnehmer[] $vertragspartner1 */
-        readonly array $vertragspartner1 = [],
+        public array $vertragspartner1 = [],
         /** @var Geschaeftspartner[] $vertragspartner2 */
-        readonly array $vertragspartner2 = [],
+        public array $vertragspartner2 = [],
     ) {
     }
 
