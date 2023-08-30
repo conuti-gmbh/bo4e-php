@@ -1,0 +1,21 @@
+<?php
+
+declare(strict_types=1);
+
+namespace Conuti\BO4E\v1\Interface;
+
+interface Kommunikationsrolle
+{
+    public const DATENAUSTAUSCH = 'DATENAUSTAUSCH';
+    public const RAHMENVERTRAEGE = 'RAHMENVERTRAEGE';
+    public const KUENDIGUNGSPROZESSE = 'KUENDIGUNGSPROZESSE';
+    public const WECHSELPROZESSE = 'WECHSELPROZESSE';
+    public const STAMMDATENPROZESSE = 'STAMMDATENPROZESSE';
+    public const EINSPEISEPROZESSE = 'EINSPEISEPROZESSE';
+    public const ABRECHNUNGSPROZESSE = 'ABRECHNUNGSPROZESSE';
+    public const MMMA_PROZESSE = 'MMMA_PROZESSE';
+    public const BEWEGUNGSDATEN = 'BEWEGUNGSDATEN';
+    public const ENT_SPERR_PROZESSE = 'ENT_SPERR_PROZESSE';
+    public const BILANZIERUNGSPROZESSE = 'BILANZIERUNGSPROZESSE';
+    public const NETZANSCHLUSS_ANLAGEN = 'NETZANSCHLUSS_ANLAGEN';
+}

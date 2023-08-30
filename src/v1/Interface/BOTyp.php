@@ -1,0 +1,42 @@
+<?php
+
+declare(strict_types=1);
+
+namespace Conuti\BO4E\v1\Interface;
+
+interface BOTyp
+{
+    public const ANSPRECHPARTNER = 'ANSPRECHPARTNER';
+    public const AVIS = 'AVIS';
+    public const ENERGIEMENGE = 'ENERGIEMENGE';
+    public const GESCHAEFTSOBJEKT = 'GESCHAEFTSOBJEKT';
+    public const GESCHAEFTSPARTNER = 'GESCHAEFTSPARTNER';
+    public const MARKTLOKATION = 'MARKTLOKATION';
+    public const MARKTTEILNEHMER = 'MARKTTEILNEHMER';
+    public const MESSLOKATION = 'MESSLOKATION';
+    public const ZAEHLER = 'ZAEHLER';
+    public const KOSTEN = 'KOSTEN';
+    public const TARIF = 'TARIF';
+    public const PREISBLATT = 'PREISBLATT';
+    public const PREISBLATTNETZNUTZUNG = 'PREISBLATTNETZNUTZUNG';
+    public const PREISBLATTMESSUNG = 'PREISBLATTMESSUNG';
+    public const PREISBLATTUMLAGEN = 'PREISBLATTUMLAGEN';
+    public const PREISBLATTDIENSTLEISTUNG = 'PREISBLATTDIENSTLEISTUNG';
+    public const PREISBLATTKONZESSIONSABGABE = 'PREISBLATTKONZESSIONSABGABE';
+    public const ZEITREIHE = 'ZEITREIHE';
+    public const LASTGANG = 'LASTGANG';
+    public const HANDELSUNSTIMMIGKEIT = 'HANDELSUNSTIMMIGKEIT';
+    public const ANFRAGE = 'ANFRAGE';
+    public const AUFTRAG = 'AUFTRAG';
+    public const STATUSMITTEILUNG = 'STATUSMITTEILUNG';
+    public const BERECHNUNGSFORMEL = 'BERECHNUNGSFORMEL';
+    public const RECHNUNG = 'RECHNUNG';
+    public const BILANZIERUNG = 'BILANZIERUNG';
+    public const NETZNUTZUNGSVERTRAG = 'NETZNUTZUNGSVERTRAG';
+    public const MESSSTELLENBETRIEBSVERTRAG = 'MESSSTELLENBETRIEBSVERTRAG';
+    public const ENERGIELIEFERVERTRAG = 'ENERGIELIEFERVERTRAG';
+    public const SPERRAUFTRAG = 'SPERRAUFTRAG';
+    public const ANGEBOT = 'ANGEBOT';
+    public const TRANCHE = 'TRANCHE';
+    public const STATUSBERICHT = 'STATUSBERICHT';
+}
