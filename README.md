@@ -11,5 +11,5 @@ Main BO PHP DTO
 ### /src/{v}/COM
 COM BO PHP DTO 
 
-### /src/{v}/Enum
-BO4E PHP enums
+### /src/{v}/Interface
+BO4E PHP enums as interface constants
