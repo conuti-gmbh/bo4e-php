@@ -9,11 +9,11 @@ use Conuti\BO4E\v1\Enum\Abweichungsgrund;
 class Abweichung
 {
     public function __construct(
-        readonly ?Abweichungsgrund $rechnungsNummer,
+        readonly ?Abweichungsgrund $abweichungsgrund,
         readonly ?string $abweichungsgrundBemerkung,
         readonly ?string $zugehoerigeRechnung,
         readonly ?string $abweichungsgrundCode,
-        readonly ?string $abweichungsgrundCodelist,
+        readonly ?string $abweichungsgrundCodeliste,
         /** @var string[] */
         readonly array $abschlagsrechnungen = [],
     ) {

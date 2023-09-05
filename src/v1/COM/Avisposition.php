@@ -12,7 +12,7 @@ class Avisposition
         readonly ?string $rechnungsNummer,
         readonly ?DateTime $rechnungsDatum,
         readonly ?bool $istStorno,
-        readonly ?bool $istSelbsausgestellt,
+        readonly ?bool $istSelbstausgestellt,
         readonly ?Betrag $gesamtBrutto,
         readonly ?Betrag $zuZahlen,
         readonly ?string $referenz,
