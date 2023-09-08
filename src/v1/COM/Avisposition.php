@@ -17,7 +17,7 @@ class Avisposition
         readonly ?Betrag $zuZahlen,
         readonly ?string $referenz,
         /** @var Abweichung[] */
-        readonly array $abweichungen = [],
+        readonly array $abweichung = [],
         /** @var Rueckmeldungsposition[] */
         readonly array $positionen = []
     ) {
