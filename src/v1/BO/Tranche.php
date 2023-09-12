@@ -65,6 +65,7 @@ class Tranche
         readonly ?Menge $aufteilungsmenge,
         readonly ?string $bilanzkreis,
         readonly ?BildungTranchengroesse $bildungTranchengroesse,
+        readonly ?bool $zukuenftigerMeldepunkt,
         /** @var Marktteilnehmer[] */
         readonly array $marktrollen = [],
         /** @var Zaehlwerk[] */

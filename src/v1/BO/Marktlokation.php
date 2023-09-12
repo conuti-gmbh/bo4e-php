@@ -63,6 +63,7 @@ class Marktlokation
         readonly ?Fernsteuerbarkeit $fernsteuerbarkeit,
         readonly ?string $foerderungsLand,
         readonly ?bool $redispatch,
+        readonly ?bool $zukuenftigerMeldepunkt,
         /** @var Marktteilnehmer[] */
         readonly array $marktrollen = [],
         /** @var Zaehlwerk[] */

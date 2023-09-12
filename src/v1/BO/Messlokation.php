@@ -37,6 +37,7 @@ class Messlokation
         readonly ?Geschaeftspartner $ablesekartenempfaenger,
         readonly ?string $referenzMarktlokationsId,
         readonly ?Verwendungsumfang $verwendungsumfang,
+        readonly ?bool $zukuenftigerMeldepunkt,
         /** @var Geraet[] */
         readonly array $geraete = [],
         /** @var Dienstleistung[] */
