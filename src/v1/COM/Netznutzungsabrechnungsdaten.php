@@ -18,8 +18,8 @@ class Netznutzungsabrechnungsdaten
         readonly ?float $abschlag,
         readonly ?Menge $singulaereBetriebsmittel,
         readonly ?Preis $preisSingulaereBetriebsmittel,
-        readonly ?bool $abrechnungblindarbeit,
-        readonly ?ZahlerBlindarbeit $zahlerderblindarbeit,
+        readonly ?bool $abrechnungBlindarbeit,
+        readonly ?ZahlerBlindarbeit $zahlerBlindarbeit,
         readonly ?bool $zahlerBlindarbeitLf
     ) {
     }
