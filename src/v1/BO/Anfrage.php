@@ -6,6 +6,7 @@ namespace Conuti\BO4E\v1\BO;
 
 use Conuti\BO4E\v1\Enum\Anfragekategorie;
 use Conuti\BO4E\v1\Enum\Anfragetyp;
+use Conuti\BO4E\v1\Enum\Energierichtung;
 
 class Anfrage
 {
@@ -16,7 +17,8 @@ class Anfrage
         readonly ?Anfragetyp $anfragetyp,
         readonly ?string $anfragereferenz,
         readonly ?string $allgemeineInformationen,
-        readonly ?Anfragekategorie $anfragekategorie
+        readonly ?Anfragekategorie $anfragekategorie,
+        readonly ?Energierichtung $energierichtung
     ) {
     }
 }
