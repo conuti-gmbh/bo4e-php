@@ -42,7 +42,7 @@ class Rechnung
         readonly ?SonderrechnungsArt $sonderrechnungsart,
         readonly ?Energierichtung $energierichtung,
         readonly ?string $beginnPeriodeBilanzierung,
-        readonly ?string $endePeriodeNutzung,
+        readonly ?string $endePeriodeNetznutzung,
         /** @var Steuerbetrag[] */
         readonly array $steuerbetraege = [],
         /** @var Rechnungsposition[] */
