@@ -9,6 +9,7 @@ use Conuti\BO4E\v1\COM\Gemeinderabatt;
 use Conuti\BO4E\v1\COM\Rechnungsposition;
 use Conuti\BO4E\v1\COM\Steuerbetrag;
 use Conuti\BO4E\v1\COM\Zeitraum;
+use Conuti\BO4E\v1\Enum\Energierichtung;
 use Conuti\BO4E\v1\Enum\Rechnungsstatus;
 use Conuti\BO4E\v1\Enum\Rechnungstyp;
 use Conuti\BO4E\v1\Enum\SonderrechnungsArt;
@@ -39,6 +40,9 @@ class Rechnung
         readonly ?Gemeinderabatt $gemeinderabatt,
         readonly ?string $ausfuehrungsdatum,
         readonly ?SonderrechnungsArt $sonderrechnungsart,
+        readonly ?Energierichtung $energierichtung,
+        readonly ?string $beginnPeriodeBilanzierung,
+        readonly ?string $endePeriodeNutzung,
         /** @var Steuerbetrag[] */
         readonly array $steuerbetraege = [],
         /** @var Rechnungsposition[] */

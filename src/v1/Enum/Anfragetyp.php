@@ -6,9 +6,6 @@ namespace Conuti\BO4E\v1\Enum;
 
 enum Anfragetyp: string
 {
-    case START_ABO = 'START_ABO';
-    case ENDE_ABO = 'ENDE_ABO';
-    case OHNE_ABO = 'OHNE_ABO';
     case KAUF = 'KAUF';
     case NUTZUNGSUEBERLASSUNG = 'NUTZUNGSUEBERLASSUNG';
     case ABRECHNUNGSBRENNWERT_UND_ZUSTANDSZAHL = 'ABRECHNUNGSBRENNWERT_UND_ZUSTANDSZAHL';

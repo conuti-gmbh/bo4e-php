@@ -19,7 +19,8 @@ class Rechnungsposition
         readonly ?Abschlag $abschlag,
         readonly ?Zuschlag $zuschlag,
         readonly ?Gemeinderabatt $gemeinderabatt,
-        readonly int|float|null $gesamtZuAbschlagsbetrag
+        readonly int|float|null $gesamtZuAbschlagsbetrag,
+        readonly int|float|null $korrekturfaktor
     ) {
     }
 
