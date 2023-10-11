@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Conuti\BO4E\v1\COM;
 
+use DateTime;
+
 class Rechnungsposition
 {
     public function __construct(
@@ -20,7 +22,8 @@ class Rechnungsposition
         readonly ?Zuschlag $zuschlag,
         readonly ?Gemeinderabatt $gemeinderabatt,
         readonly int|float|null $gesamtZuAbschlagsbetrag,
-        readonly int|float|null $korrekturfaktor
+        readonly int|float|null $korrekturfaktor,
+        readonly ?DateTime $ausfuehrungsdatum,
     ) {
     }
 
