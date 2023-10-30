@@ -20,7 +20,7 @@ class Zaehlzeitdefinition
         readonly ?DateTime $version,
         readonly ?DefinitionenNotwendigkeit $notwendigkeit,
         /** @var Zaehlzeit[] */
-        readonly array $zaehlzeit = [],
+        readonly array $zaehlzeiten = [],
         /** @var Zaehlzeitregister[] */
         readonly array $zaehlzeitregister = [],
         /** @var AusgerollteZaehlzeit[] */

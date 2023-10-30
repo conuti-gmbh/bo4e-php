@@ -14,7 +14,7 @@ class Zaehlzeit
     public function __construct(
         readonly ?string $code,
         readonly ?HaeufigkeitZaehlzeit $haeufigkeit,
-        readonly ?UebermittelbarkeitZaehlzeit $uebermittelbarkeitZaehlzeit,
+        readonly ?UebermittelbarkeitZaehlzeit $uebermittelbarkeit,
         readonly ?ErmittlungLeistungsmaximum $ermittlungLeistungsmaximum,
         readonly ?bool $istBestellbar,
         readonly ?ZaehlzeitdefinitionTyp $typ,

@@ -15,6 +15,7 @@ class Rechenschritt
         readonly ?ArithmetischeOperation $operation,
         readonly int|float|null $verlustfaktorTrafo,
         readonly int|float|null $verlustfaktorLeitung,
+        readonly int|float|null $aufteilungsfaktorEnergiemenge,
         readonly ?string $messlokationsId,
         readonly ?Energierichtung $energieflussrichtung
     ) {
