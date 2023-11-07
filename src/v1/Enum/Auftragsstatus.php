@@ -19,4 +19,6 @@ enum Auftragsstatus: string
     case ABGELEHNT = 'ABGELEHNT';
     case BEENDET = 'BEENDET';
     case ANTWORT_DRITTER = 'ANTWORT_DRITTER';
+    case BESTAETIGT = 'BESTAETIGT';
+    case UMGESETZT = 'UMGESETZT';
 }
