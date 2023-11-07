@@ -16,4 +16,5 @@ enum Statusobjekt: string
     case LIEFERSCHEIN = 'LIEFERSCHEIN';
     case SPERREN = 'SPERREN';
     case ENTSPERREN = 'ENTSPERREN';
+    case PRIVILEGIERUNG_NACH_ENFG = 'PRIVILEGIERUNG_NACH_ENFG';
 }

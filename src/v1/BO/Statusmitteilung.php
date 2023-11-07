@@ -20,6 +20,8 @@ class Statusmitteilung
         readonly ?Auftragsstatus $auftragsstatus,
         /** @var StatusmitteilungPosition[] $positionsdaten */
         readonly array $positionsdaten = [],
+        /** @var Auftragsstatus[] */
+        readonly array $auftragsStatusListe = []
     ) {
     }
 }
