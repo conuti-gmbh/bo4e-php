@@ -12,6 +12,7 @@ class Kommunikationsdaten
         readonly string $boTyp,
         readonly string $versionStruktur,
         readonly ?string $gueltigkeit,
+        readonly ?bool $kommunikationsDatenBlattInaktiv,
         readonly ?Marktteilnehmer $marktteilnehmer,
         /** @var Marktteilnehmer[] */
         readonly array $kommunikationsangaben = []

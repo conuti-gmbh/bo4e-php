@@ -7,6 +7,7 @@ namespace Conuti\BO4E\v1\BO;
 use Conuti\BO4E\v1\COM\Adresse;
 use Conuti\BO4E\v1\COM\Bankverbindung;
 use Conuti\BO4E\v1\COM\Erreichbarkeit;
+use Conuti\BO4E\v1\COM\Kommunikationsparameter;
 use Conuti\BO4E\v1\Enum\BOTyp;
 use Conuti\BO4E\v1\Enum\Geschaeftspartnerrolle;
 use Conuti\BO4E\v1\Enum\Kommunikationsrolle;
@@ -51,6 +52,7 @@ class Marktteilnehmer
         readonly ?string $faxnummer,
         readonly ?Kommunikationsrolle $kommunikationsrolle,
         readonly ?bool $weiterverpflichtet,
+        readonly ?Kommunikationsparameter $kommunikationsparameter,
         /** @var Bankverbindung[] */
         readonly array $bankverbindung = [],
         /** @var Erreichbarkeit[] */
