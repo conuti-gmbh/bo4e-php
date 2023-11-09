@@ -24,4 +24,6 @@ enum Marktrolle: string
     case INTERESSENT = 'INTERESSENT';
     case KN = 'KN';
     case UBA = 'UBA';
+    case BIKO = 'BIKO';
+    case ESA = 'ESA';
 }
