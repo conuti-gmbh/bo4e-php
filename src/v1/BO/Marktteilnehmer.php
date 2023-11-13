@@ -12,6 +12,7 @@ use Conuti\BO4E\v1\Enum\BOTyp;
 use Conuti\BO4E\v1\Enum\Geschaeftspartnerrolle;
 use Conuti\BO4E\v1\Enum\Kommunikationsrolle;
 use Conuti\BO4E\v1\Enum\Marktrolle;
+use Conuti\BO4E\v1\Enum\MSBEigenschaft;
 
 class Marktteilnehmer
 {
@@ -53,6 +54,8 @@ class Marktteilnehmer
         readonly ?Kommunikationsrolle $kommunikationsrolle,
         readonly ?bool $weiterverpflichtet,
         readonly ?Kommunikationsparameter $kommunikationsparameter,
+        readonly ?MSBEigenschaft $messstellenbetreiberEigenschaft,
+        readonly ?bool $produktDatenRelevant,
         /** @var Bankverbindung[] */
         readonly array $bankverbindung = [],
         /** @var Erreichbarkeit[] */

@@ -43,6 +43,9 @@ class Zaehlwerk
         readonly ?NotwendigkeitZweiteMessung $notwendigkeitZweiteMessung,
         readonly ?WerteuebermittlungVerwendungszweck $werteuebermittlungVerwendungszweck,
         readonly ?ArtEmobilitaet $artEMobilitaet,
+        readonly ?string $konfigurationsprodukt,
+        readonly ?bool $keinKonfigurationsprodukt,
+        readonly ?string $leistungskurvendefinition,
         /** @var Verwendungszweck[] */
         readonly array $verwendungszwecke = [],
     ) {
