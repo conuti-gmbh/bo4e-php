@@ -18,6 +18,7 @@ use Conuti\BO4E\v1\Enum\Energierichtung;
 use Conuti\BO4E\v1\Enum\Fernsteuerbarkeit;
 use Conuti\BO4E\v1\Enum\Gasqualitaet;
 use Conuti\BO4E\v1\Enum\Gebiettyp;
+use Conuti\BO4E\v1\Enum\Lokationszuordnung;
 use Conuti\BO4E\v1\Enum\Marktrolle;
 use Conuti\BO4E\v1\Enum\MesstechnischeEinordnung;
 use Conuti\BO4E\v1\Enum\Netzebene;
@@ -66,6 +67,7 @@ class Tranche
         readonly ?string $bilanzkreis,
         readonly ?BildungTranchengroesse $bildungTranchengroesse,
         readonly ?bool $zukuenftigerMeldepunkt,
+        readonly ?Lokationszuordnung $lokationszuordnung,
         /** @var Marktteilnehmer[] */
         readonly array $marktrollen = [],
         /** @var Zaehlwerk[] */

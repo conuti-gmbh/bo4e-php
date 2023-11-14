@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Conuti\BO4E\v1\BO;
 
+use Conuti\BO4E\v1\COM\EnFG;
 use Conuti\BO4E\v1\COM\Vertragskonditionen;
 use Conuti\BO4E\v1\Enum\Geschaeftspartnerrolle;
 use Conuti\BO4E\v1\Enum\Lokationstyp;
@@ -33,6 +34,8 @@ class Vertrag
         readonly array $vertragspartner1 = [],
         /** @var Geschaeftspartner[] $vertragspartner2 */
         readonly array $vertragspartner2 = [],
+        /** @var EnFG[] */
+        readonly array $enFG = []
     ) {
     }
 

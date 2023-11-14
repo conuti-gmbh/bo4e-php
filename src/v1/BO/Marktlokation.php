@@ -8,6 +8,7 @@ use Conuti\BO4E\v1\COM\Adresse;
 use Conuti\BO4E\v1\COM\Energieherkunft;
 use Conuti\BO4E\v1\COM\Katasteradresse;
 use Conuti\BO4E\v1\COM\Messlokationszuordnung;
+use Conuti\BO4E\v1\COM\Messstellenbetriebsabrechnungsdaten;
 use Conuti\BO4E\v1\COM\Netznutzungsabrechnungsdaten;
 use Conuti\BO4E\v1\COM\Verbrauch;
 use Conuti\BO4E\v1\COM\Zaehlwerk;
@@ -17,6 +18,7 @@ use Conuti\BO4E\v1\Enum\Energierichtung;
 use Conuti\BO4E\v1\Enum\Fernsteuerbarkeit;
 use Conuti\BO4E\v1\Enum\Gasqualitaet;
 use Conuti\BO4E\v1\Enum\Gebiettyp;
+use Conuti\BO4E\v1\Enum\Lokationszuordnung;
 use Conuti\BO4E\v1\Enum\Marktrolle;
 use Conuti\BO4E\v1\Enum\MesstechnischeEinordnung;
 use Conuti\BO4E\v1\Enum\Netzebene;
@@ -64,6 +66,7 @@ class Marktlokation
         readonly ?string $foerderungsLand,
         readonly ?bool $redispatch,
         readonly ?bool $zukuenftigerMeldepunkt,
+        readonly ?Lokationszuordnung $lokationszuordnung,
         /** @var Marktteilnehmer[] */
         readonly array $marktrollen = [],
         /** @var Zaehlwerk[] */
@@ -76,6 +79,8 @@ class Marktlokation
         readonly array $zugehoerigeMesslokationen = [],
         /** @var Netznutzungsabrechnungsdaten[] */
         readonly array $netznutzungsabrechnungsdaten = [],
+        /** @var Messstellenbetriebsabrechnungsdaten[] */
+        readonly array $messstellenbetriebsabrechnungsdaten = [],
         /** @var Energieherkunft[] */
         readonly array $energieherkunft = []
     ) {

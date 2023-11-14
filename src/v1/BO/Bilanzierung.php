@@ -6,6 +6,7 @@ namespace Conuti\BO4E\v1\BO;
 
 use Conuti\BO4E\v1\COM\Lastprofil;
 use Conuti\BO4E\v1\COM\Menge;
+use Conuti\BO4E\v1\Enum\Abwicklungsmodell;
 use Conuti\BO4E\v1\Enum\Aggregationsverantwortung;
 use Conuti\BO4E\v1\Enum\Fallgruppenzuordnung;
 use Conuti\BO4E\v1\Enum\Profilart;
@@ -31,6 +32,7 @@ class Bilanzierung
         readonly ?Menge $verbrauchsaufteilung,
         readonly ?WahlrechtPrognosegrundlage $wahlrechtPrognosegrundlage,
         readonly ?WahlrechtPrognosegrundlage $grundWahlrechtPrognosegrundlage,
+        readonly ?Abwicklungsmodell $abwicklungsmodell,
         /** @var Lastprofil[] */
         readonly array $lastprofile = [],
         /** @var Profiltyp[] */

@@ -12,6 +12,7 @@ use Conuti\BO4E\v1\Enum\Betriebszustand;
 use Conuti\BO4E\v1\Enum\Bilanzierungsmethode;
 use Conuti\BO4E\v1\Enum\Energierichtung;
 use Conuti\BO4E\v1\Enum\Gasqualitaet;
+use Conuti\BO4E\v1\Enum\Lokationszuordnung;
 use Conuti\BO4E\v1\Enum\Marktrolle;
 use Conuti\BO4E\v1\Enum\Netzebene;
 use Conuti\BO4E\v1\Enum\Sparte;
@@ -38,6 +39,7 @@ class Messlokation
         readonly ?string $referenzMarktlokationsId,
         readonly ?Verwendungsumfang $verwendungsumfang,
         readonly ?bool $zukuenftigerMeldepunkt,
+        readonly ?Lokationszuordnung $lokationszuordnung,
         /** @var Geraet[] */
         readonly array $geraete = [],
         /** @var Dienstleistung[] */
