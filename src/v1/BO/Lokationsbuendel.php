@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Conuti\BO4E\v1\BO;
 
+use Conuti\BO4E\v1\COM\ZuordnungObjectcode;
 use Conuti\BO4E\v1\Enum\BOTyp;
 
 class Lokationsbuendel
@@ -12,16 +13,10 @@ class Lokationsbuendel
         readonly BOTyp $boTyp,
         readonly string $versionStruktur,
         readonly ?string $lokationsbuendelstrukturId,
-        readonly ?string $lokationsbuendelNummer,
+        readonly ?int $lokationsbuendelNummer,
         readonly ?bool $standardisierteLokationsbuendelstruktur,
-        readonly ?string $objectcode,
-        readonly ?string $referenzMarktlokation,
-        readonly ?string $referenzMesslokation,
-        readonly ?string $referenzNetzlokation,
-        readonly ?string $referenzTechnischeRessource,
-        readonly ?string $vorgelagerteMesslokation,
-        readonly ?string $vorgelagerteNetzlokation,
-        readonly ?string $referenzMarktlokationTechnischeRessource
+        /** @var ZuordnungObjectcode[] */
+        readonly array $zuordnungObjectcode = []
     ) {
     }
 }
