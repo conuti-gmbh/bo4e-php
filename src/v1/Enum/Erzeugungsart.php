@@ -23,4 +23,5 @@ enum Erzeugungsart: string
     case GAS = 'GAS';
     case SONSTIGE = 'SONSTIGE';
     case SONSTIGE_EEG = 'SONSTIGE_EEG';
+    case SONSTIGE_ERZEUGUNGSART = 'SONSTIGE_ERZEUGUNGSART';
 }
