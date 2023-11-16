@@ -8,4 +8,6 @@ enum Lokationstyp: string
 {
     case MALO = 'MALO';
     case MELO = 'MELO';
+    case NELO = 'NELO';
+    case TECHNISCHE_RESSOURCE = 'TECHNISCHE_RESSOURCE';
 }
