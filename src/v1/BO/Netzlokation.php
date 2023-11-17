@@ -8,6 +8,7 @@ use Conuti\BO4E\v1\COM\Netznutzungsabrechnungsdaten;
 use Conuti\BO4E\v1\COM\Zaehlwerk;
 use Conuti\BO4E\v1\Enum\BOTyp;
 use Conuti\BO4E\v1\Enum\Lokationszuordnung;
+use Conuti\BO4E\v1\Enum\Marktrolle;
 use Conuti\BO4E\v1\Enum\Sparte;
 
 class Netzlokation
@@ -28,5 +29,16 @@ class Netzlokation
         /** @var Netznutzungsabrechnungsdaten[] */
         readonly array $abrechnungsdaten = []
     ) {
+    }
+
+    public function getMarktrolle(Marktrolle $rolle): ?Marktteilnehmer
+    {
+        foreach ($this->marktrollen as $marktrolle) {
+            if ($marktrolle->marktrolle === $rolle) {
+                return $marktrolle;
+            }
+        }
+
+        return null;
     }
 }
