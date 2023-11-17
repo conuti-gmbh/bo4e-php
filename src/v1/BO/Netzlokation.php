@@ -22,6 +22,8 @@ class Netzlokation
         readonly ?string $grundzustaendigerMSBCodeNr,
         readonly ?bool $steuerkanal,
         readonly ?Lokationszuordnung $lokationszuordnung,
+        readonly ?Marktrolle $produktdatenRelevanteRolle,
+        readonly ?Marktteilnehmer $auftraggebenderMarktpartner,
         /** @var Marktteilnehmer[] */
         readonly array $marktrollen = [],
         /** @var Zaehlwerk[] */

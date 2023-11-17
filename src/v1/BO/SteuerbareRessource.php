@@ -7,6 +7,7 @@ namespace Conuti\BO4E\v1\BO;
 use Conuti\BO4E\v1\COM\ZugeordneteDefinition;
 use Conuti\BO4E\v1\Enum\BOTyp;
 use Conuti\BO4E\v1\Enum\Lokationszuordnung;
+use Conuti\BO4E\v1\Enum\Marktrolle;
 use Conuti\BO4E\v1\Enum\Sparte;
 use Conuti\BO4E\v1\Enum\Steuerkanal;
 
@@ -20,6 +21,8 @@ class SteuerbareRessource
         readonly ?Lokationszuordnung $lokationszuordnung,
         readonly ?string $konfigurationsprodukt,
         readonly ?Steuerkanal $steuerkanal,
+        readonly ?Marktrolle $produktdatenRelevanteRolle,
+        readonly ?Marktteilnehmer $auftraggebenderMarktpartner,
         /** @var Marktteilnehmer[] */
         readonly array $marktrollen = [],
         /** @var ZugeordneteDefinition[] */

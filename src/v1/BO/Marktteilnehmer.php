@@ -55,7 +55,6 @@ class Marktteilnehmer
         readonly ?bool $weiterverpflichtet,
         readonly ?Kommunikationsparameter $kommunikationsparameter,
         readonly ?MSBEigenschaft $messstellenbetreiberEigenschaft,
-        readonly ?bool $produktDatenRelevant,
         /** @var Bankverbindung[] */
         readonly array $bankverbindung = [],
         /** @var Erreichbarkeit[] */
