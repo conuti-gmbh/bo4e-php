@@ -10,6 +10,7 @@ use Conuti\BO4E\v1\Enum\BOTyp;
 use Conuti\BO4E\v1\Enum\Lokationszuordnung;
 use Conuti\BO4E\v1\Enum\Marktrolle;
 use Conuti\BO4E\v1\Enum\Sparte;
+use Couchbase\CreateAnalyticsDatasetOptions;
 
 class Netzlokation
 {
@@ -24,6 +25,9 @@ class Netzlokation
         readonly ?Lokationszuordnung $lokationszuordnung,
         readonly ?Marktrolle $produktdatenRelevanteRolle,
         readonly ?Marktteilnehmer $auftraggebenderMarktpartner,
+        readonly ?string $konfigurationsprodukt,
+        readonly ?bool $keinKonfigurationsprodukt,
+        readonly ?string $leistungskurvendefinition,
         /** @var Marktteilnehmer[] */
         readonly array $marktrollen = [],
         /** @var Zaehlwerk[] */

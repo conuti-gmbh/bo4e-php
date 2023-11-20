@@ -23,10 +23,9 @@ class SteuerbareRessource
         readonly ?Steuerkanal $steuerkanal,
         readonly ?Marktrolle $produktdatenRelevanteRolle,
         readonly ?Marktteilnehmer $auftraggebenderMarktpartner,
+        readonly ?ZugeordneteDefinition $zugeordneteDefinition,
         /** @var Marktteilnehmer[] */
-        readonly array $marktrollen = [],
-        /** @var ZugeordneteDefinition[] */
-        readonly array $zugeordneteDefinition = []
+        readonly array $marktrollen = []
     ) {
     }
 }

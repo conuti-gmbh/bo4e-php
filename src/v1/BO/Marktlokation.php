@@ -67,6 +67,9 @@ class Marktlokation
         readonly ?bool $redispatch,
         readonly ?bool $zukuenftigerMeldepunkt,
         readonly ?Lokationszuordnung $lokationszuordnung,
+        readonly ?string $konfigurationsprodukt,
+        readonly ?string $leistungskurvendefinition,
+        readonly ?Marktrolle $produktdatenRelevanteRolle,
         /** @var Marktteilnehmer[] */
         readonly array $marktrollen = [],
         /** @var Zaehlwerk[] */
