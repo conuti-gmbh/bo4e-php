@@ -8,7 +8,7 @@ class Nennleistung
 {
     public function __construct(
         readonly ?float $aufnahme,
-        readonly ?float $aufgabe
+        readonly ?float $abgabe
     ) {
     }
 }
