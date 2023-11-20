@@ -12,6 +12,7 @@ use Conuti\BO4E\v1\Enum\Erzeugungsart;
 use Conuti\BO4E\v1\Enum\Lokationszuordnung;
 use Conuti\BO4E\v1\Enum\Sparte;
 use Conuti\BO4E\v1\Enum\Speicherart;
+use Conuti\BO4E\v1\Enum\TechnischeRessourceArt;
 use Conuti\BO4E\v1\Enum\Verbrauchsart;
 use Conuti\BO4E\v1\Enum\Waermenutzung;
 
@@ -35,7 +36,8 @@ class TechnischeRessource
         readonly ?Erzeugungsart $erzeugungsart,
         readonly ?Speicherart $speicherart,
         readonly ?VerbrauchendeTechnischeRessource $verbrauchendeTechnischeRessource,
-        readonly ?bool $weitereEinrichtung
+        readonly ?bool $weitereEinrichtung,
+        readonly ?TechnischeRessourceArt $art
     ) {
     }
 }
