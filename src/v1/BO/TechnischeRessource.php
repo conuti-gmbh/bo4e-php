@@ -5,11 +5,12 @@ declare(strict_types=1);
 namespace Conuti\BO4E\v1\BO;
 
 use Conuti\BO4E\v1\COM\Nennleistung;
-use Conuti\BO4E\v1\COM\VerbrauchendeTechnischeRessource;
 use Conuti\BO4E\v1\Enum\ArtEmobilitaet;
 use Conuti\BO4E\v1\Enum\BOTyp;
 use Conuti\BO4E\v1\Enum\Erzeugungsart;
+use Conuti\BO4E\v1\Enum\Inbetriebsetzung;
 use Conuti\BO4E\v1\Enum\Lokationszuordnung;
+use Conuti\BO4E\v1\Enum\RessourceWechselmoeglichkeit;
 use Conuti\BO4E\v1\Enum\Sparte;
 use Conuti\BO4E\v1\Enum\Speicherart;
 use Conuti\BO4E\v1\Enum\TechnischeRessourceArt;
@@ -35,7 +36,9 @@ class TechnischeRessource
         readonly ?ArtEmobilitaet $artEMobilitaet,
         readonly ?Erzeugungsart $erzeugungsart,
         readonly ?Speicherart $speicherart,
-        readonly ?VerbrauchendeTechnischeRessource $verbrauchendeTechnischeRessource,
+        readonly ?bool $enwg,
+        readonly ?Inbetriebsetzung $inbetriebsetzungsdatum,
+        readonly ?RessourceWechselmoeglichkeit $einordnung,
         readonly ?bool $weitereEinrichtung,
         readonly ?TechnischeRessourceArt $art
     ) {
