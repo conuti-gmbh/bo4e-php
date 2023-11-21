@@ -20,7 +20,8 @@ class Netznutzungsabrechnungsdaten
         readonly ?Preis $preisSingulaereBetriebsmittel,
         readonly ?bool $abrechnungBlindarbeit,
         readonly ?ZahlerBlindarbeit $zahlerBlindarbeit,
-        readonly ?bool $zahlerBlindarbeitLf
+        readonly ?bool $zahlerBlindarbeitLf,
+        readonly ?Zaehlzeitregister $zaehlzeiten,
     ) {
     }
 }
