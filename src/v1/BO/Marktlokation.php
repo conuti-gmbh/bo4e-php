@@ -70,6 +70,7 @@ class Marktlokation
         readonly ?string $konfigurationsprodukt,
         readonly ?string $leistungskurvendefinition,
         readonly ?Marktrolle $produktdatenRelevanteRolle,
+        readonly ?Marktteilnehmer $beteiligterMarktpartner,
         /** @var Marktteilnehmer[] */
         readonly array $marktrollen = [],
         /** @var Zaehlwerk[] */

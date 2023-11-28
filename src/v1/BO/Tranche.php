@@ -68,6 +68,7 @@ class Tranche
         readonly ?BildungTranchengroesse $bildungTranchengroesse,
         readonly ?bool $zukuenftigerMeldepunkt,
         readonly ?Lokationszuordnung $lokationszuordnung,
+        readonly ?Marktteilnehmer $beteiligterMarktpartner,
         /** @var Marktteilnehmer[] */
         readonly array $marktrollen = [],
         /** @var Zaehlwerk[] */

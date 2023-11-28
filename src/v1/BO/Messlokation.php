@@ -40,6 +40,7 @@ class Messlokation
         readonly ?Verwendungsumfang $verwendungsumfang,
         readonly ?bool $zukuenftigerMeldepunkt,
         readonly ?Lokationszuordnung $lokationszuordnung,
+        readonly ?Marktteilnehmer $beteiligterMarktpartner,
         /** @var Geraet[] */
         readonly array $geraete = [],
         /** @var Dienstleistung[] */
