@@ -29,6 +29,7 @@ class Auftrag
         readonly int|float|null $berechnungspreis,
         readonly int|float|null $summeGesamt,
         readonly ?DateTime $verschobenerAbmeldetermin,
+        readonly ?DateTime $behebungsZeitpunkt,
         readonly ?Geschaeftspartner $lieferadresseAltgeraete,
         /** @var AuftragPosition[] */
         readonly array $positionsdaten = [],
