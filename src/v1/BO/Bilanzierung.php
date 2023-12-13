@@ -35,6 +35,8 @@ class Bilanzierung
         readonly ?Abwicklungsmodell $abwicklungsmodell,
         /** @var Lastprofil[] */
         readonly array $lastprofile = [],
+        /** @var Lastprofil[ */
+        readonly array $lastprofileBilanzierungsbeteiligter = [],
         /** @var Profiltyp[] */
         readonly array $detailsPrognosegrundlage = [],
     ) {
@@ -42,6 +44,8 @@ class Bilanzierung
 
     /**
      * @param Profilart $profilart
+     * @param string|null $herausgeber
+     * @param bool|null $einspeisung
      *
      * @return Lastprofil[]
      */
@@ -49,6 +53,28 @@ class Bilanzierung
     {
         return array_filter(
             $this->lastprofile,
+            static function (Lastprofil $lastprofil) use ($profilart, $herausgeber, $einspeisung) {
+                return $lastprofil->profilart === $profilart
+                    && (!$herausgeber || $lastprofil->herausgeber === $herausgeber)
+                    && ($einspeisung === null || $lastprofil->einspeisung === $einspeisung);
+            }
+        );
+    }
+
+    /**
+     * @param Profilart $profilart
+     * @param string|null $herausgeber
+     * @param bool|null $einspeisung
+     *
+     * @return Lastprofil[]
+     */
+    public function getLastprofileBilanzierungsbeteiligter(
+        Profilart $profilart,
+        ?string $herausgeber = null,
+        ?bool $einspeisung = null
+    ): array {
+        return array_filter(
+            $this->lastprofileBilanzierungsbeteiligter,
             static function (Lastprofil $lastprofil) use ($profilart, $herausgeber, $einspeisung) {
                 return $lastprofil->profilart === $profilart
                     && (!$herausgeber || $lastprofil->herausgeber === $herausgeber)
