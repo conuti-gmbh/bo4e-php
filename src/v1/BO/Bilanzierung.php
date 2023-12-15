@@ -33,6 +33,7 @@ class Bilanzierung
         readonly ?WahlrechtPrognosegrundlage $wahlrechtPrognosegrundlage,
         readonly ?WahlrechtPrognosegrundlage $grundWahlrechtPrognosegrundlage,
         readonly ?Abwicklungsmodell $abwicklungsmodell,
+        readonly ?Menge $vorjahresverbrauch,
         /** @var Lastprofil[] */
         readonly array $lastprofile = [],
         /** @var Lastprofil[ */
