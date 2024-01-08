@@ -12,6 +12,7 @@ class Abweichung
         readonly ?Abweichungsgrund $abweichungsgrund,
         readonly ?string $abweichungsgrundBemerkung,
         readonly ?string $zugehoerigeRechnung,
+        readonly ?string $zugehoerigeBestellung,
         readonly ?string $abweichungsgrundCode,
         readonly ?string $abweichungsgrundCodeliste,
         readonly ?string $fehlendePositionen1,
@@ -24,6 +25,7 @@ class Abweichung
         readonly ?string $abweichungsgrundBemerkung3,
         readonly ?string $abweichungsgrundBemerkung4,
         readonly ?string $abweichungsgrundBemerkung5,
+        readonly ?string $referenz,
         /** @var string[] */
         readonly array $abschlagsrechnungen = [],
     ) {
