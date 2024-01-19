@@ -54,6 +54,6 @@ class Geschaeftspartner
             return $referenz->exRefName === $name;
         });
 
-        return $items ? $items[0] : null;
+        return $items ? current($items) : null;
     }
 }

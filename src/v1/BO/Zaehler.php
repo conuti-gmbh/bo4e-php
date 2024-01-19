@@ -66,7 +66,7 @@ class Zaehler
     {
         $geraete = $this->getMultipleGeraete([$geraetetyp]);
 
-        return $geraete ? $geraete[0] : null;
+        return $geraete ? current($geraete) : null;
     }
 
     /**
