@@ -22,6 +22,7 @@ class Preisblatt
         readonly ?string $bilanzierungsdatum,
         readonly ?string $regelzone,
         readonly ?Leistungstyp $leistungstyp,
+        readonly ?bool $nichtGenutzt,
         /** @var Preisposition[] */
         readonly array $preispositionen = []
     ) {
