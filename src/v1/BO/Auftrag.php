@@ -8,6 +8,7 @@ use Conuti\BO4E\v1\COM\Adresse;
 use Conuti\BO4E\v1\COM\AuftragPosition;
 use Conuti\BO4E\v1\COM\Preis;
 use Conuti\BO4E\v1\Enum\BOTyp;
+use Conuti\BO4E\v1\Enum\DefinitionsTyp;
 use Conuti\BO4E\v1\Enum\Energierichtung;
 use Conuti\BO4E\v1\Enum\Sparte;
 use DateTime;
@@ -31,6 +32,7 @@ class Auftrag
         readonly ?DateTime $verschobenerAbmeldetermin,
         readonly ?DateTime $behebungsZeitpunkt,
         readonly ?Geschaeftspartner $lieferadresseAltgeraete,
+        readonly ?DefinitionsTyp $definitionsTyp,
         /** @var AuftragPosition[] */
         readonly array $positionsdaten = [],
         /** @var string[] */
