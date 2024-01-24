@@ -21,6 +21,7 @@ use Conuti\BO4E\v1\Enum\Gebiettyp;
 use Conuti\BO4E\v1\Enum\Lokationszuordnung;
 use Conuti\BO4E\v1\Enum\Marktrolle;
 use Conuti\BO4E\v1\Enum\MesstechnischeEinordnung;
+use Conuti\BO4E\v1\Enum\ModulNetzentgelte;
 use Conuti\BO4E\v1\Enum\Netzebene;
 use Conuti\BO4E\v1\Enum\Sperrstatus;
 use Conuti\BO4E\v1\Enum\StatusErzeugendeMarktlokation;
@@ -71,6 +72,7 @@ class Marktlokation
         readonly ?string $leistungskurvendefinition,
         readonly ?Marktrolle $produktdatenRelevanteRolle,
         readonly ?Marktteilnehmer $beteiligterMarktpartner,
+        readonly ?ModulNetzentgelte $modulNetzentgelte,
         /** @var Marktteilnehmer[] */
         readonly array $marktrollen = [],
         /** @var Zaehlwerk[] */
