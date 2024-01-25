@@ -20,6 +20,7 @@ class Reklamation
         readonly ?Zeitraum $zeitraumMesswertanfrage,
         readonly ?Reklamationsgrund $reklamationsgrund,
         readonly ?ReklamationsgrundBemerkung $reklamationsgrundBemerkung,
+        readonly ?string $konfiguration
     ) {
     }
 }

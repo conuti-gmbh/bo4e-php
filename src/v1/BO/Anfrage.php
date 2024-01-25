@@ -8,6 +8,7 @@ use Conuti\BO4E\v1\Enum\Abonnement;
 use Conuti\BO4E\v1\Enum\Anfragekategorie;
 use Conuti\BO4E\v1\Enum\Anfragetyp;
 use Conuti\BO4E\v1\Enum\Energierichtung;
+use DateTime;
 
 class Anfrage
 {
@@ -20,7 +21,9 @@ class Anfrage
         readonly ?string $anfragereferenz,
         readonly ?string $allgemeineInformationen,
         readonly ?Anfragekategorie $anfragekategorie,
-        readonly ?Energierichtung $energierichtung
+        readonly ?Energierichtung $energierichtung,
+        readonly ?string $gueltigkeitszeitspanne,
+        readonly ?string $gueltigAb
     ) {
     }
 }
