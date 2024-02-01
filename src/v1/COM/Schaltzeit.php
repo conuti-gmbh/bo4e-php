@@ -16,7 +16,8 @@ class Schaltzeit
         readonly ?DateTime $aenderungszeitpunkt,
         readonly ?HaeufigkeitSchaltzeit $haeufigkeit,
         readonly ?UebermittelbarkeitSchaltzeit $uebermittelbarkeit,
-        readonly ?Schalthandlung $schalthandlung
+        readonly ?Schalthandlung $schalthandlung,
+        readonly ?string $konfigurationsprodukt
     ) {
     }
 }

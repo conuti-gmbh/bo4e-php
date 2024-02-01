@@ -15,7 +15,8 @@ class Leistungskurve
         readonly ?DateTime $aenderungszeitpunkt,
         readonly ?HaeufigkeitLeistungskurve $haeufigkeit,
         readonly ?UebermittelbarkeitLeistungskurve $uebermittelbarkeit,
-        readonly ?Schwellwert $schwellwert
+        readonly ?Schwellwert $schwellwert,
+        readonly ?string $konfigurationsprodukt
     ) {
     }
 }
