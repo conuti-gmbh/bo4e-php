@@ -14,7 +14,7 @@ class Angebotsposition
         readonly ?Preis $positionspreis,
         readonly ?Betrag $positionsbetrag,
         readonly ?string $preisschluesselstamm,
-        readonly ?BDEWArtikelnummer $bdewArtikelnummer
+        readonly ?BDEWArtikelnummer $artikelnummer
     ) {
     }
 }
