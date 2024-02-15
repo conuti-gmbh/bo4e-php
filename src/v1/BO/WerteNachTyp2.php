@@ -21,6 +21,7 @@ class WerteNachTyp2
         readonly ?string $messprodukt,
         readonly ?Zieladresse $zieladresse,
         readonly ?Aussteller $aussteller,
+        readonly ?ZertifikatsNutzer $zertifikatsNutzer,
         readonly ?AenderungsmoeglichkeitKonfiguration $aenderungsmoeglichkeitKonfiguration,
         /** @var Schwellwert[] */
         readonly array $schwellwerte = []
