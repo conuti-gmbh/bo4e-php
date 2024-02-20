@@ -19,6 +19,7 @@ class Zaehlzeitdefinition
         readonly ?DateTime $endedatum,
         readonly ?DateTime $version,
         readonly ?DefinitionenNotwendigkeit $notwendigkeit,
+        readonly ?string $versionsangabe,
         /** @var Zaehlzeit[] */
         readonly array $zaehlzeiten = [],
         /** @var Zaehlzeitregister[] */
