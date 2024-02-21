@@ -16,17 +16,6 @@ use Conuti\BO4E\v1\Enum\MSBEigenschaft;
 
 class Marktteilnehmer
 {
-    /*
-     * As we have constructor parameters with 'readonly'
-     * these cannot be passed to parent, as this would 'modify'
-     * the property. As the class attributes are created by their
-     * constructor names, it makes no sense to call parent::__construct,
-     * and it would fail because of the previously mentioned reason
-     *
-     * One could argue, that it then makes no sense to extend, but we
-     * honor the BO4E definition by that and make clear why the object
-     * looks that way
-     */
     public function __construct(
         readonly BOTyp $boTyp,
         readonly ?string $versionStruktur,

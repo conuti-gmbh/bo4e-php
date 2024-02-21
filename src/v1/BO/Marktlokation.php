@@ -91,15 +91,4 @@ class Marktlokation
         readonly array $energieherkunft = []
     ) {
     }
-
-    public function getMarktrolle(Marktrolle $rolle): ?Marktteilnehmer
-    {
-        foreach ($this->marktrollen as $marktrolle) {
-            if ($marktrolle->marktrolle === $rolle) {
-                return $marktrolle;
-            }
-        }
-
-        return null;
-    }
 }

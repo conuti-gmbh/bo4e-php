@@ -10,7 +10,7 @@ class Gemeinderabatt
         readonly int|float|null $wert,
         readonly ?string $einheit,
         readonly ?string $typ = '',
-        readonly int|float|null $bemessungsgrundlage = null
+        readonly ?float $bemessungsgrundlage = null
     ) {
     }
 }

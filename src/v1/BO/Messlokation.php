@@ -13,7 +13,6 @@ use Conuti\BO4E\v1\Enum\Bilanzierungsmethode;
 use Conuti\BO4E\v1\Enum\Energierichtung;
 use Conuti\BO4E\v1\Enum\Gasqualitaet;
 use Conuti\BO4E\v1\Enum\Lokationszuordnung;
-use Conuti\BO4E\v1\Enum\Marktrolle;
 use Conuti\BO4E\v1\Enum\Netzebene;
 use Conuti\BO4E\v1\Enum\Sparte;
 use Conuti\BO4E\v1\Enum\Verwendungsumfang;
@@ -52,16 +51,5 @@ class Messlokation
         /** @var Marktteilnehmer[] */
         readonly array $marktrollen = []
     ) {
-    }
-
-    public function getMarktrolle(Marktrolle $rolle): ?Marktteilnehmer
-    {
-        foreach ($this->marktrollen as $marktrolle) {
-            if ($marktrolle->marktrolle === $rolle) {
-                return $marktrolle;
-            }
-        }
-
-        return null;
     }
 }

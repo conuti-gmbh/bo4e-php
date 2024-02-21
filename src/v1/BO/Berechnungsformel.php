@@ -25,9 +25,4 @@ class Berechnungsformel
         readonly array $verwendungszweck = []
     ) {
     }
-
-    public function getVerwendungszweck1st(): ?Verwendungszweck
-    {
-        return count($this->verwendungszweck) === 1 ? $this->verwendungszweck[0] : null;
-    }
 }

@@ -11,7 +11,7 @@ use Conuti\BO4E\v1\Enum\Waehrungseinheit;
 class Preis
 {
     public function __construct(
-        readonly null|int|float $wert,
+        readonly ?float $wert,
         readonly ?Waehrungseinheit $einheit,
         readonly ?Mengeneinheit $bezugswert,
         readonly ?Preisstatus $status

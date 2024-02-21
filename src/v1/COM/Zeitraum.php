@@ -10,7 +10,7 @@ class Zeitraum
 {
     public function __construct(
         readonly ?Zeiteinheit $zeiteinheit,
-        readonly int|float|null $dauer,
+        readonly ?int $dauer,
         readonly ?string $startdatum,
         readonly ?string $enddatum,
         readonly ?Zeiteinheit $einheit,

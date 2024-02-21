@@ -6,7 +6,6 @@ namespace Conuti\BO4E\v1\BO;
 
 use Conuti\BO4E\v1\COM\EnFG;
 use Conuti\BO4E\v1\COM\Vertragskonditionen;
-use Conuti\BO4E\v1\Enum\Geschaeftspartnerrolle;
 use Conuti\BO4E\v1\Enum\Lokationstyp;
 use Conuti\BO4E\v1\Enum\Sparte;
 use Conuti\BO4E\v1\Enum\Vertragstatus;
@@ -37,16 +36,5 @@ class Vertrag
         /** @var EnFG[] */
         readonly array $enFG = []
     ) {
-    }
-
-    public function getPartner2ByRolle(Geschaeftspartnerrolle $rolle): ?Geschaeftspartner
-    {
-        foreach ($this->vertragspartner2 as $partner) {
-            if ($partner->hasRolle($rolle)) {
-                return $partner;
-            }
-        }
-
-        return null;
     }
 }

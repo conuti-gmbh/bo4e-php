@@ -7,7 +7,7 @@ namespace Conuti\BO4E\v1\COM;
 class Betrag
 {
     public function __construct(
-        readonly int|float|null $wert,
+        readonly ?float $wert,
         readonly ?string $waehrung
     ) {
     }

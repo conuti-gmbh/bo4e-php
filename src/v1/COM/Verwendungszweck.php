@@ -12,7 +12,7 @@ class Verwendungszweck
     public function __construct(
         readonly ?Marktrolle $marktrolle,
         /** @var VerwendungszweckValue[] */
-        readonly array $zweck = [],
+        readonly array $zweck = []
     ) {
     }
 }

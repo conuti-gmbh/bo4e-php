@@ -6,7 +6,6 @@ namespace Conuti\BO4E\v1\COM;
 
 use Conuti\BO4E\v1\Enum\ArtEmobilitaet;
 use Conuti\BO4E\v1\Enum\Energierichtung;
-use Conuti\BO4E\v1\Enum\Marktrolle;
 use Conuti\BO4E\v1\Enum\Mengeneinheit;
 use Conuti\BO4E\v1\Enum\NotwendigkeitZweiteMessung;
 use Conuti\BO4E\v1\Enum\Schwachlastfaehig;
@@ -15,7 +14,6 @@ use Conuti\BO4E\v1\Enum\Verbrauchsart;
 use Conuti\BO4E\v1\Enum\Waermenutzung;
 use Conuti\BO4E\v1\Enum\Wertegranularitaet;
 use Conuti\BO4E\v1\Enum\WerteuebermittlungVerwendungszweck;
-use UnexpectedValueException;
 
 class Zaehlwerk
 {
@@ -24,7 +22,7 @@ class Zaehlwerk
         readonly ?string $bezeichnung,
         readonly ?Energierichtung $richtung,
         readonly ?string $obisKennzahl,
-        readonly int|float|null $wandlerfaktor,
+        readonly ?float $wandlerfaktor,
         readonly ?Mengeneinheit $einheit,
         readonly ?Schwachlastfaehig $schwachlastfaehig,
         readonly ?Verbrauchsart $verbrauchsart,
@@ -49,23 +47,5 @@ class Zaehlwerk
         /** @var Verwendungszweck[] */
         readonly array $verwendungszwecke = [],
     ) {
-    }
-
-    /**
-     * @throws UnexpectedValueException
-     */
-    public function getVerwendungszweckeForRolle(Marktrolle $rolle): ?Verwendungszweck
-    {
-        $result = array_filter($this->verwendungszwecke, function (Verwendungszweck $zweck) use ($rolle) {
-            return $zweck->marktrolle === $rolle;
-        });
-
-        return match (count($result)) {
-            0 => null,
-            1 => current($result),
-            default => throw new UnexpectedValueException(
-                sprintf('Nicht mehr als ein Verwendungszweck für Marktrolle "%s" erwartet', $rolle->value)
-            )
-        };
     }
 }

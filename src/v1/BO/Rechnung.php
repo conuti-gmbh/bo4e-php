@@ -49,9 +49,4 @@ class Rechnung
         readonly array $rechnungspositionen = [],
     ) {
     }
-
-    public function isSelbstAusgestellt(): bool
-    {
-        return true === $this->istSelbstausgestellt;
-    }
 }

@@ -10,7 +10,7 @@ class Zuschlag
 {
     public function __construct(
         readonly ZuschlagTyp $typ,
-        readonly int|float $prozent
+        readonly ?float $prozent
     ) {
     }
 }

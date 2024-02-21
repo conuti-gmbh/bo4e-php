@@ -37,23 +37,4 @@ class Geschaeftspartner
         readonly array $kontaktweg = [],
     ) {
     }
-
-    public function hasRolle(Geschaeftspartnerrolle $rolle): bool
-    {
-        return in_array($rolle, $this->geschaeftspartnerrolle, true);
-    }
-
-    /**
-     * @param string $name
-     *
-     * @return ?ExterneReferenz
-     */
-    public function getExRefByName(string $name): ?ExterneReferenz
-    {
-        $items = array_filter($this->externeReferenzen, static function (ExterneReferenz $referenz) use ($name) {
-            return $referenz->exRefName === $name;
-        });
-
-        return $items ? current($items) : null;
-    }
 }

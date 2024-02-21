@@ -19,14 +19,4 @@ class Lastprofil
         readonly ?Tagesparameter $tagesparameter
     ) {
     }
-
-    public function isSLP(): bool
-    {
-        return $this->profilart === Profilart::ART_STANDARDLASTPROFIL;
-    }
-
-    public function isTLP(): bool
-    {
-        return $this->profilart === Profilart::ART_TAGESPARAMETERABHAENGIGES_LASTPROFIL;
-    }
 }

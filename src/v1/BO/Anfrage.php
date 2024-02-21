@@ -8,7 +8,6 @@ use Conuti\BO4E\v1\Enum\Abonnement;
 use Conuti\BO4E\v1\Enum\Anfragekategorie;
 use Conuti\BO4E\v1\Enum\Anfragetyp;
 use Conuti\BO4E\v1\Enum\Energierichtung;
-use DateTime;
 
 class Anfrage
 {

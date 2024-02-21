@@ -8,11 +8,11 @@ class Steuerbetrag
 {
     public function __construct(
         readonly ?string $steuerkennzeichen,
-        readonly int|float|null $basiswert,
-        readonly int|float|null $steuerwert,
+        readonly ?float $basiswert,
+        readonly ?float $steuerwert,
         readonly ?string $waehrung,
-        readonly int|float|null $basiswertVorausbezahlt,
-        readonly int|float|null $steuerwertVorausbezahhlt
+        readonly ?float $basiswertVorausbezahlt,
+        readonly ?float $steuerwertVorausbezahhlt
     ) {
     }
 }

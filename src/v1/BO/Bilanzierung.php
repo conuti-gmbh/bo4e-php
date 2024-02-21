@@ -9,7 +9,6 @@ use Conuti\BO4E\v1\COM\Menge;
 use Conuti\BO4E\v1\Enum\Abwicklungsmodell;
 use Conuti\BO4E\v1\Enum\Aggregationsverantwortung;
 use Conuti\BO4E\v1\Enum\Fallgruppenzuordnung;
-use Conuti\BO4E\v1\Enum\Profilart;
 use Conuti\BO4E\v1\Enum\Profiltyp;
 use Conuti\BO4E\v1\Enum\Prognosegrundlage;
 use Conuti\BO4E\v1\Enum\WahlrechtPrognosegrundlage;
@@ -36,51 +35,10 @@ class Bilanzierung
         readonly ?Menge $vorjahresverbrauch,
         /** @var Lastprofil[] */
         readonly array $lastprofile = [],
-        /** @var Lastprofil[ */
+        /** @var Lastprofil[] */
         readonly array $lastprofileBilanzierungsbeteiligter = [],
         /** @var Profiltyp[] */
         readonly array $detailsPrognosegrundlage = [],
     ) {
-    }
-
-    /**
-     * @param Profilart $profilart
-     * @param string|null $herausgeber
-     * @param bool|null $einspeisung
-     *
-     * @return Lastprofil[]
-     */
-    public function getLastprofile(Profilart $profilart, ?string $herausgeber = null, ?bool $einspeisung = null): array
-    {
-        return array_filter(
-            $this->lastprofile,
-            static function (Lastprofil $lastprofil) use ($profilart, $herausgeber, $einspeisung) {
-                return $lastprofil->profilart === $profilart
-                    && (!$herausgeber || $lastprofil->herausgeber === $herausgeber)
-                    && ($einspeisung === null || $lastprofil->einspeisung === $einspeisung);
-            }
-        );
-    }
-
-    /**
-     * @param Profilart $profilart
-     * @param string|null $herausgeber
-     * @param bool|null $einspeisung
-     *
-     * @return Lastprofil[]
-     */
-    public function getLastprofileBilanzierungsbeteiligter(
-        Profilart $profilart,
-        ?string $herausgeber = null,
-        ?bool $einspeisung = null
-    ): array {
-        return array_filter(
-            $this->lastprofileBilanzierungsbeteiligter,
-            static function (Lastprofil $lastprofil) use ($profilart, $herausgeber, $einspeisung) {
-                return $lastprofil->profilart === $profilart
-                    && (!$herausgeber || $lastprofil->herausgeber === $herausgeber)
-                    && ($einspeisung === null || $lastprofil->einspeisung === $einspeisung);
-            }
-        );
     }
 }

@@ -9,7 +9,7 @@ use Conuti\BO4E\v1\Enum\Mengeneinheit;
 class Menge
 {
     public function __construct(
-        readonly int|float|null $wert,
+        readonly ?float $wert,
         readonly ?Mengeneinheit $einheit,
     ) {
     }

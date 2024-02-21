@@ -28,15 +28,4 @@ class SteuerbareRessource
         readonly array $marktrollen = []
     ) {
     }
-
-    public function getMarktrolle(Marktrolle $rolle): ?Marktteilnehmer
-    {
-        foreach ($this->marktrollen as $marktrolle) {
-            if ($marktrolle->marktrolle === $rolle) {
-                return $marktrolle;
-            }
-        }
-
-        return null;
-    }
 }
