@@ -8,7 +8,8 @@ class Schwellwert
 {
     public function __construct(
         readonly ?float $obererSchwellwert,
-        readonly ?float $untererSchwellwert
+        readonly ?float $untererSchwellwert,
+        readonly ?string $konfigurationsprodukt
     ) {
     }
 }
