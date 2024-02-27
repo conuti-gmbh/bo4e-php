@@ -12,13 +12,15 @@ use Conuti\BO4E\v1\Enum\ZaehlzeitdefinitionTyp;
 class Zaehlzeit
 {
     public function __construct(
-        readonly ?string $code,
-        readonly ?HaeufigkeitZaehlzeit $haeufigkeit,
-        readonly ?UebermittelbarkeitZaehlzeit $uebermittelbarkeit,
-        readonly ?ErmittlungLeistungsmaximum $ermittlungLeistungsmaximum,
-        readonly ?bool $istBestellbar,
-        readonly ?ZaehlzeitdefinitionTyp $typ,
-        readonly ?string $beschreibungTyp,
+        readonly ?string $code = null,
+        readonly ?HaeufigkeitZaehlzeit $haeufigkeit = null,
+        readonly ?UebermittelbarkeitZaehlzeit $uebermittelbarkeit = null,
+        readonly ?ErmittlungLeistungsmaximum $ermittlungLeistungsmaximum = null,
+        readonly ?bool $istBestellbar = null,
+        readonly ?ZaehlzeitdefinitionTyp $typ = null,
+        readonly ?string $beschreibungTyp = null,
+        readonly ?string $aenderungszeitpunkt = null,
+        readonly ?string $register = null,
     ) {
     }
 }

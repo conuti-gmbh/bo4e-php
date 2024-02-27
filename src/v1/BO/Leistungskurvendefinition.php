@@ -12,9 +12,10 @@ class Leistungskurvendefinition
     public function __construct(
         readonly string $boTyp,
         readonly string $versionStruktur,
-        readonly ?DateTime $beginndatum,
-        readonly ?DateTime $endedatum,
-        readonly ?DateTime $version,
+        readonly ?DateTime $beginndatum = null,
+        readonly ?DateTime $endedatum = null,
+        readonly ?DateTime $version = null,
+        readonly ?string $code = null,
         /** @var Leistungskurve[] */
         readonly array $leistungskurven = [],
     ) {
