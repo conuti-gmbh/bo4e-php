@@ -6,6 +6,7 @@ namespace Conuti\BO4E\v1\COM;
 
 use Conuti\BO4E\v1\Enum\Anfragegrund;
 use Conuti\BO4E\v1\Enum\BDEWArtikelnummer;
+use Conuti\BO4E\v1\Enum\DefinitionsTyp;
 use Conuti\BO4E\v1\Enum\Energieerfassung;
 use DateTime;
 
@@ -23,7 +24,8 @@ class AuftragPosition
         readonly ?string $obiskennzahl,
         readonly ?Anfragegrund $anfragegrund,
         readonly ?AllgemeineInformationen $allgemeineInformationen,
-        readonly ?InfoAbweichung $infoAbweichung
+        readonly ?InfoAbweichung $infoAbweichung,
+        readonly ?DefinitionsTyp $definitionsTyp
     ) {
     }
 }
