@@ -6,17 +6,16 @@ namespace Conuti\BO4E\v1\COM;
 
 use Conuti\BO4E\v1\Enum\HaeufigkeitLeistungskurve;
 use Conuti\BO4E\v1\Enum\UebermittelbarkeitLeistungskurve;
-use DateTime;
 
 class Leistungskurve
 {
     public function __construct(
-        readonly ?string $code,
-        readonly ?DateTime $aenderungszeitpunkt,
-        readonly ?HaeufigkeitLeistungskurve $haeufigkeit,
-        readonly ?UebermittelbarkeitLeistungskurve $uebermittelbarkeit,
-        readonly ?Schwellwert $schwellwert,
-        readonly ?string $konfigurationsprodukt
+        readonly ?string $code = null,
+        readonly ?string $aenderungszeitpunkt = null,
+        readonly ?HaeufigkeitLeistungskurve $haeufigkeit = null,
+        readonly ?UebermittelbarkeitLeistungskurve $uebermittelbarkeit = null,
+        readonly ?Schwellwert $schwellwert = null,
+        readonly ?string $konfigurationsprodukt = null
     ) {
     }
 }

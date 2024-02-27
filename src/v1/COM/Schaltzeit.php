@@ -7,17 +7,16 @@ namespace Conuti\BO4E\v1\COM;
 use Conuti\BO4E\v1\Enum\HaeufigkeitSchaltzeit;
 use Conuti\BO4E\v1\Enum\Schalthandlung;
 use Conuti\BO4E\v1\Enum\UebermittelbarkeitSchaltzeit;
-use DateTime;
 
 class Schaltzeit
 {
     public function __construct(
-        readonly ?string $code,
-        readonly ?DateTime $aenderungszeitpunkt,
-        readonly ?HaeufigkeitSchaltzeit $haeufigkeit,
-        readonly ?UebermittelbarkeitSchaltzeit $uebermittelbarkeit,
-        readonly ?Schalthandlung $schalthandlung,
-        readonly ?string $konfigurationsprodukt
+        readonly ?string $code = null,
+        readonly ?string $aenderungszeitpunkt = null,
+        readonly ?HaeufigkeitSchaltzeit $haeufigkeit = null,
+        readonly ?UebermittelbarkeitSchaltzeit $uebermittelbarkeit = null,
+        readonly ?Schalthandlung $schalthandlung = null,
+        readonly ?string $konfigurationsprodukt = null
     ) {
     }
 }
