@@ -29,6 +29,7 @@ class Vertragskonditionen
         readonly ?Zeitraum $geplanteTurnusablesung,
         readonly ?BeauftragungMsb $beauftragungMsb,
         readonly ?Zeitraum $kuendigungsfrist,
+        readonly ?Zeitraum $vertragslaufzeit,
         readonly ?string $kuendigungstermin,
     ) {
     }
