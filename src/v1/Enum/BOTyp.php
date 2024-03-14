@@ -50,4 +50,5 @@ enum BOTyp: string
     case LOKATIONSBUENDEL = 'LOKATIONSBUENDEL';
     case WERTE_NACH_TYP2 = 'WERTE_NACH_TYP2';
     case REKLAMATION = 'REKLAMATION';
+    case VERTRAG = 'VERTRAG';
 }

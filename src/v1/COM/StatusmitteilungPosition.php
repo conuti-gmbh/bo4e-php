@@ -22,7 +22,9 @@ class StatusmitteilungPosition
         readonly ?Begruendung $begruendung,
         readonly ?string $lokationsId,
         readonly ?string $referenzMelo,
-        readonly ?AllgemeineInformationen $allgemeineInformationen
+        readonly ?AllgemeineInformationen $allgemeineInformationen,
+        /** @var Auftragsstatus[] */
+        readonly array $auftragsStatusListe = []
     ) {
     }
 }
