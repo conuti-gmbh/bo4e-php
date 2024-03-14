@@ -10,14 +10,14 @@ use Conuti\BO4E\v1\Enum\Handelsunstimmigkeitsrichtigkeit;
 class Handelsunstimmigkeitsbegruendung
 {
     public function __construct(
-        readonly ?Handelsunstimmigkeitsrichtigkeit $richtigkeit,
-        readonly ?string $referenzDar,
-        readonly ?string $referenznummer,
-        readonly ?string $bestaetigungDar,
-        readonly ?Handelsunstimmigkeitsgrund $grund,
-        readonly ?string $hinweis,
+        readonly ?Handelsunstimmigkeitsrichtigkeit $richtigkeit = null,
+        readonly ?string $referenzDar = null,
+        readonly ?string $referenznummer = null,
+        readonly ?string $bestaetigungDar = null,
+        readonly ?Handelsunstimmigkeitsgrund $grund = null,
+        readonly ?string $hinweis = null,
         /** @var string[] */
-        readonly array $referenzen = []
+        readonly array $referenzen = [],
     ) {
     }
 }

@@ -15,9 +15,9 @@ class Statusmitteilung
     public function __construct(
         readonly BOTyp $boTyp,
         readonly string $versionStruktur,
-        readonly ?Statusobjekt $statusObjekt,
-        readonly ?Status $statusanlass,
-        readonly ?Auftragsstatus $auftragsstatus,
+        readonly ?Statusobjekt $statusObjekt = null,
+        readonly ?Status $statusanlass = null,
+        readonly ?Auftragsstatus $auftragsstatus = null,
         /** @var StatusmitteilungPosition[] $positionsdaten */
         readonly array $positionsdaten = [],
     ) {

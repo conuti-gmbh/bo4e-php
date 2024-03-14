@@ -9,21 +9,21 @@ use DateTime;
 class Rechnungsposition
 {
     public function __construct(
-        readonly ?Preis $einzelpreis,
-        readonly ?string $lieferungBis,
-        readonly ?string $lieferungVon,
-        readonly ?Menge $positionsMenge,
-        readonly ?int $positionsnummer,
-        readonly ?string $artikelnummer,
-        readonly ?Betrag $teilsummeNetto,
-        readonly ?Steuerbetrag $teilsummeSteuer,
-        readonly ?Menge $zeitbezogeneMenge,
-        readonly ?Abschlag $abschlag,
-        readonly ?Zuschlag $zuschlag,
-        readonly ?Gemeinderabatt $gemeinderabatt,
-        readonly int|float|null $gesamtZuAbschlagsbetrag,
-        readonly int|float|null $korrekturfaktor,
-        readonly ?DateTime $ausfuehrungsdatum,
+        readonly ?Preis $einzelpreis = null,
+        readonly ?string $lieferungBis = null,
+        readonly ?string $lieferungVon = null,
+        readonly ?Menge $positionsMenge = null,
+        readonly ?int $positionsnummer = null,
+        readonly ?string $artikelnummer = null,
+        readonly ?Betrag $teilsummeNetto = null,
+        readonly ?Steuerbetrag $teilsummeSteuer = null,
+        readonly ?Menge $zeitbezogeneMenge = null,
+        readonly ?Abschlag $abschlag = null,
+        readonly ?Zuschlag $zuschlag = null,
+        readonly ?Gemeinderabatt $gemeinderabatt = null,
+        readonly ?float $gesamtZuAbschlagsbetrag = null,
+        readonly ?float $korrekturfaktor = null,
+        readonly ?DateTime $ausfuehrungsdatum = null,
     ) {
     }
 }

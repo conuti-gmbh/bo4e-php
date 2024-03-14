@@ -22,24 +22,24 @@ class Messlokation
     public function __construct(
         readonly string $boTyp,
         readonly string $versionStruktur,
-        readonly ?string $messlokationsId,
-        readonly ?Sparte $sparte,
-        readonly ?Energierichtung $energierichtung,
-        readonly ?Netzebene $netzebenemessung,
-        readonly ?string $messgebietNr,
-        readonly ?string $grundzustaendigerMSBCodeNr,
-        readonly ?Adresse $messadresse,
-        readonly ?Bilanzierungsmethode $bilanzierungsmethode,
-        readonly ?bool $abrechnungmessstellenbetriebnna,
-        readonly ?Gasqualitaet $gasqualitaet,
-        readonly ?float $verlustfaktor,
-        readonly ?Betriebszustand $betriebszustand,
-        readonly ?Geschaeftspartner $ablesekartenempfaenger,
-        readonly ?string $referenzMarktlokationsId,
-        readonly ?Verwendungsumfang $verwendungsumfang,
-        readonly ?bool $zukuenftigerMeldepunkt,
-        readonly ?Lokationszuordnung $lokationszuordnung,
-        readonly ?Marktteilnehmer $beteiligterMarktpartner,
+        readonly ?string $messlokationsId = null,
+        readonly ?Sparte $sparte = null,
+        readonly ?Energierichtung $energierichtung = null,
+        readonly ?Netzebene $netzebenemessung = null,
+        readonly ?string $messgebietNr = null,
+        readonly ?string $grundzustaendigerMSBCodeNr = null,
+        readonly ?Adresse $messadresse = null,
+        readonly ?Bilanzierungsmethode $bilanzierungsmethode = null,
+        readonly ?bool $abrechnungmessstellenbetriebnna = null,
+        readonly ?Gasqualitaet $gasqualitaet = null,
+        readonly ?float $verlustfaktor = null,
+        readonly ?Betriebszustand $betriebszustand = null,
+        readonly ?Geschaeftspartner $ablesekartenempfaenger = null,
+        readonly ?string $referenzMarktlokationsId = null,
+        readonly ?Verwendungsumfang $verwendungsumfang = null,
+        readonly ?bool $zukuenftigerMeldepunkt = null,
+        readonly ?Lokationszuordnung $lokationszuordnung = null,
+        readonly ?Marktteilnehmer $beteiligterMarktpartner = null,
         /** @var Geraet[] */
         readonly array $geraete = [],
         /** @var Dienstleistung[] */
@@ -49,7 +49,7 @@ class Messlokation
         /** @var Zaehlwerk[] */
         readonly array $zaehlwerke = [],
         /** @var Marktteilnehmer[] */
-        readonly array $marktrollen = []
+        readonly array $marktrollen = [],
     ) {
     }
 }

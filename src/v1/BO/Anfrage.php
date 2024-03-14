@@ -14,15 +14,15 @@ class Anfrage
     public function __construct(
         readonly string $boTyp,
         readonly string $versionStruktur,
-        readonly ?string $lokationsId,
-        readonly ?Anfragetyp $anfragetyp,
-        readonly ?Abonnement $abonnement,
-        readonly ?string $anfragereferenz,
-        readonly ?string $allgemeineInformationen,
-        readonly ?Anfragekategorie $anfragekategorie,
-        readonly ?Energierichtung $energierichtung,
-        readonly ?string $gueltigkeitszeitspanne,
-        readonly ?string $gueltigAb
+        readonly ?string $lokationsId = null,
+        readonly ?Anfragetyp $anfragetyp = null,
+        readonly ?Abonnement $abonnement = null,
+        readonly ?string $anfragereferenz = null,
+        readonly ?string $allgemeineInformationen = null,
+        readonly ?Anfragekategorie $anfragekategorie = null,
+        readonly ?Energierichtung $energierichtung = null,
+        readonly ?string $gueltigkeitszeitspanne = null,
+        readonly ?string $gueltigAb = null,
     ) {
     }
 }

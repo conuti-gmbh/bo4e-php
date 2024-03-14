@@ -12,11 +12,11 @@ class Lokationsbuendel
     public function __construct(
         readonly BOTyp $boTyp,
         readonly string $versionStruktur,
-        readonly ?string $lokationsbuendelstrukturId,
-        readonly ?int $lokationsbuendelNummer,
-        readonly ?bool $standardisierteLokationsbuendelstruktur,
+        readonly ?string $lokationsbuendelstrukturId = null,
+        readonly ?int $lokationsbuendelNummer = null,
+        readonly ?bool $standardisierteLokationsbuendelstruktur = null,
         /** @var ZuordnungObjectcode[] */
-        readonly array $zuordnungObjectcode = []
+        readonly array $zuordnungObjectcode = [],
     ) {
     }
 }

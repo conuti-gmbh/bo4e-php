@@ -7,11 +7,11 @@ namespace Conuti\BO4E\v1\COM;
 class Aussteller
 {
     public function __construct(
-        readonly ?string $aussteller1,
-        readonly ?string $aussteller2,
-        readonly ?string $aussteller3,
-        readonly ?string $aussteller4,
-        readonly ?string $aussteller5
+        readonly ?string $aussteller1 = null,
+        readonly ?string $aussteller2 = null,
+        readonly ?string $aussteller3 = null,
+        readonly ?string $aussteller4 = null,
+        readonly ?string $aussteller5 = null,
     ) {
     }
 }

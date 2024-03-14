@@ -7,8 +7,8 @@ namespace Conuti\BO4E\v1\COM;
 class Nennleistung
 {
     public function __construct(
-        readonly ?float $aufnahme,
-        readonly ?float $abgabe
+        readonly ?float $aufnahme = null,
+        readonly ?float $abgabe = null,
     ) {
     }
 }

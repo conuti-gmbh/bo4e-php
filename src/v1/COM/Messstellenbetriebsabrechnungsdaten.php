@@ -9,12 +9,12 @@ use Conuti\BO4E\v1\Enum\ArtikelIdTyp;
 class Messstellenbetriebsabrechnungsdaten
 {
     public function __construct(
-        readonly ?bool $messstellenbetriebsabrechnung,
-        readonly ?string $artikelId,
-        readonly ?ArtikelIdTyp $artikelIdTyp,
-        readonly ?int $anzahl,
-        readonly ?float $zuschlag,
-        readonly ?float $abschlag
+        readonly ?bool $messstellenbetriebsabrechnung = null,
+        readonly ?string $artikelId = null,
+        readonly ?ArtikelIdTyp $artikelIdTyp = null,
+        readonly ?int $anzahl = null,
+        readonly ?float $zuschlag = null,
+        readonly ?float $abschlag = null,
     ) {
     }
 }

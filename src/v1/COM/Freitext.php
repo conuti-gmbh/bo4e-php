@@ -7,11 +7,11 @@ namespace Conuti\BO4E\v1\COM;
 class Freitext
 {
     public function __construct(
-        readonly ?string $freitext1,
-        readonly ?string $freitext2,
-        readonly ?string $freitext3,
-        readonly ?string $freitext4,
-        readonly ?string $freitext5,
+        readonly ?string $freitext1 = null,
+        readonly ?string $freitext2 = null,
+        readonly ?string $freitext3 = null,
+        readonly ?string $freitext4 = null,
+        readonly ?string $freitext5 = null,
     ) {
     }
 }

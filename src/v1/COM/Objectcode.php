@@ -7,8 +7,8 @@ namespace Conuti\BO4E\v1\COM;
 class Objectcode
 {
     public function __construct(
-        readonly ?string $objectcode,
-        readonly ?int $lokationsbuendelNummer
+        readonly ?string $objectcode = null,
+        readonly ?int $lokationsbuendelNummer = null,
     ) {
     }
 }

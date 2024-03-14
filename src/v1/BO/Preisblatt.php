@@ -15,16 +15,16 @@ class Preisblatt
     public function __construct(
         readonly string $boTyp,
         readonly string $versionStruktur,
-        readonly ?string $bezeichnung,
-        readonly ?Zeitraum $gueltigkeit,
-        readonly ?Preisstatus $preisstatus,
-        readonly ?Sparte $sparte,
-        readonly ?string $bilanzierungsdatum,
-        readonly ?string $regelzone,
-        readonly ?Leistungstyp $leistungstyp,
-        readonly ?bool $nichtGenutzt,
+        readonly ?string $bezeichnung = null,
+        readonly ?Zeitraum $gueltigkeit = null,
+        readonly ?Preisstatus $preisstatus = null,
+        readonly ?Sparte $sparte = null,
+        readonly ?string $bilanzierungsdatum = null,
+        readonly ?string $regelzone = null,
+        readonly ?Leistungstyp $leistungstyp = null,
+        readonly ?bool $nichtGenutzt = null,
         /** @var Preisposition[] */
-        readonly array $preispositionen = []
+        readonly array $preispositionen = [],
     ) {
     }
 }

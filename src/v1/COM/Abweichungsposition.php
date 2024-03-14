@@ -7,11 +7,11 @@ namespace Conuti\BO4E\v1\COM;
 class Abweichungsposition
 {
     public function __construct(
-        readonly ?string $abweichungsgrundCode,
-        readonly ?string $abweichungsgrundCodeliste,
-        readonly ?string $abweichungsgrundBemerkung,
-        readonly ?string $zugehoerigeRechnung,
-        readonly ?string $zugehoerigeBestellung,
+        readonly ?string $abweichungsgrundCode = null,
+        readonly ?string $abweichungsgrundCodeliste = null,
+        readonly ?string $abweichungsgrundBemerkung = null,
+        readonly ?string $zugehoerigeRechnung = null,
+        readonly ?string $zugehoerigeBestellung = null,
     ) {
     }
 }

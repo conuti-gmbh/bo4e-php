@@ -15,7 +15,7 @@ class Leistungskurve
         readonly ?HaeufigkeitLeistungskurve $haeufigkeit = null,
         readonly ?UebermittelbarkeitLeistungskurve $uebermittelbarkeit = null,
         readonly ?Schwellwert $schwellwert = null,
-        readonly ?string $konfigurationsprodukt = null
+        readonly ?string $konfigurationsprodukt = null,
     ) {
     }
 }

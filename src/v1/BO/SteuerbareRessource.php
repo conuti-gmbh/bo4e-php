@@ -16,16 +16,16 @@ class SteuerbareRessource
     public function __construct(
         readonly BOTyp $boTyp,
         readonly string $versionStruktur,
-        readonly ?string $ressourcenId,
-        readonly ?Sparte $sparte,
-        readonly ?Lokationszuordnung $lokationszuordnung,
-        readonly ?string $konfigurationsprodukt,
-        readonly ?Steuerkanal $steuerkanal,
-        readonly ?Marktrolle $produktdatenRelevanteRolle,
-        readonly ?Marktteilnehmer $auftraggebenderMarktpartner,
-        readonly ?ZugeordneteDefinition $zugeordneteDefinition,
+        readonly ?string $ressourcenId = null,
+        readonly ?Sparte $sparte = null,
+        readonly ?Lokationszuordnung $lokationszuordnung = null,
+        readonly ?string $konfigurationsprodukt = null,
+        readonly ?Steuerkanal $steuerkanal = null,
+        readonly ?Marktrolle $produktdatenRelevanteRolle = null,
+        readonly ?Marktteilnehmer $auftraggebenderMarktpartner = null,
+        readonly ?ZugeordneteDefinition $zugeordneteDefinition = null,
         /** @var Marktteilnehmer[] */
-        readonly array $marktrollen = []
+        readonly array $marktrollen = [],
     ) {
     }
 }

@@ -18,25 +18,25 @@ class Auftrag
     public function __construct(
         readonly BOTyp $boTyp,
         readonly string $versionStruktur,
-        readonly ?DateTime $ausfuehrungsdatum,
-        readonly ?DateTime $fertigstellungsdatum,
-        readonly ?DateTime $startdatum,
-        readonly ?Sparte $sparte,
-        readonly ?Adresse $lieferanschrift,
-        readonly ?string $marktlokationsId,
-        readonly ?Preis $mindestpreis,
-        readonly ?Preis $hoechstpreis,
-        readonly ?Energierichtung $energierichtung,
-        readonly int|float|null $berechnungspreis,
-        readonly int|float|null $summeGesamt,
-        readonly ?DateTime $verschobenerAbmeldetermin,
-        readonly ?DateTime $behebungsZeitpunkt,
-        readonly ?Geschaeftspartner $lieferadresseAltgeraete,
-        readonly ?DefinitionsTyp $definitionsTyp,
+        readonly ?DateTime $ausfuehrungsdatum = null,
+        readonly ?DateTime $fertigstellungsdatum = null,
+        readonly ?DateTime $startdatum = null,
+        readonly ?Sparte $sparte = null,
+        readonly ?Adresse $lieferanschrift = null,
+        readonly ?string $marktlokationsId = null,
+        readonly ?Preis $mindestpreis = null,
+        readonly ?Preis $hoechstpreis = null,
+        readonly ?Energierichtung $energierichtung = null,
+        readonly ?float $berechnungspreis = null,
+        readonly ?float $summeGesamt = null,
+        readonly ?DateTime $verschobenerAbmeldetermin = null,
+        readonly ?DateTime $behebungsZeitpunkt = null,
+        readonly ?Geschaeftspartner $lieferadresseAltgeraete = null,
+        readonly ?DefinitionsTyp $definitionsTyp = null,
         /** @var AuftragPosition[] */
         readonly array $positionsdaten = [],
         /** @var string[] */
-        readonly array $bemerkungen = []
+        readonly array $bemerkungen = [],
     ) {
     }
 }

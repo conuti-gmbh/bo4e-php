@@ -9,9 +9,9 @@ use Conuti\BO4E\v1\Enum\Schwachlastfaehig;
 class Zaehlzeitregister
 {
     public function __construct(
-        readonly ?string $zaehlzeitDefinition,
-        readonly ?string $register,
-        readonly ?Schwachlastfaehig $schwachlastfaehig
+        readonly ?string $zaehlzeitDefinition = null,
+        readonly ?string $register = null,
+        readonly ?Schwachlastfaehig $schwachlastfaehig = null,
     ) {
     }
 }

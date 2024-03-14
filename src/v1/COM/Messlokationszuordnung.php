@@ -15,10 +15,10 @@ use DateTime;
 class Messlokationszuordnung
 {
     public function __construct(
-        readonly string $messlokationsId,
-        readonly ?ArithmetischeOperation $arithmetik,
-        readonly ?DateTime $gueltigSeit,
-        readonly ?DateTime $gueltigBis,
+        readonly ?string $messlokationsId = null,
+        readonly ?ArithmetischeOperation $arithmetik = null,
+        readonly ?DateTime $gueltigSeit = null,
+        readonly ?DateTime $gueltigBis = null,
     ) {
     }
 }

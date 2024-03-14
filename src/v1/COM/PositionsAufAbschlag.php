@@ -10,11 +10,11 @@ use Conuti\BO4E\v1\Enum\Waehrungseinheit;
 class PositionsAufAbschlag
 {
     public function __construct(
-        readonly ?string $bezeichnung,
-        readonly ?string $beschreibung,
-        readonly ?AufAbschlagstyp $aufAbschlagstyp,
-        readonly ?float $aufAbschlagswert,
-        readonly ?Waehrungseinheit $aufAbschlagswaehrung
+        readonly ?string $bezeichnung = null,
+        readonly ?string $beschreibung = null,
+        readonly ?AufAbschlagstyp $aufAbschlagstyp = null,
+        readonly ?float $aufAbschlagswert = null,
+        readonly ?Waehrungseinheit $aufAbschlagswaehrung = null,
     ) {
     }
 }

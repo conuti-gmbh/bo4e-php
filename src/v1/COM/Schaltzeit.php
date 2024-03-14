@@ -16,7 +16,7 @@ class Schaltzeit
         readonly ?HaeufigkeitSchaltzeit $haeufigkeit = null,
         readonly ?UebermittelbarkeitSchaltzeit $uebermittelbarkeit = null,
         readonly ?Schalthandlung $schalthandlung = null,
-        readonly ?string $konfigurationsprodukt = null
+        readonly ?string $konfigurationsprodukt = null,
     ) {
     }
 }

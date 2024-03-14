@@ -14,13 +14,13 @@ class Reklamation
     public function __construct(
         readonly string $boTyp,
         readonly string $versionStruktur,
-        readonly ?string $lokationsId,
-        readonly ?Lokationstyp $lokationsTyp,
-        readonly ?string $obiskennzahl,
-        readonly ?Zeitraum $zeitraumMesswertanfrage,
-        readonly ?Reklamationsgrund $reklamationsgrund,
-        readonly ?ReklamationsgrundBemerkung $reklamationsgrundBemerkung,
-        readonly ?string $konfiguration
+        readonly ?string $lokationsId = null,
+        readonly ?Lokationstyp $lokationsTyp = null,
+        readonly ?string $obiskennzahl = null,
+        readonly ?Zeitraum $zeitraumMesswertanfrage = null,
+        readonly ?Reklamationsgrund $reklamationsgrund = null,
+        readonly ?ReklamationsgrundBemerkung $reklamationsgrundBemerkung = null,
+        readonly ?string $konfiguration = null,
     ) {
     }
 }

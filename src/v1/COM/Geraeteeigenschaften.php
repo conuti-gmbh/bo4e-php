@@ -10,9 +10,9 @@ use Conuti\BO4E\v1\Enum\Geraetetyp;
 class Geraeteeigenschaften
 {
     public function __construct(
-        readonly ?Geraetetyp $geraetetyp,
-        readonly ?Geraetemerkmal $geraetemerkmal,
-        readonly ?float $faktor
+        readonly ?Geraetetyp $geraetetyp = null,
+        readonly ?Geraetemerkmal $geraetemerkmal = null,
+        readonly ?float $faktor = null,
     ) {
     }
 }

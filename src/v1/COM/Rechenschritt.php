@@ -10,14 +10,14 @@ use Conuti\BO4E\v1\Enum\Energierichtung;
 class Rechenschritt
 {
     public function __construct(
-        readonly ?int $rechenschrittBestandteilId,
-        readonly ?int $referenzRechenschrittId,
-        readonly ?ArithmetischeOperation $operation,
-        readonly ?float $verlustfaktorTrafo,
-        readonly ?float $verlustfaktorLeitung,
-        readonly ?float $aufteilungsfaktorEnergiemenge,
-        readonly ?string $messlokationsId,
-        readonly ?Energierichtung $energieflussrichtung
+        readonly ?int $rechenschrittBestandteilId = null,
+        readonly ?int $referenzRechenschrittId = null,
+        readonly ?ArithmetischeOperation $operation = null,
+        readonly ?float $verlustfaktorTrafo = null,
+        readonly ?float $verlustfaktorLeitung = null,
+        readonly ?float $aufteilungsfaktorEnergiemenge = null,
+        readonly ?string $messlokationsId = null,
+        readonly ?Energierichtung $energieflussrichtung = null,
     ) {
     }
 }

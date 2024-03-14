@@ -13,22 +13,22 @@ use Conuti\BO4E\v1\Enum\Wertermittlungsverfahren;
 class Verbrauch
 {
     public function __construct(
-        readonly ?string $startdatum,
-        readonly ?string $enddatum,
-        readonly ?Wertermittlungsverfahren $wertermittlungsverfahren,
-        readonly ?Messwertstatus $messwertstatus,
-        readonly ?string $obiskennzahl,
-        readonly ?float $wert,
-        readonly ?Mengeneinheit $einheit,
-        readonly ?Verbrauchsmengetyp $type,
-        readonly ?Tarifstufe $tarifstufe,
-        readonly ?string $nutzungszeitpunkt,
-        readonly ?string $ausfuehrungszeitpunkt,
-        readonly ?int $position,
-        readonly ?string $ablesedatum,
-        readonly ?string $leistungsperiode,
+        readonly ?string $startdatum = null,
+        readonly ?string $enddatum = null,
+        readonly ?Wertermittlungsverfahren $wertermittlungsverfahren = null,
+        readonly ?Messwertstatus $messwertstatus = null,
+        readonly ?string $obiskennzahl = null,
+        readonly ?float $wert = null,
+        readonly ?Mengeneinheit $einheit = null,
+        readonly ?Verbrauchsmengetyp $type = null,
+        readonly ?Tarifstufe $tarifstufe = null,
+        readonly ?string $nutzungszeitpunkt = null,
+        readonly ?string $ausfuehrungszeitpunkt = null,
+        readonly ?int $position = null,
+        readonly ?string $ablesedatum = null,
+        readonly ?string $leistungsperiode = null,
         /** @var StatusZusatzInformation[] */
-        readonly array $statuszusatzinformationen = []
+        readonly array $statuszusatzinformationen = [],
     ) {
     }
 }

@@ -13,11 +13,11 @@ class Avis
     public function __construct(
         readonly string $boTyp,
         readonly string $versionStruktur,
-        readonly ?string $avisNummer,
-        readonly ?AvisTyp $avisTyp,
-        readonly ?Betrag $zuZahlen,
+        readonly ?string $avisNummer = null,
+        readonly ?AvisTyp $avisTyp = null,
+        readonly ?Betrag $zuZahlen = null,
         /** @var Avisposition[] */
-        readonly array $positionen = []
+        readonly array $positionen = [],
     ) {
     }
 }

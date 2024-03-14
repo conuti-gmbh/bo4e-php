@@ -10,18 +10,18 @@ use Conuti\BO4E\v1\Enum\ZahlerBlindarbeit;
 class Netznutzungsabrechnungsdaten
 {
     public function __construct(
-        readonly ?string $artikelId,
-        readonly ?ArtikelIdTyp $artikelIdTyp,
-        readonly ?int $anzahl,
-        readonly ?float $gemeinderabatt,
-        readonly ?float $zuschlag,
-        readonly ?float $abschlag,
-        readonly ?Menge $singulaereBetriebsmittel,
-        readonly ?Preis $preisSingulaereBetriebsmittel,
-        readonly ?bool $abrechnungBlindarbeit,
-        readonly ?ZahlerBlindarbeit $zahlerBlindarbeit,
-        readonly ?bool $zahlerBlindarbeitLf,
-        readonly ?Zaehlzeitregister $zaehlzeiten,
+        readonly ?string $artikelId = null,
+        readonly ?ArtikelIdTyp $artikelIdTyp = null,
+        readonly ?int $anzahl = null,
+        readonly ?float $gemeinderabatt = null,
+        readonly ?float $zuschlag = null,
+        readonly ?float $abschlag = null,
+        readonly ?Menge $singulaereBetriebsmittel = null,
+        readonly ?Preis $preisSingulaereBetriebsmittel = null,
+        readonly ?bool $abrechnungBlindarbeit = null,
+        readonly ?ZahlerBlindarbeit $zahlerBlindarbeit = null,
+        readonly ?bool $zahlerBlindarbeitLf = null,
+        readonly ?Zaehlzeitregister $zaehlzeiten = null,
     ) {
     }
 }

@@ -9,14 +9,14 @@ use Conuti\BO4E\v1\Enum\Zeiteinheit;
 class Zeitraum
 {
     public function __construct(
-        readonly ?Zeiteinheit $zeiteinheit,
-        readonly ?int $dauer,
-        readonly ?string $startdatum,
-        readonly ?string $enddatum,
-        readonly ?Zeiteinheit $einheit,
-        readonly ?string $ableseZeitraum,
-        readonly ?string $abrechnungsZeitraum,
-        readonly ?string $zeitraumText
+        readonly ?Zeiteinheit $zeiteinheit = null,
+        readonly ?int $dauer = null,
+        readonly ?string $startdatum = null,
+        readonly ?string $enddatum = null,
+        readonly ?Zeiteinheit $einheit = null,
+        readonly ?string $ableseZeitraum = null,
+        readonly ?string $abrechnungsZeitraum = null,
+        readonly ?string $zeitraumText = null,
     ) {
     }
 }

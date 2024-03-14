@@ -9,7 +9,7 @@ use Conuti\BO4E\v1\Enum\FehlerTyp;
 class Fehler
 {
     public function __construct(
-        readonly ?FehlerTyp $typ,
+        readonly ?FehlerTyp $typ = null,
         /** @var FehlerDetail[] */
         readonly array $fehlerDetails = [],
     ) {

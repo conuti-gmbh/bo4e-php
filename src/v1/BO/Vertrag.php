@@ -15,26 +15,26 @@ class Vertrag
 {
     public function __construct(
         readonly string $boTyp,
-        readonly ?string $versionStruktur,
-        readonly ?Sparte $sparte,
-        readonly ?string $vertragsart,
-        readonly ?string $vertragsnummer,
-        readonly ?string $beschreibung,
-        readonly ?string $lokationsId,
-        readonly ?Lokationstyp $lokationsTyp,
-        readonly ?Vertragstatus $vertragsstatus,
-        readonly ?DateTime $vertragsbeginn,
-        readonly ?string $vertragsende,
-        readonly ?int $gemeinderabatt,
-        readonly ?Vertragskonditionen $vertragskonditionen,
-        readonly ?Geschaeftspartner $korrespondenzpartner,
-        readonly ?bool $abrechnungUeberNna,
+        readonly string $versionStruktur,
+        readonly ?Sparte $sparte = null,
+        readonly ?string $vertragsart = null,
+        readonly ?string $vertragsnummer = null,
+        readonly ?string $beschreibung = null,
+        readonly ?string $lokationsId = null,
+        readonly ?Lokationstyp $lokationsTyp = null,
+        readonly ?Vertragstatus $vertragsstatus = null,
+        readonly ?DateTime $vertragsbeginn = null,
+        readonly ?string $vertragsende = null,
+        readonly ?int $gemeinderabatt = null,
+        readonly ?Vertragskonditionen $vertragskonditionen = null,
+        readonly ?Geschaeftspartner $korrespondenzpartner = null,
+        readonly ?bool $abrechnungUeberNna = null,
         /** @var Marktteilnehmer[] $vertragspartner1 */
         readonly array $vertragspartner1 = [],
         /** @var Geschaeftspartner[] $vertragspartner2 */
         readonly array $vertragspartner2 = [],
         /** @var EnFG[] */
-        readonly array $enFG = []
+        readonly array $enFG = [],
     ) {
     }
 }

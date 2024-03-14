@@ -17,25 +17,25 @@ use Conuti\BO4E\v1\Enum\Zeiteinheit;
 class Preisposition
 {
     public function __construct(
-        readonly ?Kalkulationsmethode $berechnungsmethode,
-        readonly ?Leistungstyp $leistungstyp,
-        readonly ?string $leistungsbezeichnung,
-        readonly ?Waehrungseinheit $preiseinheit,
-        readonly ?Mengeneinheit $bezugsgroesse,
-        readonly ?Zeiteinheit $zeitbasis,
-        readonly ?Tarifzeit $tarifzeit,
-        readonly ?BDEWArtikelnummer $bdewArtikelnummer,
-        readonly ?Bemessungsgroesse $zonungsgroesse,
-        readonly ?string $preisschluesselstamm,
-        readonly ?int $positionsnummer,
-        readonly ?Netzebene $messebene,
-        readonly ?string $beschreibung,
-        readonly ?Zeitraum $verarbeitungszeitraum,
-        readonly ?string $artikelId,
+        readonly ?Kalkulationsmethode $berechnungsmethode = null,
+        readonly ?Leistungstyp $leistungstyp = null,
+        readonly ?string $leistungsbezeichnung = null,
+        readonly ?Waehrungseinheit $preiseinheit = null,
+        readonly ?Mengeneinheit $bezugsgroesse = null,
+        readonly ?Zeiteinheit $zeitbasis = null,
+        readonly ?Tarifzeit $tarifzeit = null,
+        readonly ?BDEWArtikelnummer $bdewArtikelnummer = null,
+        readonly ?Bemessungsgroesse $zonungsgroesse = null,
+        readonly ?string $preisschluesselstamm = null,
+        readonly ?int $positionsnummer = null,
+        readonly ?Netzebene $messebene = null,
+        readonly ?string $beschreibung = null,
+        readonly ?Zeitraum $verarbeitungszeitraum = null,
+        readonly ?string $artikelId = null,
         /** @var PositionsAufAbschlag[] */
         readonly array $zu_abschlaege = [],
         /** @var Preisstaffel[] */
-        readonly array $preisstaffeln = []
+        readonly array $preisstaffeln = [],
     ) {
     }
 }

@@ -13,19 +13,19 @@ use DateTime;
 class AuftragPosition
 {
     public function __construct(
-        readonly ?int $positionsnummer,
-        readonly ?string $positionsnummerAngebot,
-        readonly ?Energieerfassung $energieerfassung,
-        readonly ?BDEWArtikelnummer $artikelnummer,
-        readonly ?string $positionsbetrag,
-        readonly ?DateTime $startdatum,
-        readonly ?DateTime $enddatum,
-        readonly ?string $istBestand,
-        readonly ?string $obiskennzahl,
-        readonly ?Anfragegrund $anfragegrund,
-        readonly ?AllgemeineInformationen $allgemeineInformationen,
-        readonly ?InfoAbweichung $infoAbweichung,
-        readonly ?DefinitionsTyp $definitionsTyp
+        readonly ?int $positionsnummer = null,
+        readonly ?string $positionsnummerAngebot = null,
+        readonly ?Energieerfassung $energieerfassung = null,
+        readonly ?BDEWArtikelnummer $artikelnummer = null,
+        readonly ?string $positionsbetrag = null,
+        readonly ?DateTime $startdatum = null,
+        readonly ?DateTime $enddatum = null,
+        readonly ?string $istBestand = null,
+        readonly ?string $obiskennzahl = null,
+        readonly ?Anfragegrund $anfragegrund = null,
+        readonly ?AllgemeineInformationen $allgemeineInformationen = null,
+        readonly ?InfoAbweichung $infoAbweichung = null,
+        readonly ?DefinitionsTyp $definitionsTyp = null,
     ) {
     }
 }

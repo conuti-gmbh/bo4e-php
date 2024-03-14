@@ -13,17 +13,17 @@ class Energiemenge
     public function __construct(
         readonly BOTyp $boTyp,
         readonly string $versionStruktur,
-        readonly ?string $lokationsId,
-        readonly ?Lokationstyp $lokationsTyp,
-        readonly ?string $fertigstellungsdatum,
-        readonly ?string $startdatum,
-        readonly ?string $enddatum,
-        readonly ?string $bilanzierungsdatum,
-        readonly ?string $beginndatum,
-        readonly ?string $referenzStammdatenmeldungMsb,
-        readonly ?string $konfiguration,
+        readonly ?string $lokationsId = null,
+        readonly ?Lokationstyp $lokationsTyp = null,
+        readonly ?string $fertigstellungsdatum = null,
+        readonly ?string $startdatum = null,
+        readonly ?string $enddatum = null,
+        readonly ?string $bilanzierungsdatum = null,
+        readonly ?string $beginndatum = null,
+        readonly ?string $referenzStammdatenmeldungMsb = null,
+        readonly ?string $konfiguration = null,
         /** @var Verbrauch[] */
-        readonly array $energieverbrauch = []
+        readonly array $energieverbrauch = [],
     ) {
     }
 }

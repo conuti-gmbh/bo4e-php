@@ -13,17 +13,17 @@ class Angebot
     public function __construct(
         readonly string $boTyp,
         readonly string $versionStruktur,
-        readonly ?string $angebotsnummer,
-        readonly ?string $anfragereferenz,
-        readonly ?DateTime $angebotsdatum,
-        readonly ?Sparte $sparte,
-        readonly ?DateTime $bindefrist,
-        readonly ?Geschaeftspartner $angebotgeber,
-        readonly ?Geschaeftspartner $angebotnehmer,
-        readonly ?Ansprechpartner $unterzeichnerAngebotsnehmer,
-        readonly ?Ansprechpartner $unterzeichnerAngebotsgeber,
+        readonly ?string $angebotsnummer = null,
+        readonly ?string $anfragereferenz = null,
+        readonly ?DateTime $angebotsdatum = null,
+        readonly ?Sparte $sparte = null,
+        readonly ?DateTime $bindefrist = null,
+        readonly ?Geschaeftspartner $angebotgeber = null,
+        readonly ?Geschaeftspartner $angebotnehmer = null,
+        readonly ?Ansprechpartner $unterzeichnerAngebotsnehmer = null,
+        readonly ?Ansprechpartner $unterzeichnerAngebotsgeber = null,
         /** @var array<Angebotsvariante> $varianten */
-        readonly array $varianten = []
+        readonly array $varianten = [],
     ) {
     }
 }

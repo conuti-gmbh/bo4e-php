@@ -9,11 +9,11 @@ class Kommunikationsdaten
     public function __construct(
         readonly string $boTyp,
         readonly string $versionStruktur,
-        readonly ?string $gueltigkeit,
-        readonly ?bool $kommunikationsDatenBlattInaktiv,
-        readonly ?Marktteilnehmer $marktteilnehmer,
+        readonly ?string $gueltigkeit = null,
+        readonly ?bool $kommunikationsDatenBlattInaktiv = null,
+        readonly ?Marktteilnehmer $marktteilnehmer = null,
         /** @var Marktteilnehmer[] */
-        readonly array $kommunikationsangaben = []
+        readonly array $kommunikationsangaben = [],
     ) {
     }
 }

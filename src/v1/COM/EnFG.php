@@ -10,9 +10,9 @@ use Conuti\BO4E\v1\Enum\GrundlageVerringerungUmlagenGrund;
 class EnFG
 {
     public function __construct(
-        readonly ?GrundlageVerringerungUmlagen $grundlageVerringerungUmlagen,
+        readonly ?GrundlageVerringerungUmlagen $grundlageVerringerungUmlagen = null,
         /** @var GrundlageVerringerungUmlagenGrund[] */
-        readonly array $grund = []
+        readonly array $grund = [],
     ) {
     }
 }

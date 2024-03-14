@@ -11,10 +11,10 @@ class Ansprechpartner
     public function __construct(
         readonly string $boTyp,
         readonly string $versionStruktur,
-        readonly ?string $nachname,
-        readonly ?string $eMailAdresse,
+        readonly ?string $nachname = null,
+        readonly ?string $eMailAdresse = null,
         /** @var Rufnummer[] */
-        readonly array $rufnummern = []
+        readonly array $rufnummern = [],
     ) {
     }
 }

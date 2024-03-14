@@ -7,12 +7,12 @@ namespace Conuti\BO4E\v1\COM;
 class Steuerbetrag
 {
     public function __construct(
-        readonly ?string $steuerkennzeichen,
-        readonly ?float $basiswert,
-        readonly ?float $steuerwert,
-        readonly ?string $waehrung,
-        readonly ?float $basiswertVorausbezahlt,
-        readonly ?float $steuerwertVorausbezahhlt
+        readonly ?string $steuerkennzeichen = null,
+        readonly ?float $basiswert = null,
+        readonly ?float $steuerwert = null,
+        readonly ?string $waehrung = null,
+        readonly ?float $basiswertVorausbezahlt = null,
+        readonly ?float $steuerwertVorausbezahhlt = null,
     ) {
     }
 }

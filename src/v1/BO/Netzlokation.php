@@ -15,24 +15,24 @@ class Netzlokation
 {
     public function __construct(
         readonly BOTyp $boTyp,
-        readonly ?string $versionStruktur,
-        readonly ?string $netzlokationsId,
-        readonly ?Sparte $sparte,
-        readonly ?string $netzanschlussleistung,
-        readonly ?string $grundzustaendigerMSBCodeNr,
-        readonly ?bool $steuerkanal,
-        readonly ?Lokationszuordnung $lokationszuordnung,
-        readonly ?Marktrolle $produktdatenRelevanteRolle,
-        readonly ?Marktteilnehmer $auftraggebenderMarktpartner,
-        readonly ?string $konfigurationsprodukt,
-        readonly ?bool $keinKonfigurationsprodukt,
-        readonly ?string $leistungskurvendefinition,
+        readonly string $versionStruktur,
+        readonly ?string $netzlokationsId = null,
+        readonly ?Sparte $sparte = null,
+        readonly ?string $netzanschlussleistung = null,
+        readonly ?string $grundzustaendigerMSBCodeNr = null,
+        readonly ?bool $steuerkanal = null,
+        readonly ?Lokationszuordnung $lokationszuordnung = null,
+        readonly ?Marktrolle $produktdatenRelevanteRolle = null,
+        readonly ?Marktteilnehmer $auftraggebenderMarktpartner = null,
+        readonly ?string $konfigurationsprodukt = null,
+        readonly ?bool $keinKonfigurationsprodukt = null,
+        readonly ?string $leistungskurvendefinition = null,
         /** @var Marktteilnehmer[] */
         readonly array $marktrollen = [],
         /** @var Zaehlwerk[] */
         readonly array $zaehlwerke = [],
         /** @var Netznutzungsabrechnungsdaten[] */
-        readonly array $abrechnungsdaten = []
+        readonly array $abrechnungsdaten = [],
     ) {
     }
 }

@@ -14,10 +14,10 @@ class Statusbericht
     public function __construct(
         readonly BOTyp $boTyp,
         readonly string $versionStruktur,
-        readonly ?BerichtStatus $status,
-        readonly ?string $pruefgegenstand,
-        readonly ?DateTime $datumPruefung,
-        readonly ?Fehler $fehler,
+        readonly ?BerichtStatus $status = null,
+        readonly ?string $pruefgegenstand = null,
+        readonly ?DateTime $datumPruefung = null,
+        readonly ?Fehler $fehler = null,
     ) {
     }
 }

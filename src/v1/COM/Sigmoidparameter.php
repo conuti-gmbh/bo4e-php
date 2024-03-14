@@ -7,10 +7,10 @@ namespace Conuti\BO4E\v1\COM;
 class Sigmoidparameter
 {
     public function __construct(
-        readonly ?float $A,
-        readonly ?float $B,
-        readonly ?float $C,
-        readonly ?float $D
+        readonly ?float $A = null,
+        readonly ?float $B = null,
+        readonly ?float $C = null,
+        readonly ?float $D = null,
     ) {
     }
 }

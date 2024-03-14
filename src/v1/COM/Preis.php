@@ -11,10 +11,10 @@ use Conuti\BO4E\v1\Enum\Waehrungseinheit;
 class Preis
 {
     public function __construct(
-        readonly ?float $wert,
-        readonly ?Waehrungseinheit $einheit,
-        readonly ?Mengeneinheit $bezugswert,
-        readonly ?Preisstatus $status
+        readonly ?float $wert = null,
+        readonly ?Waehrungseinheit $einheit = null,
+        readonly ?Mengeneinheit $bezugswert = null,
+        readonly ?Preisstatus $status = null,
     ) {
     }
 }

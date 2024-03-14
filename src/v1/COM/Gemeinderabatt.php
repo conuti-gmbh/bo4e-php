@@ -7,10 +7,10 @@ namespace Conuti\BO4E\v1\COM;
 class Gemeinderabatt
 {
     public function __construct(
-        readonly int|float|null $wert,
-        readonly ?string $einheit,
-        readonly ?string $typ = '',
-        readonly ?float $bemessungsgrundlage = null
+        readonly ?float $wert = null,
+        readonly ?string $einheit = null,
+        readonly ?string $typ = null,
+        readonly ?float $bemessungsgrundlage = null,
     ) {
     }
 }

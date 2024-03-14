@@ -9,8 +9,8 @@ use Conuti\BO4E\v1\Enum\Dienstleistungstyp;
 class Dienstleistung
 {
     public function __construct(
-        readonly ?Dienstleistungstyp $dienstleistungstyp,
-        readonly ?string $bezeichnung
+        readonly ?Dienstleistungstyp $dienstleistungstyp = null,
+        readonly ?string $bezeichnung = null,
     ) {
     }
 }

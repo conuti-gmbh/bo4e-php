@@ -10,14 +10,14 @@ use Conuti\BO4E\v1\Enum\Volumenerfassung;
 class Geraet
 {
     public function __construct(
-        readonly ?Geraetetyp $geraetetyp,
-        readonly ?string $bezeichnung,
-        readonly ?string $geraetenummer,
-        readonly ?string $geraetereferenz,
-        readonly ?Geraeteeigenschaften $geraeteeigenschaften,
-        readonly ?Volumenerfassung $volumenerfassung,
+        readonly ?Geraetetyp $geraetetyp = null,
+        readonly ?string $bezeichnung = null,
+        readonly ?string $geraetenummer = null,
+        readonly ?string $geraetereferenz = null,
+        readonly ?Geraeteeigenschaften $geraeteeigenschaften = null,
+        readonly ?Volumenerfassung $volumenerfassung = null,
         /** @var string[] */
-        readonly array $weitereGeraetenummern = []
+        readonly array $weitereGeraetenummern = [],
     ) {
     }
 }

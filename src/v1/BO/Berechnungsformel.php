@@ -14,15 +14,15 @@ class Berechnungsformel
     public function __construct(
         readonly string $boTyp,
         readonly string $versionStruktur,
-        readonly ?string $beginndatum,
-        readonly ?BerechnungsformelNotwendigkeit $notwendigkeit,
-        readonly ?Energierichtung $lieferrichtung,
-        readonly ?int $rechenschrittId,
-        readonly ?Rechenschritt $rechenschritt,
+        readonly ?string $beginndatum = null,
+        readonly ?BerechnungsformelNotwendigkeit $notwendigkeit = null,
+        readonly ?Energierichtung $lieferrichtung = null,
+        readonly ?int $rechenschrittId = null,
+        readonly ?Rechenschritt $rechenschritt = null,
         /** @var Rechenschritt[] */
         readonly array $rechenschritte = [],
         /** @var Verwendungszweck[] */
-        readonly array $verwendungszweck = []
+        readonly array $verwendungszweck = [],
     ) {
     }
 }

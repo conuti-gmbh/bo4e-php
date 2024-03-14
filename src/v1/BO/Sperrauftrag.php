@@ -15,13 +15,13 @@ class Sperrauftrag
     public function __construct(
         readonly string $boTyp,
         readonly string $versionStruktur,
-        readonly ?Adresse $treffpunkt,
-        readonly ?Sperrauftragsart $sperrauftragsart,
-        readonly ?Auftragsstatus $sperrauftragsstatus,
-        readonly ?Sperrauftragsablehngrund $sperrauftragsablehngrund,
-        readonly ?Sperrauftragsverhinderungsgrund $sperrauftragsverhinderungsgrund,
-        readonly ?string $zaehlernummer,
-        readonly ?bool $istVomGerichtsvollzieherAngeordnet
+        readonly ?Adresse $treffpunkt = null,
+        readonly ?Sperrauftragsart $sperrauftragsart = null,
+        readonly ?Auftragsstatus $sperrauftragsstatus = null,
+        readonly ?Sperrauftragsablehngrund $sperrauftragsablehngrund = null,
+        readonly ?Sperrauftragsverhinderungsgrund $sperrauftragsverhinderungsgrund = null,
+        readonly ?string $zaehlernummer = null,
+        readonly ?bool $istVomGerichtsvollzieherAngeordnet = null
     ) {
     }
 }

@@ -13,10 +13,10 @@ class Handelsunstimmigkeit
     public function __construct(
         readonly string $boTyp,
         readonly string $versionStruktur,
-        readonly ?string $nummer,
-        readonly ?Handelsunstimmigkeitstyp $typ,
-        readonly ?Handelsunstimmigkeitsbegruendung $begruendung,
-        readonly ?Betrag $zuZahlen
+        readonly ?string $nummer = null,
+        readonly ?Handelsunstimmigkeitstyp $typ = null,
+        readonly ?Handelsunstimmigkeitsbegruendung $begruendung = null,
+        readonly ?Betrag $zuZahlen = null,
     ) {
     }
 }

@@ -15,11 +15,11 @@ class AdHocSteuerkanal
     public function __construct(
         readonly BOTyp $boTyp,
         readonly string $versionStruktur,
-        readonly ?string $konfigurationsprodukt,
-        readonly ?Zieladresse $zieladresse,
-        readonly ?Aussteller $aussteller,
-        readonly ?ZertifikatsNutzer $zertifikatsNutzer,
-        readonly ?IPAdresseCLSDevice $IPAdresseCLSDevice
+        readonly ?string $konfigurationsprodukt = null,
+        readonly ?Zieladresse $zieladresse = null,
+        readonly ?Aussteller $aussteller = null,
+        readonly ?ZertifikatsNutzer $zertifikatsNutzer = null,
+        readonly ?IPAdresseCLSDevice $IPAdresseCLSDevice = null,
     ) {
     }
 }
