@@ -8,6 +8,7 @@ use Conuti\BO4E\v1\COM\Lastprofil;
 use Conuti\BO4E\v1\COM\Menge;
 use Conuti\BO4E\v1\Enum\Abwicklungsmodell;
 use Conuti\BO4E\v1\Enum\Aggregationsverantwortung;
+use Conuti\BO4E\v1\Enum\BOTyp;
 use Conuti\BO4E\v1\Enum\Fallgruppenzuordnung;
 use Conuti\BO4E\v1\Enum\Profiltyp;
 use Conuti\BO4E\v1\Enum\Prognosegrundlage;
@@ -16,8 +17,8 @@ use Conuti\BO4E\v1\Enum\WahlrechtPrognosegrundlage;
 class Bilanzierung
 {
     public function __construct(
-        readonly string $boTyp,
-        readonly string $versionStruktur,
+        readonly BOTyp $boTyp = BOTyp::BILANZIERUNG,
+        readonly string $versionStruktur = "1",
         readonly ?string $marktlokationsId = null,
         readonly ?Aggregationsverantwortung $aggregationsverantwortung = null,
         readonly ?string $zeitreihentyp = null,

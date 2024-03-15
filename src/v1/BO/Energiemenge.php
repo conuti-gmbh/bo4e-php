@@ -11,8 +11,8 @@ use Conuti\BO4E\v1\Enum\Lokationstyp;
 class Energiemenge
 {
     public function __construct(
-        readonly BOTyp $boTyp,
-        readonly string $versionStruktur,
+        readonly BOTyp $boTyp = BOTyp::ENERGIEMENGE,
+        readonly string $versionStruktur = "1",
         readonly ?string $lokationsId = null,
         readonly ?Lokationstyp $lokationsTyp = null,
         readonly ?string $fertigstellungsdatum = null,

@@ -14,6 +14,7 @@ use Conuti\BO4E\v1\COM\Verbrauch;
 use Conuti\BO4E\v1\COM\Zaehlwerk;
 use Conuti\BO4E\v1\Enum\Bilanzierungsmethode;
 use Conuti\BO4E\v1\Enum\BildungTranchengroesse;
+use Conuti\BO4E\v1\Enum\BOTyp;
 use Conuti\BO4E\v1\Enum\Energierichtung;
 use Conuti\BO4E\v1\Enum\Fernsteuerbarkeit;
 use Conuti\BO4E\v1\Enum\Gasqualitaet;
@@ -33,8 +34,8 @@ use Conuti\BO4E\v1\Enum\Zeitreihentyp;
 class Tranche
 {
     public function __construct(
-        readonly string $boTyp,
-        readonly string $versionStruktur,
+        readonly BOTyp $boTyp = BOTyp::TRANCHE,
+        readonly string $versionStruktur = "1",
         readonly ?string $tranchenId = null,
         readonly ?Sparte $sparte = null,
         readonly ?Energierichtung $energierichtung = null,

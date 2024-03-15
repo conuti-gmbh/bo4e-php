@@ -7,13 +7,14 @@ namespace Conuti\BO4E\v1\BO;
 use Conuti\BO4E\v1\Enum\Abonnement;
 use Conuti\BO4E\v1\Enum\Anfragekategorie;
 use Conuti\BO4E\v1\Enum\Anfragetyp;
+use Conuti\BO4E\v1\Enum\BOTyp;
 use Conuti\BO4E\v1\Enum\Energierichtung;
 
 class Anfrage
 {
     public function __construct(
-        readonly string $boTyp,
-        readonly string $versionStruktur,
+        readonly BOTyp $boTyp = BOTyp::ANFRAGE,
+        readonly string $versionStruktur = "1",
         readonly ?string $lokationsId = null,
         readonly ?Anfragetyp $anfragetyp = null,
         readonly ?Abonnement $abonnement = null,

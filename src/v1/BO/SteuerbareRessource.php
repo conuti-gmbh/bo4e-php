@@ -14,8 +14,8 @@ use Conuti\BO4E\v1\Enum\Steuerkanal;
 class SteuerbareRessource
 {
     public function __construct(
-        readonly BOTyp $boTyp,
-        readonly string $versionStruktur,
+        readonly BOTyp $boTyp = BOTyp::STEUERBARE_RESSOURCE,
+        readonly string $versionStruktur = "1",
         readonly ?string $ressourcenId = null,
         readonly ?Sparte $sparte = null,
         readonly ?Lokationszuordnung $lokationszuordnung = null,

@@ -6,6 +6,7 @@ namespace Conuti\BO4E\v1\BO;
 
 use Conuti\BO4E\v1\COM\Preisposition;
 use Conuti\BO4E\v1\COM\Zeitraum;
+use Conuti\BO4E\v1\Enum\BOTyp;
 use Conuti\BO4E\v1\Enum\Leistungstyp;
 use Conuti\BO4E\v1\Enum\Preisstatus;
 use Conuti\BO4E\v1\Enum\Sparte;
@@ -13,8 +14,8 @@ use Conuti\BO4E\v1\Enum\Sparte;
 class Preisblatt
 {
     public function __construct(
-        readonly string $boTyp,
-        readonly string $versionStruktur,
+        readonly BOTyp $boTyp = BOTyp::PREISBLATT,
+        readonly string $versionStruktur = "1",
         readonly ?string $bezeichnung = null,
         readonly ?Zeitraum $gueltigkeit = null,
         readonly ?Preisstatus $preisstatus = null,

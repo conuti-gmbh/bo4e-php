@@ -17,8 +17,8 @@ use Conuti\BO4E\v1\Enum\MSBEigenschaft;
 class Marktteilnehmer
 {
     public function __construct(
-        readonly BOTyp $boTyp,
-        readonly string $versionStruktur,
+        readonly BOTyp $boTyp = BOTyp::MARKTTEILNEHMER,
+        readonly string $versionStruktur = "1",
         readonly ?Geschaeftspartnerrolle $geschaeftspartnerrolle = null,
         readonly ?string $anrede = null,
         readonly ?string $name1 = null,

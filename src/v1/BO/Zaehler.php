@@ -22,8 +22,8 @@ use Conuti\BO4E\v1\Enum\ZaehlertypSpezifikation;
 class Zaehler
 {
     public function __construct(
-        readonly BOTyp $boTyp,
-        readonly string $versionStruktur,
+        readonly BOTyp $boTyp = BOTyp::ZAEHLER,
+        readonly string $versionStruktur = "1",
         readonly ?string $zaehlernummer = null,
         readonly ?Sparte $sparte = null,
         readonly ?Zaehlerauspraegung $zaehlerauspraegung = null,

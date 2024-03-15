@@ -33,8 +33,8 @@ use Conuti\BO4E\v1\Enum\Zeitreihentyp;
 class Marktlokation
 {
     public function __construct(
-        readonly BOTyp $boTyp,
-        readonly string $versionStruktur,
+        readonly BOTyp $boTyp = BOTyp::MARKTLOKATION,
+        readonly string $versionStruktur = "1",
         readonly ?string $marktlokationsId = null,
         readonly ?string $sparte = null,
         readonly ?Energierichtung $energierichtung = null,

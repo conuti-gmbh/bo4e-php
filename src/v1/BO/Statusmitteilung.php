@@ -13,8 +13,8 @@ use Conuti\BO4E\v1\Enum\Statusobjekt;
 class Statusmitteilung
 {
     public function __construct(
-        readonly BOTyp $boTyp,
-        readonly string $versionStruktur,
+        readonly BOTyp $boTyp = BOTyp::STATUSMITTEILUNG,
+        readonly string $versionStruktur = "1",
         readonly ?Statusobjekt $statusObjekt = null,
         readonly ?Status $statusanlass = null,
         readonly ?Auftragsstatus $auftragsstatus = null,

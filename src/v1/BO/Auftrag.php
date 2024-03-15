@@ -16,8 +16,8 @@ use DateTime;
 class Auftrag
 {
     public function __construct(
-        readonly BOTyp $boTyp,
-        readonly string $versionStruktur,
+        readonly BOTyp $boTyp = BOTyp::AUFTRAG,
+        readonly string $versionStruktur = "1",
         readonly ?DateTime $ausfuehrungsdatum = null,
         readonly ?DateTime $fertigstellungsdatum = null,
         readonly ?DateTime $startdatum = null,

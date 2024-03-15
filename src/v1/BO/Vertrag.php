@@ -6,6 +6,7 @@ namespace Conuti\BO4E\v1\BO;
 
 use Conuti\BO4E\v1\COM\EnFG;
 use Conuti\BO4E\v1\COM\Vertragskonditionen;
+use Conuti\BO4E\v1\Enum\BOTyp;
 use Conuti\BO4E\v1\Enum\Lokationstyp;
 use Conuti\BO4E\v1\Enum\Sparte;
 use Conuti\BO4E\v1\Enum\Vertragstatus;
@@ -14,8 +15,8 @@ use DateTime;
 class Vertrag
 {
     public function __construct(
-        readonly string $boTyp,
-        readonly string $versionStruktur,
+        readonly BOTyp $boTyp = BOTyp::VERTRAG,
+        readonly string $versionStruktur = "1",
         readonly ?Sparte $sparte = null,
         readonly ?string $vertragsart = null,
         readonly ?string $vertragsnummer = null,

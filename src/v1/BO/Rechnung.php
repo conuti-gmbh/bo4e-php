@@ -9,6 +9,7 @@ use Conuti\BO4E\v1\COM\Gemeinderabatt;
 use Conuti\BO4E\v1\COM\Rechnungsposition;
 use Conuti\BO4E\v1\COM\Steuerbetrag;
 use Conuti\BO4E\v1\COM\Zeitraum;
+use Conuti\BO4E\v1\Enum\BOTyp;
 use Conuti\BO4E\v1\Enum\Energierichtung;
 use Conuti\BO4E\v1\Enum\Rechnungsstatus;
 use Conuti\BO4E\v1\Enum\Rechnungstyp;
@@ -17,8 +18,8 @@ use Conuti\BO4E\v1\Enum\SonderrechnungsArt;
 class Rechnung
 {
     public function __construct(
-        readonly string $boTyp,
-        readonly string $versionStruktur,
+        readonly BOTyp $boTyp = BOTyp::RECHNUNG,
+        readonly string $versionStruktur = "1",
         readonly ?bool $istSelbstausgestellt = null,
         readonly ?string $bearbeitungsdatum = null,
         readonly ?string $rechnungsdatum = null,

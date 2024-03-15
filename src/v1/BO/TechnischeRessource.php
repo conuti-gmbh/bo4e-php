@@ -20,8 +20,8 @@ use Conuti\BO4E\v1\Enum\Waermenutzung;
 class TechnischeRessource
 {
     public function __construct(
-        readonly BOTyp $boTyp,
-        readonly string $versionStruktur,
+        readonly BOTyp $boTyp = BOTyp::TECHNISCHE_RESSOURCE,
+        readonly string $versionStruktur = "1",
         readonly ?string $ressourcenId = null,
         readonly ?Sparte $sparte = null,
         readonly ?Lokationszuordnung $lokationszuordnung = null,

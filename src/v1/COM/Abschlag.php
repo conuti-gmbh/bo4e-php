@@ -9,8 +9,8 @@ use Conuti\BO4E\v1\Enum\AbschlagTyp;
 class Abschlag
 {
     public function __construct(
-        readonly AbschlagTyp $typ,
-        readonly ?float $prozent = null
+        readonly ?AbschlagTyp $typ = null,
+        readonly ?float $prozent = null,
     ) {
     }
 }

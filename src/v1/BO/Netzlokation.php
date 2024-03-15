@@ -14,8 +14,8 @@ use Conuti\BO4E\v1\Enum\Sparte;
 class Netzlokation
 {
     public function __construct(
-        readonly BOTyp $boTyp,
-        readonly string $versionStruktur,
+        readonly BOTyp $boTyp = BOTyp::NETZLOKATION,
+        readonly string $versionStruktur = "1",
         readonly ?string $netzlokationsId = null,
         readonly ?Sparte $sparte = null,
         readonly ?string $netzanschlussleistung = null,

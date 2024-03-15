@@ -13,8 +13,8 @@ use Conuti\BO4E\v1\Enum\Kontaktart;
 class Geschaeftspartner
 {
     public function __construct(
-        readonly BOTyp $boTyp,
-        readonly string $versionStruktur,
+        readonly BOTyp $boTyp = BOTyp::GESCHAEFTSPARTNER,
+        readonly string $versionStruktur = "1",
         readonly ?string $anrede = null,
         readonly ?string $name1 = null,
         readonly ?string $name2 = null,

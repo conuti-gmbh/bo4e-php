@@ -12,8 +12,8 @@ use DateTime;
 class Statusbericht
 {
     public function __construct(
-        readonly BOTyp $boTyp,
-        readonly string $versionStruktur,
+        readonly BOTyp $boTyp = BOTyp::STATUSBERICHT,
+        readonly string $versionStruktur = "1",
         readonly ?BerichtStatus $status = null,
         readonly ?string $pruefgegenstand = null,
         readonly ?DateTime $datumPruefung = null,
