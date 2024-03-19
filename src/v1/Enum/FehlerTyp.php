@@ -6,6 +6,6 @@ namespace Conuti\BO4E\v1\Enum;
 
 enum FehlerTyp: string
 {
-    case VERARBEITUNG = "VERARBEITUNG";
-    case SYNTAX = "SYNTAX";
+    case VERARBEITUNG = 'VERARBEITUNG';
+    case SYNTAX = 'SYNTAX';
 }

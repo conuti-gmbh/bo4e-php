@@ -6,6 +6,6 @@ namespace Conuti\BO4E\v1\Enum;
 
 enum Energierichtung: string
 {
-    case AUSSPEISUNG = 'AUSSP';
-    case EINSPEISUNG = 'EINSP';
+    case AUSSP = 'AUSSP';
+    case EINSP = 'EINSP';
 }

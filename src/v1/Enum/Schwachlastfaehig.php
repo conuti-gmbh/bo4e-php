@@ -6,6 +6,6 @@ namespace Conuti\BO4E\v1\Enum;
 
 enum Schwachlastfaehig: string
 {
-    case JA = 'SCHWACHLASTFAEHIG';
-    case NEIN = 'NICHT_SCHWACHLASTFAEHIG';
+    case SCHWACHLASTFAEHIG = 'SCHWACHLASTFAEHIG';
+    case NICHT_SCHWACHLASTFAEHIG = 'NICHT_SCHWACHLASTFAEHIG';
 }

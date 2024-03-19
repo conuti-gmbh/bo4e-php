@@ -16,7 +16,7 @@ enum Marktrolle: string
     case BKV = 'BKV';
     case BKO = 'BKO';
     case UENB = 'UENB';
-    case KUNDESELBSTNN = 'KUNDE-SELBST-NN';
+    case KUNDE_SELBST_NN = 'KUNDE-SELBST-NN';
     case MGV = 'MGV';
     case EIV = 'EIV';
     case RB = 'RB';

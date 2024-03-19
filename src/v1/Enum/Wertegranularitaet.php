@@ -6,8 +6,8 @@ namespace Conuti\BO4E\v1\Enum;
 
 enum Wertegranularitaet: string
 {
-    case JAHR = 'JAEHRLICH';
-    case HALBJAHR = 'HALBJAEHRLICH';
-    case QUARTAL = 'QUARTALSWEISE';
-    case MONAT = 'MONATLICH';
+    case JAEHRLICH = 'JAEHRLICH';
+    case HALBJAEHRLICH = 'HALBJAEHRLICH';
+    case QUARTALSWEISE = 'QUARTALSWEISE';
+    case MONATLICH = 'MONATLICH';
 }

@@ -4,9 +4,6 @@ declare(strict_types=1);
 
 namespace Conuti\BO4E\v1\Enum;
 
-/**
- * Gibt den Status eines Angebotes an.
- */
 enum Angebotsstatus: string
 {
     case KONZEPTION = 'KONZEPTION';

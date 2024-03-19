@@ -6,13 +6,13 @@ namespace Conuti\BO4E\v1\Enum;
 
 enum Vertragstatus: string
 {
-    public const IN_ARBEIT = 'IN_ARBEIT';
-    public const UEBERMITTELT = 'UEBERMITTELT';
-    public const ANGENOMMEN = 'ANGENOMMEN';
-    public const AKTIV = 'AKTIV';
-    public const ABGELEHNT = 'ABGELEHNT';
-    public const WIDERRUFEN = 'WIDERRUFEN';
-    public const STORNIERT = 'STORNIERT';
-    public const GEKUENDIGT = 'GEKUENDIGT';
-    public const BEENDET = 'BEENDET';
+    case IN_ARBEIT = 'IN_ARBEIT';
+    case UEBERMITTELT = 'UEBERMITTELT';
+    case ANGENOMMEN = 'ANGENOMMEN';
+    case AKTIV = 'AKTIV';
+    case ABGELEHNT = 'ABGELEHNT';
+    case WIDERRUFEN = 'WIDERRUFEN';
+    case STORNIERT = 'STORNIERT';
+    case GEKUENDIGT = 'GEKUENDIGT';
+    case BEENDET = 'BEENDET';
 }

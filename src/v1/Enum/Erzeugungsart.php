@@ -4,9 +4,6 @@ declare(strict_types=1);
 
 namespace Conuti\BO4E\v1\Enum;
 
-/**
- * Auflistung der Erzeugungsarten von Energie
- */
 enum Erzeugungsart: string
 {
     case EEG = 'EEG';

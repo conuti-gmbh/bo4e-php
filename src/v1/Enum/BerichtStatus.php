@@ -6,6 +6,6 @@ namespace Conuti\BO4E\v1\Enum;
 
 enum BerichtStatus: string
 {
-    case ANSPRECHPARTNER = 'ERFOLGREICH';
-    case AVIS = 'FEHLER';
+    case ERFOLGREICH = 'ERFOLGREICH';
+    case FEHLER = 'FEHLER';
 }

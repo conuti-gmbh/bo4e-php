@@ -4,9 +4,6 @@ declare(strict_types=1);
 
 namespace Conuti\BO4E\v1\Enum;
 
-/**
- * Auflistung möglicher Einheiten zur Verwendung in zeitbezogenen Angaben.
- */
 enum Zeiteinheit: string
 {
     case SEKUNDE = 'SEKUNDE';
