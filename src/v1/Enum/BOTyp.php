@@ -51,4 +51,5 @@ enum BOTyp: string
     case REKLAMATION = 'REKLAMATION';
     case STATUSBERICHT = 'STATUSBERICHT';
     case VERTRAG = 'VERTRAG';
+    case BILANZKREIS = 'BILANZKREIS';
 }
