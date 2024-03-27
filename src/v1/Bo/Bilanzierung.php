@@ -12,6 +12,7 @@ use Conuti\BO4E\v1\Enum\Fallgruppenzuordnung;
 use Conuti\BO4E\v1\Com\Menge;
 use Conuti\BO4E\v1\Enum\WahlrechtPrognosegrundlage;
 use Conuti\BO4E\v1\Enum\Abwicklungsmodell;
+use Conuti\BO4E\v1\Enum\Datenqualitaet;
 use Conuti\BO4E\v1\Com\Lastprofil;
 use Conuti\BO4E\v1\Enum\Profiltyp;
 
@@ -36,6 +37,8 @@ class Bilanzierung
         readonly ?WahlrechtPrognosegrundlage $grundWahlrechtPrognosegrundlage = null,
         readonly ?Abwicklungsmodell $abwicklungsmodell = null,
         readonly ?Menge $vorjahresverbrauch = null,
+        readonly ?Datenqualitaet $datenqualitaet = null,
+        readonly ?int $zeitraumId = null,
         /** @var Lastprofil[] */
         readonly array $lastprofile = [],
         /** @var Lastprofil[] */

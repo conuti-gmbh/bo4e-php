@@ -23,6 +23,7 @@ use Conuti\BO4E\v1\Enum\Fernsteuerbarkeit;
 use Conuti\BO4E\v1\Enum\Lokationszuordnung;
 use Conuti\BO4E\v1\Enum\Marktrolle;
 use Conuti\BO4E\v1\Enum\ModulNetzentgelte;
+use Conuti\BO4E\v1\Enum\Datenqualitaet;
 use Conuti\BO4E\v1\Com\Zaehlwerk;
 use Conuti\BO4E\v1\Com\Verbrauch;
 use Conuti\BO4E\v1\Com\Messlokationszuordnung;
@@ -73,6 +74,8 @@ class Marktlokation
         readonly ?Marktrolle $produktdatenRelevanteRolle = null,
         readonly ?Marktteilnehmer $beteiligterMarktpartner = null,
         readonly ?ModulNetzentgelte $modulNetzentgelte = null,
+        readonly ?Datenqualitaet $datenqualitaet = null,
+        readonly ?int $zeitraumId = null,
         /** @var Marktteilnehmer[] */
         readonly array $marktrollen = [],
         /** @var Zaehlwerk[] */

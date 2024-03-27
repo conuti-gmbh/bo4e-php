@@ -10,6 +10,7 @@ use Conuti\BO4E\v1\Enum\Lokationstyp;
 use Conuti\BO4E\v1\Enum\Vertragstatus;
 use DateTime;
 use Conuti\BO4E\v1\Com\Vertragskonditionen;
+use Conuti\BO4E\v1\Enum\Datenqualitaet;
 use Conuti\BO4E\v1\Com\EnFG;
 
 class Vertrag
@@ -30,6 +31,8 @@ class Vertrag
         readonly ?Vertragskonditionen $vertragskonditionen = null,
         readonly ?Geschaeftspartner $korrespondenzpartner = null,
         readonly ?bool $abrechnungUeberNna = null,
+        readonly ?Datenqualitaet $datenqualitaet = null,
+        readonly ?int $zeitraumId = null,
         /** @var Geschaeftspartner[] */
         readonly array $vertragspartner1 = [],
         /** @var Geschaeftspartner[] */
