@@ -7,6 +7,7 @@ namespace Conuti\BO4E\v1\Bo;
 use Conuti\BO4E\v1\Enum\BOTyp;
 use DateTime;
 use Conuti\BO4E\v1\Enum\Sparte;
+use Conuti\BO4E\v1\Com\Zeitraum;
 use Conuti\BO4E\v1\Com\Angebotsvariante;
 
 class Angebot
@@ -23,6 +24,8 @@ class Angebot
         readonly ?Geschaeftspartner $angebotnehmer = null,
         readonly ?Ansprechpartner $unterzeichnerAngebotsnehmer = null,
         readonly ?Ansprechpartner $unterzeichnerAngebotsgeber = null,
+        readonly ?Zeitraum $zeitspanneEinrichtungUebermittlungWerte = null,
+        readonly ?Zeitraum $bindefristAngebot = null,
         /** @var Angebotsvariante[] */
         readonly array $varianten = [],
     ) {
