@@ -21,6 +21,7 @@ class Netznutzungsabrechnungsdaten
         readonly ?bool $abrechnungBlindarbeit = null,
         readonly ?ZahlerBlindarbeit $zahlerBlindarbeit = null,
         readonly ?bool $zahlerBlindarbeitLf = null,
+        readonly ?bool $differenzDaten = null,
         readonly ?Zaehlzeitregister $zaehlzeiten = null,
     ) {
     }
