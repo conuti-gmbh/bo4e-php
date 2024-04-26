@@ -15,7 +15,8 @@ class Angebotsposition
         readonly ?Betrag $positionsbetrag = null,
         readonly ?string $preisschluesselstamm = null,
         readonly ?BDEWArtikelnummer $artikelnummer = null,
-        readonly ?string $artikelId = null,
+        /** @var string[] */
+        readonly array $artikelId = [],
     ) {
     }
 }
