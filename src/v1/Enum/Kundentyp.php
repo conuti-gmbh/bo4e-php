@@ -1,0 +1,24 @@
+<?php
+
+declare(strict_types=1);
+
+namespace Conuti\BO4E\v1\Enum;
+
+enum Kundentyp: string
+{
+    case BELEUCHTUNG_OEFFENTLICH = 'BELEUCHTUNG_OEFFENTLICH';
+    case BELEUCHTUNG_STRASSE = 'BELEUCHTUNG_STRASSE';
+    case DIREKTHEIZUNG = 'DIREKTHEIZUNG';
+    case GEMEINSCHAFT_MFH = 'GEMEINSCHAFT_MFH';
+    case GEWERBE = 'GEWERBE';
+    case HAUSHALT = 'HAUSHALT';
+    case KIRCHE = 'KIRCHE';
+    case KWK = 'KWK';
+    case LADESAEULE = 'LADESAEULE';
+    case LANDWIRT = 'LANDWIRT';
+    case PRIVAT = 'PRIVAT';
+    case SONSTIGE = 'SONSTIGE';
+    case SPEICHERHEIZUNG = 'SPEICHERHEIZUNG';
+    case UNTERBR_EINRICHTUNG = 'UNTERBR_EINRICHTUNG';
+    case WAERMEPUMPE = 'WAERMEPUMPE';
+}

@@ -1,0 +1,21 @@
+<?php
+
+declare(strict_types=1);
+
+namespace Conuti\BO4E\v1\Enum;
+
+enum Oekolabel: string
+{
+    case ENERGREEN = 'ENERGREEN';
+    case GASGREEN = 'GASGREEN';
+    case GASGREEN_GRUENER_STROM = 'GASGREEN_GRUENER_STROM';
+    case GRUENER_STROM = 'GRUENER_STROM';
+    case GRUENER_STROM_GOLD = 'GRUENER_STROM_GOLD';
+    case GRUENER_STROM_SILBER = 'GRUENER_STROM_SILBER';
+    case GRUENES_GAS = 'GRUENES_GAS';
+    case NATURWATT_STROM = 'NATURWATT_STROM';
+    case OK_POWER = 'OK_POWER';
+    case RENEWABLE_PLUS = 'RENEWABLE_PLUS';
+    case WATERGREEN = 'WATERGREEN';
+    case WATERGREEN_PLUS = 'WATERGREEN_PLUS';
+}

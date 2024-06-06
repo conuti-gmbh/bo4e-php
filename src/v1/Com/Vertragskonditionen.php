@@ -32,6 +32,10 @@ class Vertragskonditionen
         readonly ?Zeitraum $kuendigungsfrist = null,
         readonly ?Zeitraum $vertragslaufzeit = null,
         readonly ?string $kuendigungstermin = null,
+        readonly ?Zeitraum $abschlagszyklus = null,
+        readonly ?float $anzahl_abschlaege = null,
+        readonly ?string $beschreibung = null,
+        readonly ?Zeitraum $vertragsverlaengerung = null,
     ) {
     }
 }
