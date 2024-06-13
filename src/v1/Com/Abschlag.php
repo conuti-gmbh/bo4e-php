@@ -11,6 +11,7 @@ class Abschlag
     public function __construct(
         readonly ?AbschlagTyp $typ = null,
         readonly ?float $prozent = null,
+        readonly ?string $someTestVarForSync = null,
     ) {
     }
 }
