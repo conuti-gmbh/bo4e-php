@@ -10,7 +10,6 @@ use Conuti\BO4E\v1\Enum\PriorisierungErforderlichesProduktpaket;
 class Priorisierung
 {
     public function __construct(
-        readonly ?int $produktpaketID = null,
         readonly ?NotwendigkeitProduktpaket $notwendigkeitProduktpaket = null,
         readonly ?PriorisierungErforderlichesProduktpaket $priorisierungErforderlichesProduktpaket = null,
     ) {

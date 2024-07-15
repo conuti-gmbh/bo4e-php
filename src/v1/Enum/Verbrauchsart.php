@@ -11,4 +11,5 @@ enum Verbrauchsart: string
     case EMOB = 'EMOB';
     case SB = 'SB';
     case SW = 'SW';
+    case WK = 'WK';
 }

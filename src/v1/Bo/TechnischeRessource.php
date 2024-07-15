@@ -16,6 +16,7 @@ use Conuti\BO4E\v1\Enum\Speicherart;
 use Conuti\BO4E\v1\Enum\Inbetriebsetzung;
 use Conuti\BO4E\v1\Enum\RessourceWechselmoeglichkeit;
 use Conuti\BO4E\v1\Enum\TechnischeRessourceArt;
+use Conuti\BO4E\v1\Enum\Datenqualitaet;
 
 class TechnischeRessource
 {
@@ -41,6 +42,8 @@ class TechnischeRessource
         readonly ?RessourceWechselmoeglichkeit $einordnung = null,
         readonly ?bool $weitereEinrichtung = null,
         readonly ?TechnischeRessourceArt $art = null,
+        readonly ?Datenqualitaet $datenqualitaet = null,
+        readonly ?int $zeitraumId = null,
     ) {
     }
 }

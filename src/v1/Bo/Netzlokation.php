@@ -10,6 +10,7 @@ use Conuti\BO4E\v1\Enum\Lokationszuordnung;
 use Conuti\BO4E\v1\Enum\Marktrolle;
 use Conuti\BO4E\v1\Com\Zaehlwerk;
 use Conuti\BO4E\v1\Com\Netznutzungsabrechnungsdaten;
+use Conuti\BO4E\v1\Enum\Datenqualitaet;
 
 class Netzlokation
 {
@@ -33,6 +34,8 @@ class Netzlokation
         readonly array $zaehlwerke = [],
         /** @var Netznutzungsabrechnungsdaten[] */
         readonly array $abrechnungsdaten = [],
+        readonly ?Datenqualitaet $datenqualitaet = null,
+        readonly ?int $zeitraumId = null,
     ) {
     }
 }

@@ -6,7 +6,7 @@ namespace Conuti\BO4E\v1\Bo;
 
 use Conuti\BO4E\v1\Enum\BOTyp;
 use DateTime;
-use Conuti\BO4E\v1\Enum\Verwendungszeitraumqualitaet;
+use Conuti\BO4E\v1\Enum\Datenqualitaet;
 
 class Verwendungszeitraum
 {
@@ -16,7 +16,7 @@ class Verwendungszeitraum
         readonly ?DateTime $verwendungAb = null,
         readonly ?DateTime $verwendungBis = null,
         readonly ?int $zeitraumId = null,
-        readonly ?Verwendungszeitraumqualitaet $qualitaet = null,
+        readonly ?Datenqualitaet $datenqualitaet = null,
     ) {
     }
 }

@@ -19,6 +19,7 @@ use Conuti\BO4E\v1\Enum\Mengenumwertertyp;
 use Conuti\BO4E\v1\Enum\Volumenerfassung;
 use Conuti\BO4E\v1\Com\Geraet;
 use Conuti\BO4E\v1\Com\Zaehlwerk;
+use Conuti\BO4E\v1\Enum\Datenqualitaet;
 
 class Zaehler
 {
@@ -51,6 +52,8 @@ class Zaehler
         readonly array $geraete = [],
         /** @var Zaehlwerk[] */
         readonly array $zaehlwerke = [],
+        readonly ?Datenqualitaet $datenqualitaet = null,
+        readonly ?int $zeitraumId = null,
     ) {
     }
 }

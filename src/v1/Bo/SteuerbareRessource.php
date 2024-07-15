@@ -10,6 +10,7 @@ use Conuti\BO4E\v1\Enum\Lokationszuordnung;
 use Conuti\BO4E\v1\Enum\Steuerkanal;
 use Conuti\BO4E\v1\Enum\Marktrolle;
 use Conuti\BO4E\v1\Com\ZugeordneteDefinition;
+use Conuti\BO4E\v1\Enum\Datenqualitaet;
 
 class SteuerbareRessource
 {
@@ -26,6 +27,8 @@ class SteuerbareRessource
         readonly ?ZugeordneteDefinition $zugeordneteDefinition = null,
         /** @var Marktteilnehmer[] */
         readonly array $marktrollen = [],
+        readonly ?Datenqualitaet $datenqualitaet = null,
+        readonly ?int $zeitraumId = null,
     ) {
     }
 }

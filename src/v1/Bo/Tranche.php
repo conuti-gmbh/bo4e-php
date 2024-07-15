@@ -30,6 +30,7 @@ use Conuti\BO4E\v1\Com\Verbrauch;
 use Conuti\BO4E\v1\Com\Messlokationszuordnung;
 use Conuti\BO4E\v1\Com\Netznutzungsabrechnungsdaten;
 use Conuti\BO4E\v1\Com\Energieherkunft;
+use Conuti\BO4E\v1\Enum\Datenqualitaet;
 
 class Tranche
 {
@@ -84,6 +85,8 @@ class Tranche
         readonly array $netznutzungsabrechnungsdaten = [],
         /** @var Energieherkunft[] */
         readonly array $energieherkunft = [],
+        readonly ?Datenqualitaet $datenqualitaet = null,
+        readonly ?int $zeitraumId = null,
     ) {
     }
 }
