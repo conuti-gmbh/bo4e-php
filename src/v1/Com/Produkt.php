@@ -8,8 +8,8 @@ class Produkt
 {
     public function __construct(
         readonly ?string $produktCode = null,
-        /** @var Produktposition[] */
-        readonly array $produktPositionen = [],
+        readonly ?string $codeProdukteigenschaft = null,
+        readonly ?string $wertedetails = null,
     ) {
     }
 }
