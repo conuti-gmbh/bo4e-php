@@ -25,4 +25,6 @@ enum Mengeneinheit: string
     case KVAR = 'KVAR';
     case VARH = 'VARH';
     case KWHK = 'KWHK';
+    case Z16 = 'Z16';
+    case KWT = 'KWT';
 }
