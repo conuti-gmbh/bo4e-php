@@ -17,6 +17,7 @@ use Conuti\BO4E\v1\Enum\Inbetriebsetzung;
 use Conuti\BO4E\v1\Enum\RessourceWechselmoeglichkeit;
 use Conuti\BO4E\v1\Enum\TechnischeRessourceArt;
 use Conuti\BO4E\v1\Enum\Datenqualitaet;
+use Conuti\BO4E\v1\Com\Produkt;
 
 class TechnischeRessource
 {
@@ -44,6 +45,8 @@ class TechnischeRessource
         readonly ?TechnischeRessourceArt $art = null,
         readonly ?Datenqualitaet $datenqualitaet = null,
         readonly ?int $zeitraumId = null,
+        /** @var Produkt[] */
+        readonly array $erforderlicheProdukte = [],
     ) {
     }
 }
