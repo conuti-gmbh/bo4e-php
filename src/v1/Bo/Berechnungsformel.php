@@ -25,6 +25,7 @@ class Berechnungsformel
         readonly array $rechenschritte = [],
         /** @var Verwendungszweck[] */
         readonly array $verwendungszweck = [],
+        readonly ?int $zeitraumId = null,
     ) {
     }
 }
