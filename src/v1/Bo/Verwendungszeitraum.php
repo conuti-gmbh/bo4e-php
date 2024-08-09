@@ -19,6 +19,8 @@ class Verwendungszeitraum
         readonly ?int $zeitraumId = null,
         readonly ?Datenqualitaet $datenqualitaet = null,
         readonly ?Freitext $freitext = null,
+        readonly ?string $antwortstatus = null,
+        readonly ?string $antwortstatusCodeliste = null,
     ) {
     }
 }
