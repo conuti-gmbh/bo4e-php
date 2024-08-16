@@ -10,6 +10,7 @@ class AntwortStatusZeitraum
         readonly ?string $code = null,
         readonly ?string $liste = null,
         readonly ?int $zeitraumId = null,
+        readonly ?Freitext $freitext = null,
     ) {
     }
 }
