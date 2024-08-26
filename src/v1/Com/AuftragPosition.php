@@ -26,7 +26,8 @@ class AuftragPosition
         readonly ?AllgemeineInformationen $allgemeineInformationen = null,
         readonly ?InfoAbweichung $infoAbweichung = null,
         readonly ?DefinitionsTyp $definitionsTyp = null,
-        readonly ?string $messprodukt = null,
+        readonly ?string $lokationsId = null,
+        readonly ?int $zaehlwerk = null,
     ) {
     }
 }
