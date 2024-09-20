@@ -8,6 +8,7 @@ use Conuti\BO4E\v1\Enum\BOTyp;
 use Conuti\BO4E\v1\Enum\Geschaeftspartnerrolle;
 use Conuti\BO4E\v1\Com\Adresse;
 use Conuti\BO4E\v1\Enum\Marktrolle;
+use Conuti\BO4E\v1\Enum\Rollencodetyp;
 use Conuti\BO4E\v1\Enum\Kommunikationsrolle;
 use Conuti\BO4E\v1\Com\Kommunikationsparameter;
 use Conuti\BO4E\v1\Enum\MSBEigenschaft;
@@ -31,7 +32,7 @@ class Marktteilnehmer
         readonly ?string $externeKundenummerLieferant = null,
         readonly ?Marktrolle $marktrolle = null,
         readonly ?string $rollencodenummer = null,
-        readonly ?string $rollencodetyp = null,
+        readonly ?Rollencodetyp $rollencodetyp = null,
         readonly ?string $umsatzsteuerId = null,
         readonly ?string $steuernummer = null,
         readonly ?Ansprechpartner $ansprechpartner = null,
