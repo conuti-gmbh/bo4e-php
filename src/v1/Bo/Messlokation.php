@@ -18,6 +18,7 @@ use Conuti\BO4E\v1\Com\Geraet;
 use Conuti\BO4E\v1\Com\Dienstleistung;
 use Conuti\BO4E\v1\Com\Zaehlwerk;
 use Conuti\BO4E\v1\Enum\Datenqualitaet;
+use Conuti\BO4E\v1\Com\Zeitraum;
 
 class Messlokation
 {
@@ -53,7 +54,7 @@ class Messlokation
         /** @var Marktteilnehmer[] */
         readonly array $marktrollen = [],
         readonly ?Datenqualitaet $datenqualitaet = null,
-        readonly ?int $zeitraumId = null,
+        readonly ?Zeitraum $gueltigkeitszeitraum = null,
     ) {
     }
 }

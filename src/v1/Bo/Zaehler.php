@@ -20,6 +20,7 @@ use Conuti\BO4E\v1\Enum\Volumenerfassung;
 use Conuti\BO4E\v1\Com\Geraet;
 use Conuti\BO4E\v1\Com\Zaehlwerk;
 use Conuti\BO4E\v1\Enum\Datenqualitaet;
+use Conuti\BO4E\v1\Com\Zeitraum;
 
 class Zaehler
 {
@@ -53,7 +54,7 @@ class Zaehler
         /** @var Zaehlwerk[] */
         readonly array $zaehlwerke = [],
         readonly ?Datenqualitaet $datenqualitaet = null,
-        readonly ?int $zeitraumId = null,
+        readonly ?Zeitraum $gueltigkeitszeitraum = null,
     ) {
     }
 }

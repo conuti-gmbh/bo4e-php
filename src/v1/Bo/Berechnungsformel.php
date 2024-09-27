@@ -10,6 +10,7 @@ use Conuti\BO4E\v1\Enum\BerechnungsformelNotwendigkeit;
 use Conuti\BO4E\v1\Enum\Energierichtung;
 use Conuti\BO4E\v1\Com\Rechenschritt;
 use Conuti\BO4E\v1\Com\Verwendungszweck;
+use Conuti\BO4E\v1\Com\Zeitraum;
 
 class Berechnungsformel
 {
@@ -25,7 +26,7 @@ class Berechnungsformel
         readonly array $rechenschritte = [],
         /** @var Verwendungszweck[] */
         readonly array $verwendungszweck = [],
-        readonly ?int $zeitraumId = null,
+        readonly ?Zeitraum $gueltigkeitszeitraum = null,
     ) {
     }
 }

@@ -11,6 +11,7 @@ use Conuti\BO4E\v1\Enum\Steuerkanal;
 use Conuti\BO4E\v1\Enum\Marktrolle;
 use Conuti\BO4E\v1\Com\ZugeordneteDefinition;
 use Conuti\BO4E\v1\Enum\Datenqualitaet;
+use Conuti\BO4E\v1\Com\Zeitraum;
 
 class SteuerbareRessource
 {
@@ -28,7 +29,7 @@ class SteuerbareRessource
         /** @var Marktteilnehmer[] */
         readonly array $marktrollen = [],
         readonly ?Datenqualitaet $datenqualitaet = null,
-        readonly ?int $zeitraumId = null,
+        readonly ?Zeitraum $gueltigkeitszeitraum = null,
     ) {
     }
 }

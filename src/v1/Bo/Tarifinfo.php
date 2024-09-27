@@ -35,7 +35,7 @@ class Tarifinfo
         readonly ?Tariftyp $tariftyp = null,
         readonly ?Vertragskonditionen $vertragskonditionen = null,
         readonly ?string $website = null,
-        readonly ?Zeitraum $zeitliche_gueltigkeit = null,
+        readonly ?Zeitraum $gueltigkeitszeitraum = null,
     ) {
     }
 }

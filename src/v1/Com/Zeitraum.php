@@ -18,6 +18,7 @@ class Zeitraum
         readonly ?string $ableseZeitraum = null,
         readonly ?string $abrechnungsZeitraum = null,
         readonly ?string $zeitraumText = null,
+        readonly ?int $zeitraumId = null,
     ) {
     }
 }

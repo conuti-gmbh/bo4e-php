@@ -6,6 +6,7 @@ namespace Conuti\BO4E\v1\Bo;
 
 use Conuti\BO4E\v1\Enum\BOTyp;
 use Conuti\BO4E\v1\Enum\Datenqualitaet;
+use Conuti\BO4E\v1\Com\Zeitraum;
 use Conuti\BO4E\v1\Com\ZuordnungObjectcode;
 
 class Lokationsbuendel
@@ -17,7 +18,7 @@ class Lokationsbuendel
         readonly ?int $lokationsbuendelNummer = null,
         readonly ?bool $standardisierteLokationsbuendelstruktur = null,
         readonly ?Datenqualitaet $datenqualitaet = null,
-        readonly ?int $zeitraumId = null,
+        readonly ?Zeitraum $gueltigkeitszeitraum = null,
         /** @var ZuordnungObjectcode[] */
         readonly array $zuordnungObjectcode = [],
     ) {

@@ -11,6 +11,7 @@ use Conuti\BO4E\v1\Enum\Marktrolle;
 use Conuti\BO4E\v1\Com\Zaehlwerk;
 use Conuti\BO4E\v1\Com\Netznutzungsabrechnungsdaten;
 use Conuti\BO4E\v1\Enum\Datenqualitaet;
+use Conuti\BO4E\v1\Com\Zeitraum;
 
 class Netzlokation
 {
@@ -35,7 +36,7 @@ class Netzlokation
         /** @var Netznutzungsabrechnungsdaten[] */
         readonly array $abrechnungsdaten = [],
         readonly ?Datenqualitaet $datenqualitaet = null,
-        readonly ?int $zeitraumId = null,
+        readonly ?Zeitraum $gueltigkeitszeitraum = null,
     ) {
     }
 }
