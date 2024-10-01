@@ -17,6 +17,7 @@ class Lastprofil
         readonly ?bool $einspeisung = null,
         readonly ?string $herausgeber = null,
         readonly ?Tagesparameter $tagesparameter = null,
+        readonly ?string $referenzprofilbezeichnung = null,
     ) {
     }
 }

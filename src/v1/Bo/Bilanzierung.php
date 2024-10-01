@@ -46,7 +46,6 @@ class Bilanzierung
         readonly array $lastprofileBilanzierungsbeteiligter = [],
         /** @var Profiltyp[] */
         readonly array $detailsPrognosegrundlage = [],
-        readonly ?string $referenzprofilbezeichnung = null,
     ) {
     }
 }
