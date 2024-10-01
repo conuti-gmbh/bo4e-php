@@ -8,4 +8,5 @@ enum Rechnungsstatus: string
 {
     case DUPLIKAT = 'DUPLIKAT';
     case ORIGINAL = 'ORIGINAL';
+    case STORNIERT = 'STORNIERT';
 }
