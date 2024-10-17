@@ -32,6 +32,7 @@ use Conuti\BO4E\v1\Com\Netznutzungsabrechnungsdaten;
 use Conuti\BO4E\v1\Com\Messstellenbetriebsabrechnungsdaten;
 use Conuti\BO4E\v1\Com\Energieherkunft;
 use Conuti\BO4E\v1\Com\Produktpaket;
+use Conuti\BO4E\v1\Com\Geokoordinaten;
 
 class Marktlokation
 {
@@ -96,6 +97,7 @@ class Marktlokation
         readonly array $energieherkunft = [],
         /** @var Produktpaket[] */
         readonly array $erforderlichesProduktpaket = [],
+        readonly ?Geokoordinaten $geokoordinaten = null,
     ) {
     }
 }

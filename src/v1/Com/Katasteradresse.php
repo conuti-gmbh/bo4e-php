@@ -9,6 +9,7 @@ class Katasteradresse
     public function __construct(
         readonly ?string $gemarkung_flur = null,
         readonly ?string $flurstueck = null,
+        readonly ?string $flurstueckNummer = null,
     ) {
     }
 }
