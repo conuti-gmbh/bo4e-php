@@ -18,6 +18,8 @@ class Statusbericht
         readonly ?string $pruefgegenstand = null,
         readonly ?DateTime $datumPruefung = null,
         readonly ?Fehler $fehler = null,
+        readonly ?string $absenderreferenz = null,
+        readonly ?string $transaktionsReferenznummer = null,
     ) {
     }
 }
