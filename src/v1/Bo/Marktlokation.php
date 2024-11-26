@@ -98,6 +98,7 @@ class Marktlokation
         /** @var Produktpaket[] */
         readonly array $erforderlichesProduktpaket = [],
         readonly ?Geokoordinaten $geokoordinaten = null,
+        readonly ?string $paketId = null,
     ) {
     }
 }
