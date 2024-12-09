@@ -33,6 +33,7 @@ use Conuti\BO4E\v1\Com\Messstellenbetriebsabrechnungsdaten;
 use Conuti\BO4E\v1\Com\Energieherkunft;
 use Conuti\BO4E\v1\Com\Produktpaket;
 use Conuti\BO4E\v1\Com\Geokoordinaten;
+use Conuti\BO4E\v1\Com\MarktlokationsTypisierung;
 
 class Marktlokation
 {
@@ -99,6 +100,8 @@ class Marktlokation
         readonly array $erforderlichesProduktpaket = [],
         readonly ?Geokoordinaten $geokoordinaten = null,
         readonly ?string $paketId = null,
+        /** @var MarktlokationsTypisierung[] */
+        readonly array $marktlokationsTyp = [],
     ) {
     }
 }

@@ -15,6 +15,7 @@ use Conuti\BO4E\v1\Enum\MSBEigenschaft;
 use Conuti\BO4E\v1\Com\Bankverbindung;
 use Conuti\BO4E\v1\Com\Erreichbarkeit;
 use Conuti\BO4E\v1\Com\IpRange;
+use DateTime;
 
 class Marktteilnehmer
 {
@@ -52,6 +53,8 @@ class Marktteilnehmer
         readonly array $erreichbarkeit = [],
         readonly ?string $ipAdresse = null,
         readonly ?IpRange $ipRange = null,
+        readonly ?DateTime $zuordnungVon = null,
+        readonly ?DateTime $zuordnungBis = null,
     ) {
     }
 }
