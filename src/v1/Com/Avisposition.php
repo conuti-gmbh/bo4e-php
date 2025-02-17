@@ -16,10 +16,10 @@ class Avisposition
         readonly ?Betrag $gesamtBrutto = null,
         readonly ?Betrag $zuZahlen = null,
         readonly ?string $referenz = null,
-        /** @var Abweichung[] */
-        readonly array $abweichung = [],
-        /** @var Rueckmeldungsposition[] */
-        readonly array $positionen = [],
+        /** @var ?Abweichung[] */
+        readonly ?array $abweichung = null,
+        /** @var ?Rueckmeldungsposition[] */
+        readonly ?array $positionen = null,
     ) {
     }
 }

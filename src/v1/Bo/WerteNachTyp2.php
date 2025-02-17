@@ -22,8 +22,8 @@ class WerteNachTyp2
         readonly ?Aussteller $aussteller = null,
         readonly ?ZertifikatsNutzer $zertifikatsNutzer = null,
         readonly ?AenderungsmoeglichkeitKonfiguration $aenderungsmoeglichkeitKonfiguration = null,
-        /** @var Schwellwert[] */
-        readonly array $schwellwerte = [],
+        /** @var ?Schwellwert[] */
+        readonly ?array $schwellwerte = null,
     ) {
     }
 }

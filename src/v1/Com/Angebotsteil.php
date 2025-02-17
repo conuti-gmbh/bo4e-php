@@ -14,10 +14,10 @@ class Angebotsteil
         readonly ?Betrag $gesamtkostenangebotsteil = null,
         readonly ?Zeitraum $lieferzeitraum = null,
         readonly ?Katalogverweis $verweisKatalognummer = null,
-        /** @var Marktlokation[] */
-        readonly array $lieferstellenangebotsteil = [],
-        /** @var Angebotsposition[] */
-        readonly array $positionen = [],
+        /** @var ?Marktlokation[] */
+        readonly ?array $lieferstellenangebotsteil = null,
+        /** @var ?Angebotsposition[] */
+        readonly ?array $positionen = null,
     ) {
     }
 }

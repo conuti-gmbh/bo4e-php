@@ -25,8 +25,8 @@ class Preisblatt
         readonly ?string $regelzone = null,
         readonly ?Leistungstyp $leistungstyp = null,
         readonly ?bool $nichtGenutzt = null,
-        /** @var Preisposition[] */
-        readonly array $preispositionen = [],
+        /** @var ?Preisposition[] */
+        readonly ?array $preispositionen = null,
     ) {
     }
 }

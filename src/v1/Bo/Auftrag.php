@@ -33,10 +33,10 @@ class Auftrag
         readonly ?DateTime $behebungsZeitpunkt = null,
         readonly ?Geschaeftspartner $lieferadresseAltgeraete = null,
         readonly ?DefinitionsTyp $definitionsTyp = null,
-        /** @var AuftragPosition[] */
-        readonly array $positionsdaten = [],
-        /** @var string[] */
-        readonly array $bemerkungen = [],
+        /** @var ?AuftragPosition[] */
+        readonly ?array $positionsdaten = null,
+        /** @var ?string[] */
+        readonly ?array $bemerkungen = null,
     ) {
     }
 }

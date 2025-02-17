@@ -16,8 +16,8 @@ class Angebotsvariante
         readonly ?DateTime $bindefrist = null,
         readonly ?Menge $gesamtmenge = null,
         readonly ?Betrag $gesamtkosten = null,
-        /** @var Angebotsteil[] */
-        readonly array $teile = [],
+        /** @var ?Angebotsteil[] */
+        readonly ?array $teile = null,
     ) {
     }
 }

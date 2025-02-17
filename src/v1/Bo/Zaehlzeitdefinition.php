@@ -21,10 +21,10 @@ class Zaehlzeitdefinition
         readonly ?DefinitionenNotwendigkeit $notwendigkeit = null,
         readonly ?string $versionsangabe = null,
         readonly ?string $code = null,
-        /** @var Zaehlzeit[] */
-        readonly array $zaehlzeiten = [],
-        /** @var Zaehlzeitregister[] */
-        readonly array $zaehlzeitregister = [],
+        /** @var ?Zaehlzeit[] */
+        readonly ?array $zaehlzeiten = null,
+        /** @var ?Zaehlzeitregister[] */
+        readonly ?array $zaehlzeitregister = null,
     ) {
     }
 }

@@ -19,8 +19,8 @@ class Lokationsbuendel
         readonly ?bool $standardisierteLokationsbuendelstruktur = null,
         readonly ?Datenqualitaet $datenqualitaet = null,
         readonly ?Zeitraum $gueltigkeitszeitraum = null,
-        /** @var ZuordnungObjectcode[] */
-        readonly array $zuordnungObjectcode = [],
+        /** @var ?ZuordnungObjectcode[] */
+        readonly ?array $zuordnungObjectcode = null,
     ) {
     }
 }

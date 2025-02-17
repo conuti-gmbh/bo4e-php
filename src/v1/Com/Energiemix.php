@@ -11,8 +11,8 @@ use Conuti\BO4E\v1\Enum\Oekozertifikat;
 class Energiemix
 {
     public function __construct(
-        /** @var Energieherkunft[] */
-        readonly array $anteil = [],
+        /** @var ?Energieherkunft[] */
+        readonly ?array $anteil = null,
         readonly ?float $atommuell = null,
         readonly ?string $bemerkung = null,
         readonly ?string $bezeichnung = null,
@@ -21,10 +21,10 @@ class Energiemix
         readonly ?int $energiemixnummer = null,
         readonly ?int $gueltigkeitsjahr = null,
         readonly ?bool $ist_in_oeko_top_ten = null,
-        /** @var Oekolabel[] */
-        readonly array $oekolabel = [],
-        /** @var Oekozertifikat[] */
-        readonly array $oekozertifikate = [],
+        /** @var ?Oekolabel[] */
+        readonly ?array $oekolabel = null,
+        /** @var ?Oekozertifikat[] */
+        readonly ?array $oekozertifikate = null,
         readonly ?string $website = null,
     ) {
     }

@@ -26,8 +26,8 @@ class Abweichung
         readonly ?string $abweichungsgrundBemerkung4 = null,
         readonly ?string $abweichungsgrundBemerkung5 = null,
         readonly ?string $referenz = null,
-        /** @var string[] */
-        readonly array $abschlagsrechnungen = [],
+        /** @var ?string[] */
+        readonly ?array $abschlagsrechnungen = null,
     ) {
     }
 }

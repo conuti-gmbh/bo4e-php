@@ -15,8 +15,8 @@ class Kommunikationsdaten
         readonly ?DateTime $gueltigkeit = null,
         readonly ?bool $kommunikationsDatenBlattInaktiv = null,
         readonly ?Marktteilnehmer $marktteilnehmer = null,
-        /** @var Marktteilnehmer[] */
-        readonly array $kommunikationsangaben = [],
+        /** @var ?Marktteilnehmer[] */
+        readonly ?array $kommunikationsangaben = null,
     ) {
     }
 }

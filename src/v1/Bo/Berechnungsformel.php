@@ -22,10 +22,10 @@ class Berechnungsformel
         readonly ?Energierichtung $lieferrichtung = null,
         readonly ?int $rechenschrittId = null,
         readonly ?Rechenschritt $rechenschritt = null,
-        /** @var Rechenschritt[] */
-        readonly array $rechenschritte = [],
-        /** @var Verwendungszweck[] */
-        readonly array $verwendungszweck = [],
+        /** @var ?Rechenschritt[] */
+        readonly ?array $rechenschritte = null,
+        /** @var ?Verwendungszweck[] */
+        readonly ?array $verwendungszweck = null,
         readonly ?Zeitraum $gueltigkeitszeitraum = null,
     ) {
     }

@@ -26,8 +26,8 @@ class Angebot
         readonly ?Ansprechpartner $unterzeichnerAngebotsgeber = null,
         readonly ?Zeitraum $zeitspanneEinrichtungUebermittlungWerte = null,
         readonly ?Zeitraum $bindefristAngebot = null,
-        /** @var Angebotsvariante[] */
-        readonly array $varianten = [],
+        /** @var ?Angebotsvariante[] */
+        readonly ?array $varianten = null,
     ) {
     }
 }

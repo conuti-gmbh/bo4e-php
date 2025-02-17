@@ -19,8 +19,8 @@ class Leistungskurvendefinition
         readonly ?DateTime $version = null,
         readonly ?string $code = null,
         readonly ?DefinitionenNotwendigkeit $notwendigkeit = null,
-        /** @var Leistungskurve[] */
-        readonly array $leistungskurven = [],
+        /** @var ?Leistungskurve[] */
+        readonly ?array $leistungskurven = null,
     ) {
     }
 }

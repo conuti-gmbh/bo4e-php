@@ -26,8 +26,8 @@ class SteuerbareRessource
         readonly ?Marktrolle $produktdatenRelevanteRolle = null,
         readonly ?Marktteilnehmer $auftraggebenderMarktpartner = null,
         readonly ?ZugeordneteDefinition $zugeordneteDefinition = null,
-        /** @var Marktteilnehmer[] */
-        readonly array $marktrollen = [],
+        /** @var ?Marktteilnehmer[] */
+        readonly ?array $marktrollen = null,
         readonly ?Datenqualitaet $datenqualitaet = null,
         readonly ?Zeitraum $gueltigkeitszeitraum = null,
     ) {

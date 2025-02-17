@@ -29,12 +29,12 @@ class Netzlokation
         readonly ?string $konfigurationsprodukt = null,
         readonly ?bool $keinKonfigurationsprodukt = null,
         readonly ?string $leistungskurvendefinition = null,
-        /** @var Marktteilnehmer[] */
-        readonly array $marktrollen = [],
-        /** @var Zaehlwerk[] */
-        readonly array $zaehlwerke = [],
-        /** @var Netznutzungsabrechnungsdaten[] */
-        readonly array $abrechnungsdaten = [],
+        /** @var ?Marktteilnehmer[] */
+        readonly ?array $marktrollen = null,
+        /** @var ?Zaehlwerk[] */
+        readonly ?array $zaehlwerke = null,
+        /** @var ?Netznutzungsabrechnungsdaten[] */
+        readonly ?array $abrechnungsdaten = null,
         readonly ?Datenqualitaet $datenqualitaet = null,
         readonly ?Zeitraum $gueltigkeitszeitraum = null,
     ) {

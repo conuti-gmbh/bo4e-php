@@ -18,8 +18,8 @@ class Statusmitteilung
         readonly ?Statusobjekt $statusObjekt = null,
         readonly ?Status $statusanlass = null,
         readonly ?Auftragsstatus $auftragsstatus = null,
-        /** @var StatusmitteilungPosition[] */
-        readonly array $positionsdaten = [],
+        /** @var ?StatusmitteilungPosition[] */
+        readonly ?array $positionsdaten = null,
     ) {
     }
 }

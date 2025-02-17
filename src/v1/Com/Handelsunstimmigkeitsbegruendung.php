@@ -16,8 +16,8 @@ class Handelsunstimmigkeitsbegruendung
         readonly ?string $bestaetigungDar = null,
         readonly ?Handelsunstimmigkeitsgrund $grund = null,
         readonly ?string $hinweis = null,
-        /** @var string[] */
-        readonly array $referenzen = [],
+        /** @var ?string[] */
+        readonly ?array $referenzen = null,
     ) {
     }
 }

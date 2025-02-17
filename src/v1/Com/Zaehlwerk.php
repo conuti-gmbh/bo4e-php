@@ -44,8 +44,8 @@ class Zaehlwerk
         readonly ?string $konfigurationsprodukt = null,
         readonly ?bool $keinKonfigurationsprodukt = null,
         readonly ?string $leistungskurvendefinition = null,
-        /** @var Verwendungszweck[] */
-        readonly array $verwendungszwecke = [],
+        /** @var ?Verwendungszweck[] */
+        readonly ?array $verwendungszwecke = null,
     ) {
     }
 }

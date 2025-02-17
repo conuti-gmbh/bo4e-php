@@ -49,10 +49,10 @@ class Zaehler
         readonly ?string $baujahr = null,
         readonly ?string $messlokationsId = null,
         readonly ?string $marktlokationsId = null,
-        /** @var Geraet[] */
-        readonly array $geraete = [],
-        /** @var Zaehlwerk[] */
-        readonly array $zaehlwerke = [],
+        /** @var ?Geraet[] */
+        readonly ?array $geraete = null,
+        /** @var ?Zaehlwerk[] */
+        readonly ?array $zaehlwerke = null,
         readonly ?Datenqualitaet $datenqualitaet = null,
         readonly ?Zeitraum $gueltigkeitszeitraum = null,
     ) {

@@ -11,8 +11,8 @@ class Produktpaket
 {
     public function __construct(
         readonly ?int $produktpaketId = null,
-        /** @var Produkt[] */
-        readonly array $produkt = [],
+        /** @var ?Produkt[] */
+        readonly ?array $produkt = null,
         readonly ?Umsetzungsgradvorgabe $umsetzungsgradvorgabe = null,
         readonly ?Priorisierung $priorisierung = null,
     ) {

@@ -19,8 +19,8 @@ class Schaltzeitdefinition
         readonly ?DateTime $version = null,
         readonly ?string $code = null,
         readonly ?DefinitionenNotwendigkeit $notwendigkeit = null,
-        /** @var Schaltzeit[] */
-        readonly array $schaltzeiten = [],
+        /** @var ?Schaltzeit[] */
+        readonly ?array $schaltzeiten = null,
     ) {
     }
 }

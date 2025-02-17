@@ -72,20 +72,20 @@ class Tranche
         readonly ?bool $zukuenftigerMeldepunkt = null,
         readonly ?Lokationszuordnung $lokationszuordnung = null,
         readonly ?Marktteilnehmer $beteiligterMarktpartner = null,
-        /** @var Marktteilnehmer[] */
-        readonly array $marktrollen = [],
-        /** @var Zaehlwerk[] */
-        readonly array $zaehlwerke = [],
-        /** @var Marktrolle[] */
-        readonly array $zaehlwerkeBeteiligteMarktrolle = [],
-        /** @var Verbrauch[] */
-        readonly array $verbrauchsmenge = [],
-        /** @var Messlokationszuordnung[] */
-        readonly array $zugehoerigeMesslokationen = [],
-        /** @var Netznutzungsabrechnungsdaten[] */
-        readonly array $netznutzungsabrechnungsdaten = [],
-        /** @var Energieherkunft[] */
-        readonly array $energieherkunft = [],
+        /** @var ?Marktteilnehmer[] */
+        readonly ?array $marktrollen = null,
+        /** @var ?Zaehlwerk[] */
+        readonly ?array $zaehlwerke = null,
+        /** @var ?Marktrolle[] */
+        readonly ?array $zaehlwerkeBeteiligteMarktrolle = null,
+        /** @var ?Verbrauch[] */
+        readonly ?array $verbrauchsmenge = null,
+        /** @var ?Messlokationszuordnung[] */
+        readonly ?array $zugehoerigeMesslokationen = null,
+        /** @var ?Netznutzungsabrechnungsdaten[] */
+        readonly ?array $netznutzungsabrechnungsdaten = null,
+        /** @var ?Energieherkunft[] */
+        readonly ?array $energieherkunft = null,
         readonly ?Datenqualitaet $datenqualitaet = null,
         readonly ?Zeitraum $gueltigkeitszeitraum = null,
     ) {

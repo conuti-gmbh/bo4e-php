@@ -29,12 +29,12 @@ class Geschaeftspartner
         readonly ?string $amtsgericht = null,
         readonly ?Adresse $partneradresse = null,
         readonly ?string $externeKundenummerLieferant = null,
-        /** @var ExterneReferenz[] */
-        readonly array $externeReferenzen = [],
-        /** @var Geschaeftspartnerrolle[] */
-        readonly array $geschaeftspartnerrolle = [],
-        /** @var Kontaktart[] */
-        readonly array $kontaktweg = [],
+        /** @var ?ExterneReferenz[] */
+        readonly ?array $externeReferenzen = null,
+        /** @var ?Geschaeftspartnerrolle[] */
+        readonly ?array $geschaeftspartnerrolle = null,
+        /** @var ?Kontaktart[] */
+        readonly ?array $kontaktweg = null,
     ) {
     }
 }

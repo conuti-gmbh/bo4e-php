@@ -80,28 +80,28 @@ class Marktlokation
         readonly ?ModulNetzentgelte $modulNetzentgelte = null,
         readonly ?Datenqualitaet $datenqualitaet = null,
         readonly ?Zeitraum $gueltigkeitszeitraum = null,
-        /** @var Marktteilnehmer[] */
-        readonly array $marktrollen = [],
-        /** @var Zaehlwerk[] */
-        readonly array $zaehlwerke = [],
-        /** @var Marktrolle[] */
-        readonly array $zaehlwerkeBeteiligteMarktrolle = [],
-        /** @var Verbrauch[] */
-        readonly array $verbrauchsmenge = [],
-        /** @var Messlokationszuordnung[] */
-        readonly array $zugehoerigeMesslokationen = [],
-        /** @var Netznutzungsabrechnungsdaten[] */
-        readonly array $netznutzungsabrechnungsdaten = [],
-        /** @var Messstellenbetriebsabrechnungsdaten[] */
-        readonly array $messstellenbetriebsabrechnungsdaten = [],
-        /** @var Energieherkunft[] */
-        readonly array $energieherkunft = [],
-        /** @var Produktpaket[] */
-        readonly array $erforderlichesProduktpaket = [],
+        /** @var ?Marktteilnehmer[] */
+        readonly ?array $marktrollen = null,
+        /** @var ?Zaehlwerk[] */
+        readonly ?array $zaehlwerke = null,
+        /** @var ?Marktrolle[] */
+        readonly ?array $zaehlwerkeBeteiligteMarktrolle = null,
+        /** @var ?Verbrauch[] */
+        readonly ?array $verbrauchsmenge = null,
+        /** @var ?Messlokationszuordnung[] */
+        readonly ?array $zugehoerigeMesslokationen = null,
+        /** @var ?Netznutzungsabrechnungsdaten[] */
+        readonly ?array $netznutzungsabrechnungsdaten = null,
+        /** @var ?Messstellenbetriebsabrechnungsdaten[] */
+        readonly ?array $messstellenbetriebsabrechnungsdaten = null,
+        /** @var ?Energieherkunft[] */
+        readonly ?array $energieherkunft = null,
+        /** @var ?Produktpaket[] */
+        readonly ?array $erforderlichesProduktpaket = null,
         readonly ?Geokoordinaten $geokoordinaten = null,
         readonly ?string $paketId = null,
-        /** @var MarktlokationsTypisierung[] */
-        readonly array $marktlokationsTyp = [],
+        /** @var ?MarktlokationsTypisierung[] */
+        readonly ?array $marktlokationsTyp = null,
     ) {
     }
 }

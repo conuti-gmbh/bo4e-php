@@ -47,10 +47,10 @@ class Marktteilnehmer
         readonly ?bool $weiterverpflichtet = null,
         readonly ?Kommunikationsparameter $kommunikationsparameter = null,
         readonly ?MSBEigenschaft $messstellenbetreiberEigenschaft = null,
-        /** @var Bankverbindung[] */
-        readonly array $bankverbindung = [],
-        /** @var Erreichbarkeit[] */
-        readonly array $erreichbarkeit = [],
+        /** @var ?Bankverbindung[] */
+        readonly ?array $bankverbindung = null,
+        /** @var ?Erreichbarkeit[] */
+        readonly ?array $erreichbarkeit = null,
         readonly ?string $ipAdresse = null,
         readonly ?IpRange $ipRange = null,
         readonly ?DateTime $zuordnungVon = null,

@@ -46,8 +46,8 @@ class TechnischeRessource
         readonly ?TechnischeRessourceArt $art = null,
         readonly ?Datenqualitaet $datenqualitaet = null,
         readonly ?Zeitraum $gueltigkeitszeitraum = null,
-        /** @var Produkt[] */
-        readonly array $erforderlicheProdukte = [],
+        /** @var ?Produkt[] */
+        readonly ?array $erforderlicheProdukte = null,
     ) {
     }
 }

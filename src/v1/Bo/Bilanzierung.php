@@ -40,12 +40,12 @@ class Bilanzierung
         readonly ?Menge $vorjahresverbrauch = null,
         readonly ?Datenqualitaet $datenqualitaet = null,
         readonly ?Zeitraum $gueltigkeitszeitraum = null,
-        /** @var Lastprofil[] */
-        readonly array $lastprofile = [],
-        /** @var Lastprofil[] */
-        readonly array $lastprofileBilanzierungsbeteiligter = [],
-        /** @var Profiltyp[] */
-        readonly array $detailsPrognosegrundlage = [],
+        /** @var ?Lastprofil[] */
+        readonly ?array $lastprofile = null,
+        /** @var ?Lastprofil[] */
+        readonly ?array $lastprofileBilanzierungsbeteiligter = null,
+        /** @var ?Profiltyp[] */
+        readonly ?array $detailsPrognosegrundlage = null,
     ) {
     }
 }

@@ -28,8 +28,8 @@ class Verbrauch
         readonly ?int $position = null,
         readonly ?DateTime $ablesedatum = null,
         readonly ?string $leistungsperiode = null,
-        /** @var StatusZusatzInformation[] */
-        readonly array $statuszusatzinformationen = [],
+        /** @var ?StatusZusatzInformation[] */
+        readonly ?array $statuszusatzinformationen = null,
     ) {
     }
 }

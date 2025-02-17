@@ -34,12 +34,12 @@ class Vertrag
         readonly ?bool $abrechnungUeberNna = null,
         readonly ?Datenqualitaet $datenqualitaet = null,
         readonly ?Zeitraum $gueltigkeitszeitraum = null,
-        /** @var Geschaeftspartner[] */
-        readonly array $vertragspartner1 = [],
-        /** @var Geschaeftspartner[] */
-        readonly array $vertragspartner2 = [],
-        /** @var EnFG[] */
-        readonly array $enFG = [],
+        /** @var ?Geschaeftspartner[] */
+        readonly ?array $vertragspartner1 = null,
+        /** @var ?Geschaeftspartner[] */
+        readonly ?array $vertragspartner2 = null,
+        /** @var ?EnFG[] */
+        readonly ?array $enFG = null,
     ) {
     }
 }

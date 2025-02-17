@@ -13,10 +13,10 @@ class ZuordnungObjectcode
         readonly ?string $referenzLokationsId = null,
         readonly ?Lokationstyp $vorgelagerteLokationTyp = null,
         readonly ?string $vorgelagerteLokationId = null,
-        /** @var Objectcode[] */
-        readonly array $objectcode = [],
-        /** @var string[] */
-        readonly array $referenzMarktlokationTechnischeRessource = [],
+        /** @var ?Objectcode[] */
+        readonly ?array $objectcode = null,
+        /** @var ?string[] */
+        readonly ?array $referenzMarktlokationTechnischeRessource = null,
     ) {
     }
 }

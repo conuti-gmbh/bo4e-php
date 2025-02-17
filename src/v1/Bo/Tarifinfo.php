@@ -26,12 +26,12 @@ class Tarifinfo
         readonly ?string $bemerkung = null,
         readonly ?string $bezeichnung = null,
         readonly ?Energiemix $energiemix = null,
-        /** @var Kundentyp[] */
-        readonly array $kundentypen = [],
+        /** @var ?Kundentyp[] */
+        readonly ?array $kundentypen = null,
         readonly ?Registeranzahl $registeranzahl = null,
         readonly ?Sparte $sparte = null,
-        /** @var Tarifmerkmal[] */
-        readonly array $tarifmerkmale = [],
+        /** @var ?Tarifmerkmal[] */
+        readonly ?array $tarifmerkmale = null,
         readonly ?Tariftyp $tariftyp = null,
         readonly ?Vertragskonditionen $vertragskonditionen = null,
         readonly ?string $website = null,

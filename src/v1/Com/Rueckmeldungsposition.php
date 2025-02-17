@@ -8,8 +8,8 @@ class Rueckmeldungsposition
 {
     public function __construct(
         readonly ?int $positionsnummer = null,
-        /** @var Abweichung[] */
-        readonly array $abweichung = [],
+        /** @var ?Abweichung[] */
+        readonly ?array $abweichung = null,
     ) {
     }
 }

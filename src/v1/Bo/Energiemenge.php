@@ -23,8 +23,8 @@ class Energiemenge
         readonly ?DateTime $beginndatum = null,
         readonly ?string $referenzStammdatenmeldungMsb = null,
         readonly ?string $konfiguration = null,
-        /** @var Verbrauch[] */
-        readonly array $energieverbrauch = [],
+        /** @var ?Verbrauch[] */
+        readonly ?array $energieverbrauch = null,
     ) {
     }
 }

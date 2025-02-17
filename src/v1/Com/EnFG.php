@@ -11,8 +11,8 @@ class EnFG
 {
     public function __construct(
         readonly ?GrundlageVerringerungUmlagen $grundlageVerringerungUmlagen = null,
-        /** @var GrundlageVerringerungUmlagenGrund[] */
-        readonly array $grund = [],
+        /** @var ?GrundlageVerringerungUmlagenGrund[] */
+        readonly ?array $grund = null,
     ) {
     }
 }

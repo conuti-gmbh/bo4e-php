@@ -25,8 +25,8 @@ class StatusmitteilungPosition
         readonly ?string $referenzMelo = null,
         readonly ?AllgemeineInformationen $allgemeineInformationen = null,
         readonly ?DateTime $statusVeraenderungsZeitpunkt = null,
-        /** @var Auftragsstatus[] */
-        readonly array $auftragsStatusListe = [],
+        /** @var ?Auftragsstatus[] */
+        readonly ?array $auftragsStatusListe = null,
     ) {
     }
 }

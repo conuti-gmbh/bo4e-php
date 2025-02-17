@@ -45,10 +45,10 @@ class Rechnung
         readonly ?Energierichtung $energierichtung = null,
         readonly ?DateTime $beginnPeriodeBilanzierung = null,
         readonly ?DateTime $endePeriodeNetznutzung = null,
-        /** @var Steuerbetrag[] */
-        readonly array $steuerbetraege = [],
-        /** @var Rechnungsposition[] */
-        readonly array $rechnungspositionen = [],
+        /** @var ?Steuerbetrag[] */
+        readonly ?array $steuerbetraege = null,
+        /** @var ?Rechnungsposition[] */
+        readonly ?array $rechnungspositionen = null,
     ) {
     }
 }

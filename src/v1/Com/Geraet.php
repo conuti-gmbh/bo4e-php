@@ -16,8 +16,8 @@ class Geraet
         readonly ?string $geraetereferenz = null,
         readonly ?Geraeteeigenschaften $geraeteeigenschaften = null,
         readonly ?Volumenerfassung $volumenerfassung = null,
-        /** @var string[] */
-        readonly array $weitereGeraetenummern = [],
+        /** @var ?string[] */
+        readonly ?array $weitereGeraetenummern = null,
     ) {
     }
 }

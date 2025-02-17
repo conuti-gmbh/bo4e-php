@@ -32,10 +32,10 @@ class Preisposition
         readonly ?string $beschreibung = null,
         readonly ?Zeitraum $verarbeitungszeitraum = null,
         readonly ?string $artikelId = null,
-        /** @var PositionsAufAbschlag[] */
-        readonly array $zu_abschlaege = [],
-        /** @var Preisstaffel[] */
-        readonly array $preisstaffeln = [],
+        /** @var ?PositionsAufAbschlag[] */
+        readonly ?array $zu_abschlaege = null,
+        /** @var ?Preisstaffel[] */
+        readonly ?array $preisstaffeln = null,
     ) {
     }
 }

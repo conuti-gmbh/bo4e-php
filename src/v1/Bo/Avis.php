@@ -17,8 +17,8 @@ class Avis
         readonly ?string $avisNummer = null,
         readonly ?AvisTyp $avisTyp = null,
         readonly ?Betrag $zuZahlen = null,
-        /** @var Avisposition[] */
-        readonly array $positionen = [],
+        /** @var ?Avisposition[] */
+        readonly ?array $positionen = null,
     ) {
     }
 }

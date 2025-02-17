@@ -43,16 +43,16 @@ class Messlokation
         readonly ?bool $zukuenftigerMeldepunkt = null,
         readonly ?Lokationszuordnung $lokationszuordnung = null,
         readonly ?Marktteilnehmer $beteiligterMarktpartner = null,
-        /** @var Geraet[] */
-        readonly array $geraete = [],
-        /** @var Dienstleistung[] */
-        readonly array $messdienstleistung = [],
-        /** @var string[] */
-        readonly array $messlokationszaehler = [],
-        /** @var Zaehlwerk[] */
-        readonly array $zaehlwerke = [],
-        /** @var Marktteilnehmer[] */
-        readonly array $marktrollen = [],
+        /** @var ?Geraet[] */
+        readonly ?array $geraete = null,
+        /** @var ?Dienstleistung[] */
+        readonly ?array $messdienstleistung = null,
+        /** @var ?string[] */
+        readonly ?array $messlokationszaehler = null,
+        /** @var ?Zaehlwerk[] */
+        readonly ?array $zaehlwerke = null,
+        /** @var ?Marktteilnehmer[] */
+        readonly ?array $marktrollen = null,
         readonly ?Datenqualitaet $datenqualitaet = null,
         readonly ?Zeitraum $gueltigkeitszeitraum = null,
     ) {

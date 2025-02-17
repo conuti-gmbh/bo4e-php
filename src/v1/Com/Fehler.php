@@ -10,8 +10,8 @@ class Fehler
 {
     public function __construct(
         readonly ?FehlerTyp $typ = null,
-        /** @var FehlerDetail[] */
-        readonly array $fehlerDetails = [],
+        /** @var ?FehlerDetail[] */
+        readonly ?array $fehlerDetails = null,
     ) {
     }
 }

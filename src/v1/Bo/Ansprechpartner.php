@@ -14,8 +14,8 @@ class Ansprechpartner
         readonly string $versionStruktur = '1',
         readonly ?string $nachname = null,
         readonly ?string $eMailAdresse = null,
-        /** @var Rufnummer[] */
-        readonly array $rufnummern = [],
+        /** @var ?Rufnummer[] */
+        readonly ?array $rufnummern = null,
     ) {
     }
 }
