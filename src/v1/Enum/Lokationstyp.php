@@ -10,4 +10,6 @@ enum Lokationstyp: string
     case MELO = 'MELO';
     case NELO = 'NELO';
     case TECHNISCHE_RESSOURCE = 'TECHNISCHE_RESSOURCE';
+    case STEUERBARE_RESSOURCE = 'STEUERBARE_RESSOURCE';
+    case TRANCHE = 'TRANCHE';
 }
