@@ -12,6 +12,7 @@ use Conuti\BO4E\v1\Enum\Marktrolle;
 use Conuti\BO4E\v1\Com\ZugeordneteDefinition;
 use Conuti\BO4E\v1\Enum\Datenqualitaet;
 use Conuti\BO4E\v1\Com\Zeitraum;
+use Conuti\BO4E\v1\Com\Produkt;
 
 class SteuerbareRessource
 {
@@ -30,6 +31,8 @@ class SteuerbareRessource
         readonly ?array $marktrollen = null,
         readonly ?Datenqualitaet $datenqualitaet = null,
         readonly ?Zeitraum $gueltigkeitszeitraum = null,
+        /** @var ?Produkt[] */
+        readonly ?array $erforderlicheProdukte = null,
     ) {
     }
 }
