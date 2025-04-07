@@ -11,6 +11,7 @@ use Conuti\BO4E\v1\Enum\Energierichtung;
 use Conuti\BO4E\v1\Com\Rechenschritt;
 use Conuti\BO4E\v1\Com\Verwendungszweck;
 use Conuti\BO4E\v1\Com\Zeitraum;
+use Conuti\BO4E\v1\Enum\Lokationstyp;
 
 class Berechnungsformel
 {
@@ -27,6 +28,8 @@ class Berechnungsformel
         /** @var ?Verwendungszweck[] */
         readonly ?array $verwendungszweck = null,
         readonly ?Zeitraum $gueltigkeitszeitraum = null,
+        readonly ?string $lokationsId = null,
+        readonly ?Lokationstyp $lokationsTyp = null,
     ) {
     }
 }
