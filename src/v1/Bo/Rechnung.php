@@ -37,6 +37,7 @@ class Rechnung
         readonly ?string $referenzDokumentennummer = null,
         readonly ?string $referenzVorgaengerrechnung = null,
         readonly ?DateTime $datumVorgaengerrechnung = null,
+        readonly ?string $preisNetzbetreiberCodenummer = null,
         readonly ?string $netzkonto = null,
         readonly ?Betrag $vorausgezahlt = null,
         readonly ?Gemeinderabatt $gemeinderabatt = null,
