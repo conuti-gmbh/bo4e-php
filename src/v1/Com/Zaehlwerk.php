@@ -25,7 +25,8 @@ class Zaehlwerk
         readonly ?float $wandlerfaktor = null,
         readonly ?Mengeneinheit $einheit = null,
         readonly ?Schwachlastfaehig $schwachlastfaehig = null,
-        readonly ?Verbrauchsart $verbrauchsart = null,
+        /** @var ?Verbrauchsart[] */
+        readonly ?array $verbrauchsart = null,
         readonly ?Unterbrechbarkeit $unterbrechbarkeit = null,
         readonly ?Waermenutzung $waermenutzung = null,
         readonly ?Konzessionsabgabe $konzessionsabgabe = null,

@@ -42,7 +42,8 @@ class Tranche
         readonly ?Sparte $sparte = null,
         readonly ?Energierichtung $energierichtung = null,
         readonly ?Bilanzierungsmethode $bilanzierungsmethode = null,
-        readonly ?Verbrauchsart $verbrauchsart = null,
+        /** @var ?Verbrauchsart[] */
+        readonly ?array $verbrauchsart = null,
         readonly ?bool $unterbrechbar = null,
         readonly ?Netzebene $netzebene = null,
         readonly ?string $netzbetreiberCodeNr = null,

@@ -34,7 +34,8 @@ class TechnischeRessource
         readonly ?string $referenzSteuerbareRessource = null,
         readonly ?Nennleistung $nennleistung = null,
         readonly ?float $speicherkapazitaet = null,
-        readonly ?Verbrauchsart $verbrauchsart = null,
+        /** @var ?Verbrauchsart[] */
+        readonly ?array $verbrauchsart = null,
         readonly ?Waermenutzung $waermenutzung = null,
         readonly ?ArtEmobilitaet $artEMobilitaet = null,
         readonly ?Erzeugungsart $erzeugungsart = null,
