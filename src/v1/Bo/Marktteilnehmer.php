@@ -16,6 +16,7 @@ use Conuti\BO4E\v1\Com\Bankverbindung;
 use Conuti\BO4E\v1\Com\Erreichbarkeit;
 use Conuti\BO4E\v1\Com\IpRange;
 use DateTime;
+use Conuti\BO4E\v1\Enum\VerwendungszweckBilanzkreis;
 
 class Marktteilnehmer
 {
@@ -55,6 +56,8 @@ class Marktteilnehmer
         readonly ?IpRange $ipRange = null,
         readonly ?DateTime $zuordnungVon = null,
         readonly ?DateTime $zuordnungBis = null,
+        readonly ?string $bilanzkreis = null,
+        readonly ?VerwendungszweckBilanzkreis $verwendungszweckBilanzkreis = null,
     ) {
     }
 }
