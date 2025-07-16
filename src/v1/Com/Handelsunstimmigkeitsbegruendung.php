@@ -14,6 +14,7 @@ class Handelsunstimmigkeitsbegruendung
         readonly ?string $referenzDar = null,
         readonly ?string $referenznummer = null,
         readonly ?string $bestaetigungDar = null,
+        readonly ?string $anerkennungsmeldung = null,
         readonly ?Handelsunstimmigkeitsgrund $grund = null,
         readonly ?string $hinweis = null,
         /** @var ?string[] */
