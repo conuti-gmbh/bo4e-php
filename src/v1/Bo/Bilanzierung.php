@@ -6,6 +6,7 @@ namespace Conuti\BO4E\v1\Bo;
 
 use Conuti\BO4E\v1\Enum\BOTyp;
 use Conuti\BO4E\v1\Enum\Aggregationsverantwortung;
+use Conuti\BO4E\v1\Enum\Zeitreihentyp;
 use Conuti\BO4E\v1\Enum\Prognosegrundlage;
 use DateTime;
 use Conuti\BO4E\v1\Enum\Fallgruppenzuordnung;
@@ -24,7 +25,7 @@ class Bilanzierung
         readonly string $versionStruktur = '1',
         readonly ?string $marktlokationsId = null,
         readonly ?Aggregationsverantwortung $aggregationsverantwortung = null,
-        readonly ?string $zeitreihentyp = null,
+        readonly ?Zeitreihentyp $zeitreihentyp = null,
         readonly ?Prognosegrundlage $prognosegrundlage = null,
         readonly ?DateTime $bilanzierungsbeginn = null,
         readonly ?DateTime $bilanzierungsende = null,
