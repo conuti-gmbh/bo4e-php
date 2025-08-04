@@ -21,6 +21,7 @@ class Preisblatt
         readonly ?Zeitraum $gueltigkeit = null,
         readonly ?Preisstatus $preisstatus = null,
         readonly ?Sparte $sparte = null,
+        readonly ?string $preisNetzbetreiberCodenummer = null,
         readonly ?DateTime $bilanzierungsdatum = null,
         readonly ?string $regelzone = null,
         readonly ?Leistungstyp $leistungstyp = null,
