@@ -6,6 +6,7 @@ namespace Conuti\BO4E\v1\Com;
 
 use Conuti\BO4E\v1\Enum\Kalkulationsmethode;
 use Conuti\BO4E\v1\Enum\Leistungstyp;
+use Conuti\BO4E\v1\Enum\Leistungsbezeichnung;
 use Conuti\BO4E\v1\Enum\Waehrungseinheit;
 use Conuti\BO4E\v1\Enum\Mengeneinheit;
 use Conuti\BO4E\v1\Enum\Zeiteinheit;
@@ -19,7 +20,7 @@ class Preisposition
     public function __construct(
         readonly ?Kalkulationsmethode $berechnungsmethode = null,
         readonly ?Leistungstyp $leistungstyp = null,
-        readonly ?string $leistungsbezeichnung = null,
+        readonly ?Leistungsbezeichnung $leistungsbezeichnung = null,
         readonly ?Waehrungseinheit $preiseinheit = null,
         readonly ?Mengeneinheit $bezugsgroesse = null,
         readonly ?Zeiteinheit $zeitbasis = null,
