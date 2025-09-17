@@ -21,6 +21,7 @@ class Auftrag
         readonly ?DateTime $ausfuehrungsdatum = null,
         readonly ?DateTime $fertigstellungsdatum = null,
         readonly ?DateTime $startdatum = null,
+        readonly ?DateTime $enddatum = null,
         readonly ?Sparte $sparte = null,
         readonly ?Adresse $lieferanschrift = null,
         readonly ?string $marktlokationsId = null,
