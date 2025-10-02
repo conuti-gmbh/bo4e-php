@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Conuti\BO4E\v1\Bo;
 
 use Conuti\BO4E\v1\Enum\BOTyp;
+use Conuti\BO4E\v1\Enum\Lokationstyp;
 use Conuti\BO4E\v1\Enum\Anfragetyp;
 use Conuti\BO4E\v1\Enum\Abonnement;
 use Conuti\BO4E\v1\Enum\Anfragekategorie;
@@ -16,6 +17,7 @@ class Anfrage
     public function __construct(
         readonly BOTyp $boTyp = BOTyp::ANFRAGE,
         readonly string $versionStruktur = '1',
+        readonly ?Lokationstyp $lokationsTyp = null,
         readonly ?string $lokationsId = null,
         readonly ?Anfragetyp $anfragetyp = null,
         readonly ?Abonnement $abonnement = null,
