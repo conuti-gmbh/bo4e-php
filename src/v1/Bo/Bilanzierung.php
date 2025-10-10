@@ -30,6 +30,8 @@ class Bilanzierung
         readonly ?DateTime $bilanzierungsbeginn = null,
         readonly ?DateTime $bilanzierungsende = null,
         readonly ?string $bilanzkreis = null,
+        /** @var ?Bilanzkreis[] */
+        readonly ?array $bilanzkreise = null,
         readonly ?Fallgruppenzuordnung $fallgruppenzuordnung = null,
         readonly ?Menge $temperaturarbeit = null,
         readonly ?Menge $jahresverbrauchsprognose = null,
