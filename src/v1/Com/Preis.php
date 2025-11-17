@@ -7,14 +7,17 @@ namespace Conuti\BO4E\v1\Com;
 use Conuti\BO4E\v1\Enum\Waehrungseinheit;
 use Conuti\BO4E\v1\Enum\Mengeneinheit;
 use Conuti\BO4E\v1\Enum\Preisstatus;
+use Conuti\BO4E\v1\Enum\Preisart;
 
 class Preis
 {
     public function __construct(
         readonly ?float $wert = null,
+        readonly ?int $menge = null,
         readonly ?Waehrungseinheit $einheit = null,
         readonly ?Mengeneinheit $bezugswert = null,
         readonly ?Preisstatus $status = null,
+        readonly ?Preisart $preisart = null,
     ) {
     }
 }

@@ -9,6 +9,7 @@ use DateTime;
 use Conuti\BO4E\v1\Enum\Sparte;
 use Conuti\BO4E\v1\Com\Zeitraum;
 use Conuti\BO4E\v1\Com\Angebotsvariante;
+use Conuti\BO4E\v1\Com\Angebotsposition;
 
 class Angebot
 {
@@ -28,6 +29,8 @@ class Angebot
         readonly ?Zeitraum $bindefristAngebot = null,
         /** @var ?Angebotsvariante[] */
         readonly ?array $varianten = null,
+        /** @var ?Angebotsposition[] */
+        readonly ?array $positionsdaten = null,
     ) {
     }
 }

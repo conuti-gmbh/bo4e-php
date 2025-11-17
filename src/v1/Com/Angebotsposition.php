@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Conuti\BO4E\v1\Com;
 
 use Conuti\BO4E\v1\Enum\BDEWArtikelnummer;
+use Conuti\BO4E\v1\Bo\Marktteilnehmer;
 
 class Angebotsposition
 {
@@ -17,6 +18,12 @@ class Angebotsposition
         readonly ?BDEWArtikelnummer $artikelnummer = null,
         /** @var ?string[] */
         readonly ?array $artikelId = null,
+        readonly ?bool $anbietbar = null,
+        readonly ?string $freitext = null,
+        readonly ?Katalogverweis $verweisKatalognummer = null,
+        readonly ?Marktteilnehmer $beteiligterMarktpartner = null,
+        /** @var ?string[] */
+        readonly ?array $referenzMarktlokationsIds = null,
     ) {
     }
 }

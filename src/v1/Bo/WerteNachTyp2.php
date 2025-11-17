@@ -10,6 +10,7 @@ use Conuti\BO4E\v1\Com\Aussteller;
 use Conuti\BO4E\v1\Com\ZertifikatsNutzer;
 use Conuti\BO4E\v1\Enum\AenderungsmoeglichkeitKonfiguration;
 use Conuti\BO4E\v1\Com\Schwellwert;
+use Conuti\BO4E\v1\Com\Zaehlwerk;
 
 class WerteNachTyp2
 {
@@ -24,6 +25,8 @@ class WerteNachTyp2
         readonly ?AenderungsmoeglichkeitKonfiguration $aenderungsmoeglichkeitKonfiguration = null,
         /** @var ?Schwellwert[] */
         readonly ?array $schwellwerte = null,
+        /** @var ?Zaehlwerk[] */
+        readonly ?array $zaehlwerke = null,
     ) {
     }
 }
