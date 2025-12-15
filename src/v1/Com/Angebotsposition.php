@@ -12,7 +12,8 @@ class Angebotsposition
     public function __construct(
         readonly ?string $positionsbezeichung = null,
         readonly ?Menge $positionsmenge = null,
-        readonly ?Preis $positionspreis = null,
+        /** @var ?Preis[] */
+        readonly ?array $positionspreis = null,
         readonly ?Betrag $positionsbetrag = null,
         readonly ?string $preisschluesselstamm = null,
         readonly ?BDEWArtikelnummer $artikelnummer = null,
