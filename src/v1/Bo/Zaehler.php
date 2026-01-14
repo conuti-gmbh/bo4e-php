@@ -9,7 +9,6 @@ use Conuti\BO4E\v1\Enum\Sparte;
 use Conuti\BO4E\v1\Enum\Zaehlerauspraegung;
 use Conuti\BO4E\v1\Enum\Zaehlertyp;
 use Conuti\BO4E\v1\Enum\Tarifart;
-use DateTime;
 use Conuti\BO4E\v1\Enum\Fernschaltung;
 use Conuti\BO4E\v1\Enum\Messwerterfassung;
 use Conuti\BO4E\v1\Enum\ZaehlertypSpezifikation;
@@ -33,7 +32,7 @@ class Zaehler
         readonly ?Zaehlertyp $zaehlertyp = null,
         readonly ?Tarifart $tarifart = null,
         readonly ?float $zaehlerkonstante = null,
-        readonly ?DateTime $eichungBis = null,
+        readonly ?string $eichungBis = null,
         readonly ?Geschaeftspartner $zaehlerhersteller = null,
         readonly ?string $gateway = null,
         readonly ?Fernschaltung $fernschaltung = null,
@@ -45,7 +44,7 @@ class Zaehler
         readonly ?Volumenerfassung $volumenerfassung = null,
         readonly ?string $serialnummer = null,
         readonly ?Geraetemerkmal $geraetemerkmal = null,
-        readonly ?DateTime $herstellungsdatum = null,
+        readonly ?string $herstellungsdatum = null,
         readonly ?string $baujahr = null,
         readonly ?string $messlokationsId = null,
         readonly ?string $marktlokationsId = null,

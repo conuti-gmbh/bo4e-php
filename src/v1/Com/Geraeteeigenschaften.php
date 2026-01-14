@@ -7,7 +7,6 @@ namespace Conuti\BO4E\v1\Com;
 use Conuti\BO4E\v1\Enum\Geraetetyp;
 use Conuti\BO4E\v1\Enum\Geraetemerkmal;
 use Conuti\BO4E\v1\Enum\Volumenerfassung;
-use DateTime;
 
 class Geraeteeigenschaften
 {
@@ -16,9 +15,9 @@ class Geraeteeigenschaften
         readonly ?Geraetemerkmal $geraetemerkmal = null,
         readonly ?Volumenerfassung $volumenerfassung = null,
         readonly ?string $serialnummer = null,
-        readonly ?DateTime $herstellungsdatum = null,
+        readonly ?string $herstellungsdatum = null,
         readonly ?string $baujahr = null,
-        readonly ?DateTime $eichungBis = null,
+        readonly ?string $eichungBis = null,
         readonly ?float $faktor = null,
     ) {
     }
