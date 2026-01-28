@@ -14,6 +14,7 @@ use Conuti\BO4E\v1\Enum\Tarifzeit;
 use Conuti\BO4E\v1\Enum\BDEWArtikelnummer;
 use Conuti\BO4E\v1\Enum\Bemessungsgroesse;
 use Conuti\BO4E\v1\Enum\Netzebene;
+use Conuti\BO4E\v1\Enum\Beschreibungsformat;
 
 class Preisposition
 {
@@ -31,6 +32,7 @@ class Preisposition
         readonly ?int $positionsnummer = null,
         readonly ?Netzebene $messebene = null,
         readonly ?string $beschreibung = null,
+        readonly ?Beschreibungsformat $beschreibungsformat = null,
         readonly ?Zeitraum $verarbeitungszeitraum = null,
         readonly ?string $artikelId = null,
         /** @var ?PositionsAufAbschlag[] */
