@@ -43,6 +43,8 @@ class Rechnung
         readonly ?Gemeinderabatt $gemeinderabatt = null,
         readonly ?DateTime $ausfuehrungsdatum = null,
         readonly ?SonderrechnungsArt $sonderrechnungsart = null,
+        /** @var ?SonderrechnungsArt[] */
+        readonly ?array $sonderrechnungsarten = null,
         readonly ?Energierichtung $energierichtung = null,
         readonly ?DateTime $beginnPeriodeBilanzierung = null,
         readonly ?DateTime $endePeriodeNetznutzung = null,
