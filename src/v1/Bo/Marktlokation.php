@@ -34,6 +34,7 @@ use Conuti\BO4E\v1\Com\Energieherkunft;
 use Conuti\BO4E\v1\Com\Produktpaket;
 use Conuti\BO4E\v1\Com\Geokoordinaten;
 use Conuti\BO4E\v1\Com\MarktlokationsTypisierung;
+use Conuti\BO4E\v1\Com\MarktlokationsReferenz;
 
 class Marktlokation
 {
@@ -103,6 +104,8 @@ class Marktlokation
         readonly ?string $paketId = null,
         /** @var ?MarktlokationsTypisierung[] */
         readonly ?array $marktlokationsTyp = null,
+        /** @var ?MarktlokationsReferenz[] */
+        readonly ?array $zugehoerigeMarktlokationen = null,
     ) {
     }
 }
