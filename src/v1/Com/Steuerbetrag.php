@@ -12,7 +12,7 @@ class Steuerbetrag
         readonly ?float $steuerwert = null,
         readonly ?string $waehrung = null,
         readonly ?float $basiswertVorausbezahlt = null,
-        readonly ?float $steuerwertVorausbezahhlt = null,
+        readonly ?float $steuerwertVorausbezahlt = null,
     ) {
     }
 }
