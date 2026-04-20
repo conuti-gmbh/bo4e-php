@@ -14,6 +14,7 @@ class Handelsunstimmigkeit
     public function __construct(
         readonly BOTyp $boTyp = BOTyp::HANDELSUNSTIMMIGKEIT,
         readonly string $versionStruktur = '1',
+        readonly ?string $huStringDemo = null,
         readonly ?string $nummer = null,
         readonly ?Handelsunstimmigkeitstyp $typ = null,
         readonly ?Handelsunstimmigkeitsbegruendung $begruendung = null,

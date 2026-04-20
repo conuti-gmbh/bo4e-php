@@ -11,4 +11,6 @@ enum Befestigungsart: string
     case HUTSCHIENE = 'HUTSCHIENE';
     case EINSTUTZEN = 'EINSTUTZEN';
     case ZWEISTUTZEN = 'ZWEISTUTZEN';
+    case RICHTIG_DOLLE_FEST = 'RICHTIG_DOLLE_FEST';
+    case PATTAFIX = 'PATTAFIX';
 }
