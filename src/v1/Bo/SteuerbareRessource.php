@@ -33,6 +33,7 @@ class SteuerbareRessource
         readonly ?Zeitraum $gueltigkeitszeitraum = null,
         /** @var ?Produkt[] */
         readonly ?array $erforderlicheProdukte = null,
+        readonly ?bool $keinKonfigurationsprodukt = null,
     ) {
     }
 }

@@ -47,6 +47,10 @@ class Zaehlwerk
         readonly ?string $leistungskurvendefinition = null,
         /** @var ?Verwendungszweck[] */
         readonly ?array $verwendungszwecke = null,
+        readonly ?string $verwendungszweckNB = null,
+        readonly ?string $verwendungszweckLF = null,
+        readonly ?string $verwendungszweckUENB = null,
+        readonly ?bool $keinProdukt = null,
     ) {
     }
 }

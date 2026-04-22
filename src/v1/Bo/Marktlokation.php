@@ -35,6 +35,7 @@ use Conuti\BO4E\v1\Com\Produktpaket;
 use Conuti\BO4E\v1\Com\Geokoordinaten;
 use Conuti\BO4E\v1\Com\MarktlokationsTypisierung;
 use Conuti\BO4E\v1\Com\MarktlokationsReferenz;
+use Conuti\BO4E\v1\Com\TechnischeEinrichtung;
 
 class Marktlokation
 {
@@ -106,6 +107,8 @@ class Marktlokation
         readonly ?array $marktlokationsTyp = null,
         /** @var ?MarktlokationsReferenz[] */
         readonly ?array $zugehoerigeMarktlokationen = null,
+        /** @var ?TechnischeEinrichtung[] */
+        readonly ?array $technischeEinrichtungen = null,
     ) {
     }
 }

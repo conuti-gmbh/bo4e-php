@@ -35,6 +35,7 @@ class Geschaeftspartner
         readonly ?array $geschaeftspartnerrolle = null,
         /** @var ?Kontaktart[] */
         readonly ?array $kontaktweg = null,
+        readonly ?Ansprechpartner $ansprechpartner = null,
     ) {
     }
 }
