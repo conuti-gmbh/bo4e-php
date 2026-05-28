@@ -10,7 +10,7 @@ use Conuti\BO4E\v1\Bo\Marktteilnehmer;
 class Angebotsposition
 {
     public function __construct(
-        readonly ?string $positionsbezeichung = null,
+        readonly ?string $positionsbezeichnung = null,
         readonly ?Menge $positionsmenge = null,
         /** @var ?Preis[] */
         readonly ?array $positionspreis = null,
