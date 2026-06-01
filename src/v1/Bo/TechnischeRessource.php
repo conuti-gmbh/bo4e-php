@@ -32,6 +32,7 @@ class TechnischeRessource
         readonly ?string $referenzMarktlokation = null,
         readonly ?string $referenzNetzlokation = null,
         readonly ?string $referenzSteuerbareRessource = null,
+        readonly ?string $referenzTranche = null,
         readonly ?Nennleistung $nennleistung = null,
         readonly ?float $speicherkapazitaet = null,
         /** @var ?Verbrauchsart[] */

@@ -28,6 +28,10 @@ class AuftragPosition
         readonly ?DefinitionsTyp $definitionsTyp = null,
         readonly ?string $lokationsId = null,
         readonly ?int $zaehlwerk = null,
+        readonly ?EndpunktAdresse $endpunktAdresse = null,
+        readonly ?Zertifikatsinformationen $zertifikatsInformationen = null,
+        readonly ?string $wakeUpPort = null,
+        readonly ?string $apnKommunikationsdaten = null,
     ) {
     }
 }
