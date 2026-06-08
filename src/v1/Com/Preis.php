@@ -14,6 +14,8 @@ class Preis
     public function __construct(
         readonly ?float $wert = null,
         readonly ?int $menge = null,
+        readonly ?int $minimaleMenge = null,
+        readonly ?int $maximaleMenge = null,
         readonly ?Waehrungseinheit $einheit = null,
         readonly ?Mengeneinheit $bezugswert = null,
         readonly ?Preisstatus $status = null,

@@ -19,6 +19,12 @@ class Geraeteeigenschaften
         readonly ?string $baujahr = null,
         readonly ?string $eichungBis = null,
         readonly ?float $faktor = null,
+        readonly ?string $firmwareVersion = null,
+        readonly ?string $herstellerTypbezeichnung = null,
+        readonly ?string $simKartenNummer = null,
+        readonly ?string $modemKennungIMSI = null,
+        readonly ?string $tkProvider = null,
+        readonly ?string $ipVersion = null,
     ) {
     }
 }

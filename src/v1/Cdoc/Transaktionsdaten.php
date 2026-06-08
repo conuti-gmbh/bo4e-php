@@ -7,6 +7,7 @@ namespace Conuti\BO4E\v1\Cdoc;
 use Conuti\BO4E\v1\Enum\Sparte;
 use DateTime;
 use Conuti\BO4E\v1\Bo\Marktteilnehmer;
+use Conuti\BO4E\v1\Enum\Lokationstyp;
 use Conuti\BO4E\v1\Com\Menge;
 use Conuti\BO4E\v1\Enum\Tarifstufe;
 use Conuti\BO4E\v1\Enum\Bilanzkreiszuordnung;
@@ -81,6 +82,7 @@ class Transaktionsdaten
         readonly ?bool $ergaenzteMarktlokation = null,
         readonly ?bool $zaehlerstandsinfo = null,
         readonly ?string $lokationsId = null,
+        readonly ?Lokationstyp $lokationsTyp = null,
         readonly ?string $referenzMalo = null,
         readonly ?string $referenzMelo = null,
         readonly ?string $referenzPreisschluesselstamm = null,

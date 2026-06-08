@@ -25,6 +25,7 @@ class Angebotsposition
         readonly ?Marktteilnehmer $beteiligterMarktpartner = null,
         /** @var ?string[] */
         readonly ?array $referenzMarktlokationsIds = null,
+        readonly ?string $konfigurationsprodukt = null,
     ) {
     }
 }
