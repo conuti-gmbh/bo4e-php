@@ -18,6 +18,7 @@ class AuftragPosition
         readonly ?Energieerfassung $energieerfassung = null,
         readonly ?BDEWArtikelnummer $artikelnummer = null,
         readonly ?string $positionsbetrag = null,
+        readonly ?DateTime $gueltigAb = null,
         readonly ?DateTime $startdatum = null,
         readonly ?DateTime $enddatum = null,
         readonly ?string $istBestand = null,
