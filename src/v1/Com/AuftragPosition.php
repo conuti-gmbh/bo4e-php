@@ -33,6 +33,7 @@ class AuftragPosition
         readonly ?Zertifikatsinformationen $zertifikatsInformationen = null,
         readonly ?string $wakeUpPort = null,
         readonly ?string $apnKommunikationsdaten = null,
+        readonly ?ApnKommunikationsdatenZugriffsparameter $apnKommunikationsdatenZugriffsparameter = null,
     ) {
     }
 }
