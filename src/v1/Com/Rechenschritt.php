@@ -17,7 +17,9 @@ class Rechenschritt
         readonly ?float $verlustfaktorLeitung = null,
         readonly ?float $aufteilungsfaktorEnergiemenge = null,
         readonly ?string $messlokationsId = null,
+        readonly ?string $marktlokationsId = null,
         readonly ?Energierichtung $energieflussrichtung = null,
+        readonly ?string $bezeichnungOperanden = null,
     ) {
     }
 }

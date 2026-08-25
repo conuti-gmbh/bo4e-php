@@ -22,10 +22,13 @@ class StatusmitteilungPosition
         readonly ?Statusanlass $statusanlass = null,
         readonly ?string $antwortstatus = null,
         readonly ?Fehlerbeschreibung $fehlerbeschreibung = null,
+        readonly ?string $fehlerbeschreibungText = null,
         readonly ?Begruendung $begruendung = null,
+        readonly ?string $begruendungText = null,
         readonly ?string $lokationsId = null,
         readonly ?string $referenzMelo = null,
         readonly ?AllgemeineInformationen $allgemeineInformationen = null,
+        readonly ?string $allgemeineInformationenText = null,
         readonly ?DateTime $statusVeraenderungsZeitpunkt = null,
         /** @var ?Auftragsstatus[] */
         readonly ?array $auftragsStatusListe = null,

@@ -12,6 +12,8 @@ use Conuti\BO4E\v1\Com\Rechenschritt;
 use Conuti\BO4E\v1\Com\Verwendungszweck;
 use Conuti\BO4E\v1\Com\Zeitraum;
 use Conuti\BO4E\v1\Enum\Lokationstyp;
+use Conuti\BO4E\v1\Enum\Datenqualitaet;
+use Conuti\BO4E\v1\Com\Aufteilungsfaktor;
 
 class Berechnungsformel
 {
@@ -30,6 +32,12 @@ class Berechnungsformel
         readonly ?Zeitraum $gueltigkeitszeitraum = null,
         readonly ?string $lokationsId = null,
         readonly ?Lokationstyp $lokationsTyp = null,
+        readonly ?string $berechnungsformel = null,
+        readonly ?Datenqualitaet $datenqualitaet = null,
+        /** @var ?string[] */
+        readonly ?array $parameterIDs = null,
+        /** @var ?Aufteilungsfaktor[] */
+        readonly ?array $aufteilungsfaktoren = null,
     ) {
     }
 }
