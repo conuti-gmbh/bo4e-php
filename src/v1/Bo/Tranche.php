@@ -24,6 +24,7 @@ use Conuti\BO4E\v1\Enum\StatusErzeugendeMarktlokation;
 use Conuti\BO4E\v1\Com\Menge;
 use Conuti\BO4E\v1\Enum\BildungTranchengroesse;
 use Conuti\BO4E\v1\Enum\Lokationszuordnung;
+use Conuti\BO4E\v1\Enum\Betriebszustand;
 use Conuti\BO4E\v1\Com\Zaehlwerk;
 use Conuti\BO4E\v1\Enum\Marktrolle;
 use Conuti\BO4E\v1\Com\Verbrauch;
@@ -73,6 +74,7 @@ class Tranche
         readonly ?bool $zukuenftigerMeldepunkt = null,
         readonly ?Lokationszuordnung $lokationszuordnung = null,
         readonly ?Marktteilnehmer $beteiligterMarktpartner = null,
+        readonly ?Betriebszustand $betriebszustand = null,
         /** @var ?Marktteilnehmer[] */
         readonly ?array $marktrollen = null,
         /** @var ?Zaehlwerk[] */

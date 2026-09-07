@@ -6,6 +6,9 @@ namespace Conuti\BO4E\v1\Com;
 
 use Conuti\BO4E\v1\Enum\Profilverfahren;
 use Conuti\BO4E\v1\Enum\Profilart;
+use Conuti\BO4E\v1\Enum\Profiltyp;
+use Conuti\BO4E\v1\Enum\Normierungsfaktor;
+use Conuti\BO4E\v1\Enum\Begrenzungskonstante;
 
 class Lastprofil
 {
@@ -18,6 +21,11 @@ class Lastprofil
         readonly ?string $herausgeber = null,
         readonly ?Tagesparameter $tagesparameter = null,
         readonly ?string $referenzprofilbezeichnung = null,
+        readonly ?string $referenzprofil = null,
+        readonly ?Profiltyp $profiltyp = null,
+        readonly ?Normierungsfaktor $normierungsfaktor = null,
+        readonly ?Tagesmitteltemperatur $tagesmitteltemperatur = null,
+        readonly ?Begrenzungskonstante $begrenzungskonstante = null,
     ) {
     }
 }

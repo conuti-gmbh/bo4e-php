@@ -1,0 +1,12 @@
+<?php
+
+declare(strict_types=1);
+
+namespace Conuti\BO4E\v1\Enum;
+
+enum Normierungsfaktor: string
+{
+    case NORMIERUNGSFAKTOR_1_000_000_KWH_A = 'NORMIERUNGSFAKTOR_1_000_000_KWH_A';
+    case NORMIERUNGSFAKTOR_300_KWH_K = 'NORMIERUNGSFAKTOR_300_KWH_K';
+    case NORMIERUNGSFAKTOR_1_000_000_KW = 'NORMIERUNGSFAKTOR_1_000_000_KW';
+}

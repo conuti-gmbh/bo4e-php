@@ -33,6 +33,7 @@ use Conuti\BO4E\v1\Com\Messstellenbetriebsabrechnungsdaten;
 use Conuti\BO4E\v1\Com\Energieherkunft;
 use Conuti\BO4E\v1\Com\Produktpaket;
 use Conuti\BO4E\v1\Com\Geokoordinaten;
+use Conuti\BO4E\v1\Enum\Betriebszustand;
 use Conuti\BO4E\v1\Com\MarktlokationsTypisierung;
 use Conuti\BO4E\v1\Com\MarktlokationsReferenz;
 use Conuti\BO4E\v1\Com\TechnischeEinrichtung;
@@ -103,6 +104,7 @@ class Marktlokation
         readonly ?array $erforderlichesProduktpaket = null,
         readonly ?Geokoordinaten $geokoordinaten = null,
         readonly ?string $paketId = null,
+        readonly ?Betriebszustand $betriebszustand = null,
         /** @var ?MarktlokationsTypisierung[] */
         readonly ?array $marktlokationsTyp = null,
         /** @var ?MarktlokationsReferenz[] */

@@ -27,4 +27,6 @@ enum Mengeneinheit: string
     case KWHK = 'KWHK';
     case Z16 = 'Z16';
     case KWT = 'KWT';
+    case WATT_PRO_QUADRATMETER = 'WATT_PRO_QUADRATMETER';
+    case METER_PRO_SEKUNDE = 'METER_PRO_SEKUNDE';
 }

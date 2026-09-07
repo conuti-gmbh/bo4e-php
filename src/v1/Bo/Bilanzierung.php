@@ -15,6 +15,8 @@ use Conuti\BO4E\v1\Enum\WahlrechtPrognosegrundlage;
 use Conuti\BO4E\v1\Enum\Abwicklungsmodell;
 use Conuti\BO4E\v1\Enum\Datenqualitaet;
 use Conuti\BO4E\v1\Com\Zeitraum;
+use Conuti\BO4E\v1\Com\Datenstand;
+use Conuti\BO4E\v1\Com\DatenDerBeteiligtenMarktrolle;
 use Conuti\BO4E\v1\Com\Lastprofil;
 use Conuti\BO4E\v1\Enum\Profiltyp;
 
@@ -43,6 +45,10 @@ class Bilanzierung
         readonly ?Menge $vorjahresverbrauch = null,
         readonly ?Datenqualitaet $datenqualitaet = null,
         readonly ?Zeitraum $gueltigkeitszeitraum = null,
+        readonly ?Datenstand $datenstandUENB = null,
+        readonly ?Datenstand $datenstandNB = null,
+        readonly ?DatenDerBeteiligtenMarktrolle $datenDerBeteiligtenMarktrolle = null,
+        readonly ?Menge $bilanzierteEnergiemenge = null,
         /** @var ?Lastprofil[] */
         readonly ?array $lastprofile = null,
         /** @var ?Lastprofil[] */

@@ -9,6 +9,7 @@ use Conuti\BO4E\v1\Enum\Auftragsstatus;
 use Conuti\BO4E\v1\Enum\Statusanlass;
 use Conuti\BO4E\v1\Enum\Lokationstyp;
 use Conuti\BO4E\v1\Enum\Statusobjekt;
+use Conuti\BO4E\v1\Bo\Ansprechpartner;
 
 class StatusmitteilungPosition
 {
@@ -49,10 +50,13 @@ class StatusmitteilungPosition
         readonly ?string $angebotsnummer = null,
         readonly ?string $anfrageReferenz = null,
         readonly ?DateTime $vertragsende = null,
+        readonly ?int $laufendeNummer = null,
+        readonly ?string $dokumentenreferenznummer = null,
         /** @var ?AnsichtSender[] */
         readonly ?array $ansichtSender = null,
         readonly ?string $gueltigkeitsZeitspanne = null,
         readonly ?ZeitintervallMenge $privilegierteEnergiemenge = null,
+        readonly ?Ansprechpartner $ansprechpartner = null,
     ) {
     }
 }
