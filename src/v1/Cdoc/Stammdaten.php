@@ -34,6 +34,7 @@ use Conuti\BO4E\v1\Bo\Lokationsbuendel;
 use Conuti\BO4E\v1\Bo\AdHocSteuerkanal;
 use Conuti\BO4E\v1\Bo\WerteNachTyp2;
 use Conuti\BO4E\v1\Bo\Verwendungszeitraum;
+use Conuti\BO4E\v1\Bo\Summenzeitreihe;
 
 class Stammdaten
 {
@@ -102,6 +103,8 @@ class Stammdaten
         readonly array $WERTE_NACH_TYP2 = [],
         /** @var Verwendungszeitraum[] */
         readonly array $VERWENDUNGSZEITRAUM = [],
+        /** @var Summenzeitreihe[] */
+        readonly array $SUMMENZEITREIHE = [],
     ) {
     }
 }
