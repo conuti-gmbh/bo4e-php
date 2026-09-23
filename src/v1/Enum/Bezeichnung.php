@@ -19,5 +19,5 @@ enum Bezeichnung: string
     case NZR = 'NZR';
     case ASZR = 'ASZR';
     case NGZ = 'NGZ';
-    case BK_SZR_EMBOB = 'BK_SZR_EMBOB';
+    case BK_SZR_EMOB = 'BK_SZR_EMOB';
 }

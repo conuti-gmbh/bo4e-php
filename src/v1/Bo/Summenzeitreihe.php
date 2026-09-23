@@ -6,6 +6,7 @@ namespace Conuti\BO4E\v1\Bo;
 
 use Conuti\BO4E\v1\Enum\BOTyp;
 use Conuti\BO4E\v1\Com\Menge;
+use DateTime;
 use Conuti\BO4E\v1\Enum\Bezeichnung;
 use Conuti\BO4E\v1\Enum\Marktrolle;
 use Conuti\BO4E\v1\Enum\Zeitreihentyp;
@@ -27,6 +28,7 @@ class Summenzeitreihe
         readonly ?string $bilanzkreisVon = null,
         readonly ?Menge $bilanzierteEnergiemenge = null,
         readonly ?Menge $bilanzierteAusfallmenge = null,
+        readonly ?DateTime $bilanzierungsbeginn = null,
         /** @var ?string[] */
         readonly ?array $bilanzierungsgebiet = null,
         readonly ?Bezeichnung $bezeichnung = null,
