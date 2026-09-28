@@ -58,6 +58,8 @@ class Marktteilnehmer
         readonly ?DateTime $zuordnungBis = null,
         readonly ?string $bilanzkreis = null,
         readonly ?VerwendungszweckBilanzkreis $verwendungszweckBilanzkreis = null,
+        /** @var ?Bilanzkreis[] */
+        readonly ?array $bilanzkreise = null,
     ) {
     }
 }
