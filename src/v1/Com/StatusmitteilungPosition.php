@@ -57,6 +57,8 @@ class StatusmitteilungPosition
         readonly ?string $gueltigkeitsZeitspanne = null,
         readonly ?ZeitintervallMenge $privilegierteEnergiemenge = null,
         readonly ?Ansprechpartner $ansprechpartner = null,
+        readonly ?string $versionZeitreihe = null,
+        readonly ?DateTime $bilanzierungsbeginn = null,
     ) {
     }
 }
