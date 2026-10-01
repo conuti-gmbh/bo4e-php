@@ -9,6 +9,7 @@ use Conuti\BO4E\v1\Com\Menge;
 use DateTime;
 use Conuti\BO4E\v1\Enum\Bezeichnung;
 use Conuti\BO4E\v1\Enum\Marktrolle;
+use Conuti\BO4E\v1\Enum\Zeitreihenart;
 use Conuti\BO4E\v1\Enum\Zeitreihentyp;
 use Conuti\BO4E\v1\Enum\Bezugszeitraum;
 use Conuti\BO4E\v1\Enum\Netzebene;
@@ -34,6 +35,7 @@ class Summenzeitreihe
         readonly ?Bezeichnung $bezeichnung = null,
         readonly ?Marktrolle $verantwortlicheMarktrolle = null,
         readonly ?string $regelzone = null,
+        readonly ?Zeitreihenart $zeitreihenart = null,
         readonly ?Zeitreihentyp $zeitreihentyp = null,
         readonly ?Bezugszeitraum $bezugszeitraum = null,
         readonly ?Netzebene $netzebene = null,
