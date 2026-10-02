@@ -21,6 +21,8 @@ class Energiemenge
         readonly ?DateTime $enddatum = null,
         readonly ?DateTime $bilanzierungsdatum = null,
         readonly ?DateTime $beginndatum = null,
+        readonly ?string $bilanzierungsmonat = null,
+        readonly ?string $beginnmonat = null,
         readonly ?string $referenzStammdatenmeldungMsb = null,
         readonly ?string $konfiguration = null,
         /** @var ?Verbrauch[] */
