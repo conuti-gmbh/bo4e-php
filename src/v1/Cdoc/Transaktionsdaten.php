@@ -88,6 +88,7 @@ class Transaktionsdaten
         readonly ?string $referenzPreisschluesselstamm = null,
         readonly ?DateTime $datumleistungsbeginn = null,
         readonly ?DateTime $endezumtermin = null,
+        readonly ?DateTime $endeNaechstmoeglicherTermin = null,
         readonly ?DateTime $naechsteBearbeitung = null,
         readonly ?DateTime $lieferbeginndatuminbearbeitung = null,
         readonly ?string $angebotsart = null,

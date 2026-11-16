@@ -17,6 +17,7 @@ class Reklamation
         readonly string $versionStruktur = '1',
         readonly ?string $lokationsId = null,
         readonly ?Lokationstyp $lokationsTyp = null,
+        readonly ?string $obiskennzahl = null,
         /** @var string[] */
         readonly array $obiskennzahlen = [],
         readonly ?Zeitraum $zeitraumMesswertanfrage = null,
