@@ -19,7 +19,6 @@ enum Zeitreihentyp: string
     case BAS = 'BAS';
     case DBA = 'DBA';
     case DZR = 'DZR';
-    case DZUE = 'DZÜ';
     case FPE = 'FPE';
     case FPI = 'FPI';
     case SRE = 'SRE';

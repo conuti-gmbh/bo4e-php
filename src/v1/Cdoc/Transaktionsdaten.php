@@ -121,6 +121,7 @@ class Transaktionsdaten
         readonly ?DateTime $geraeteausbaudatum = null,
         readonly ?int $listennummer = null,
         readonly ?string $profilbeschreibung = null,
+        readonly ?DateTime $allokationslisteFertigstellungsdatum = null,
     ) {
     }
 }

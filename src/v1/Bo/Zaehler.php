@@ -42,7 +42,8 @@ class Zaehler
         readonly ?Geraetemerkmal $zaehlergroesse = null,
         readonly ?Mengenumwertertyp $mengenumwertertyp = null,
         readonly ?Volumenerfassung $volumenerfassung = null,
-        readonly ?string $serialnummer = null,
+        /** @var string[] */
+        readonly array $serialnummern = [],
         readonly ?Geraetemerkmal $geraetemerkmal = null,
         readonly ?string $herstellungsdatum = null,
         readonly ?string $baujahr = null,
