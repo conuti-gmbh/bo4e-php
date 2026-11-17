@@ -120,7 +120,7 @@ class Transaktionsdaten
         readonly ?DateTime $annahmedatum = null,
         readonly ?string $unbOutboundDatum = null,
         readonly ?DateTime $geraeteausbaudatum = null,
-        readonly ?int $listennummer = null,
+        readonly ?string $listennummer = null,
         readonly ?string $profilbeschreibung = null,
         readonly ?DateTime $allokationslisteFertigstellungsdatum = null,
     ) {
