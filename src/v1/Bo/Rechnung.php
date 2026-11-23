@@ -10,6 +10,7 @@ use Conuti\BO4E\v1\Enum\Rechnungsstatus;
 use Conuti\BO4E\v1\Com\Zeitraum;
 use Conuti\BO4E\v1\Enum\Rechnungstyp;
 use Conuti\BO4E\v1\Com\Betrag;
+use Conuti\BO4E\v1\Com\Vorauszahlung;
 use Conuti\BO4E\v1\Com\Gemeinderabatt;
 use Conuti\BO4E\v1\Enum\SonderrechnungsArt;
 use Conuti\BO4E\v1\Enum\Energierichtung;
@@ -40,6 +41,8 @@ class Rechnung
         readonly ?string $preisNetzbetreiberCodenummer = null,
         readonly ?string $netzkonto = null,
         readonly ?Betrag $vorausgezahlt = null,
+        /** @var ?Vorauszahlung[] */
+        readonly ?array $vorauszahlungen = null,
         readonly ?Gemeinderabatt $gemeinderabatt = null,
         readonly ?DateTime $ausfuehrungsdatum = null,
         readonly ?SonderrechnungsArt $sonderrechnungsart = null,

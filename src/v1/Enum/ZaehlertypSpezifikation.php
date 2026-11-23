@@ -11,4 +11,6 @@ enum ZaehlertypSpezifikation: string
     case SONSTIGER_EHZ = 'SONSTIGER_EHZ';
     case MME_STANDARD = 'MME_STANDARD';
     case MME_MEDA = 'MME_MEDA';
+    case MRL_CLS_MODUL = 'MRL_CLS_MODUL';
+    case MRL_LMN_MODUL = 'MRL_LMN_MODUL';
 }
